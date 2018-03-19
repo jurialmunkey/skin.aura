@@ -1,3 +1,6 @@
+[B]0.9.15[/B]
+Add widget categories text option (wider categories widget)
+
 [B]0.9.14[/B]
 Fix bug in postplay nextup showing same thumb
 Add play icon to videoinfo extras
