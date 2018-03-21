@@ -1768,3 +1768,8 @@ msgstr ""
 msgctxt "#31372"
 msgid "Force default menu position"
 msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31373"
+msgid "Gradients on backing panels"
+msgstr ""

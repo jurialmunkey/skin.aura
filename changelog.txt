@@ -1,6 +1,8 @@
 [B]0.9.16[/B]
 Change seekbar seeking to a white nib
 Fix widget gap bug
+Gradient option
+Light Opaque colour scheme
 
 [B]0.9.15[/B]
 Add widget categories text option (wider categories widget)
