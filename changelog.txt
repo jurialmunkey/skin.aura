@@ -1,5 +1,7 @@
 [B]0.9.19[/B]
 Fix settings widget focus text
+Fix settings labels
+Cycle time of extrafanart reduced to 7 seconds
 
 [B]0.9.18[/B]
 Plot overlay delay option
