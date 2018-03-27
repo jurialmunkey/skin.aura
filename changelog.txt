@@ -2,6 +2,8 @@
 Fix settings widget focus text
 Fix settings labels
 Cycle time of extrafanart reduced to 7 seconds
+Lowercase text in epg
+Show start/end time in epg when genre name disabled
 
 [B]0.9.18[/B]
 Plot overlay delay option
