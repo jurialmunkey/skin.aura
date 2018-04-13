@@ -1872,4 +1872,4 @@ msgstr ""
 #: /1080i/SkinSettings.xml
 msgctxt "#31393"
 msgid "Force open Extended Info"
-msgstr ""+
+msgstr ""
