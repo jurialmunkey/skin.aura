@@ -362,7 +362,7 @@
             </item>
             <!-- enable -->
             <item>
-                <label>$INFO[Control.GetLabel(7)]</label>
+                <label>$LOCALIZE[449]</label>
                 <icon>special://skin/extras/icons/enabled.png</icon>
                 <onclick>SendClick(7)</onclick>
                 <visible>Control.IsEnabled(7)</visible>
@@ -370,7 +370,7 @@
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
             <item>
-                <label>$INFO[Control.GetLabel(7)]</label>
+                <label>$LOCALIZE[24023]</label>
                 <icon>special://skin/extras/icons/disabled.png</icon>
                 <onclick>SendClick(7)</onclick>
                 <visible>Control.IsEnabled(7)</visible>
