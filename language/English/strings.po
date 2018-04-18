@@ -1871,7 +1871,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31393"
-msgid "Show media flags instead of ratings in library views"
+msgid "Force open Extended Info"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
