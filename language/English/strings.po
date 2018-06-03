@@ -1943,3 +1943,13 @@ msgstr ""
 msgctxt "#31407"
 msgid "Enable / disable info dialog lists"
 msgstr ""
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31408"
+msgid "Subtitle settings"
+msgstr ""
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31409"
+msgid "Subtitles button opens subtitle settings"
+msgstr ""
