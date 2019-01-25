@@ -83,7 +83,7 @@
 
             <control type="sliderex" id="13">
                 <description>Default Slider</description>
-                <width>969</width>
+                <textwidth>550</textwidth>
                 <include>Dialog_Standard_ListButton</include>
             </control>
 
