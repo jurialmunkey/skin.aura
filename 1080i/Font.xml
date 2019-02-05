@@ -31,11 +31,6 @@
             <size>30</size>
         </font>
         <font>
-            <name>font_small_light</name>
-            <filename>RobotoCondensed-Light.ttf</filename>
-            <size>30</size>
-        </font>
-        <font>
             <name>font_tiny</name>
             <filename>RobotoCondensed-Regular.ttf</filename>
             <size>26</size>
@@ -94,13 +89,6 @@
             <linespacing>1</linespacing>
             <aspect>0.9</aspect>
         </font>
-
-        <font>
-            <name>font_osd_mainmenu</name>
-            <style>uppercase</style>
-            <filename>RobotoCondensed-Regular.ttf</filename>
-            <size>26</size>
-        </font>
         <font>
             <name>font_osd_submenu</name>
             <style>uppercase</style>
@@ -135,18 +123,6 @@
             <name>font_musicvis_big</name>
             <filename>RobotoCondensed-Light.ttf</filename>
             <size>80</size>
-        </font>
-
-        <!-- Music visualisation info -->
-        <font>
-            <name>font_musicvis_title</name>
-            <filename>RobotoCondensed-Bold.ttf</filename>
-            <size>84</size>
-        </font>
-        <font>
-            <name>font_musicvis_album</name>
-            <filename>RobotoCondensed-Light.ttf</filename>
-            <size>50</size>
         </font>
         <font>
             <name>font_lyrics_bold</name>
@@ -521,12 +497,6 @@
             <size>30</size>
         </font>
         <font>
-            <name>font_small_light</name>
-            <filename>Arial.ttf</filename>
-            <aspect>0.8</aspect>
-            <size>30</size>
-        </font>
-        <font>
             <name>font_tiny</name>
             <filename>Arial.ttf</filename>
             <aspect>0.8</aspect>
@@ -641,21 +611,6 @@
             <filename>Arial.ttf</filename>
             <aspect>0.8</aspect>
             <size>80</size>
-        </font>
-
-        <!-- Music visualisation info -->
-        <font>
-            <name>font_musicvis_title</name>
-            <filename>Arial.ttf</filename>
-            <style>bold</style>
-            <aspect>0.8</aspect>
-            <size>84</size>
-        </font>
-        <font>
-            <name>font_musicvis_album</name>
-            <filename>Arial.ttf</filename>
-            <aspect>0.8</aspect>
-            <size>50</size>
         </font>
         <font>
             <name>font_lyrics_bold</name>

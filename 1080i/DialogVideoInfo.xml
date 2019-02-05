@@ -17,7 +17,7 @@
 
         <control type="list" id="300">
             <top>30</top>
-            <onup condition="!Skin.HasSetting(DisablePressingUp)">9601</onup>
+            <onup condition="Skin.HasSetting(EnablePressingUp)">9601</onup>
             <ondown>9500</ondown>
             <include>Topbar_Menu_Layout</include>
             <include>Items_Info</include>
@@ -457,6 +457,8 @@
                         <param name="ondown" value="9505" />
                         <param name="label" value="$LOCALIZE[31365]" />
                         <param name="content" value="$VAR[Defs_VideoInfo_Images]" />
+                        <param name="content2" value="$VAR[Defs_VideoInfo_Images2]" />
+                        <param name="content3" value="$VAR[Defs_VideoInfo_Images3]" />
                         <param name="infolabel" value="false" />
                         <param name="itemwidth" value="606.66" />
                         <param name="showfocuslabel" value="false" />
@@ -471,7 +473,7 @@
                         <param name="id" value="9505" />
                         <param name="ondown" value="9506" />
                         <param name="label" value="$LOCALIZE[31169]" />
-                        <param name="focuslabel" value="$INFO[Container(9505).ListItem.Duration, - , $LOCALIZE[31020]]" />
+                        <param name="focuslabel" value="$INFO[Container(9505).ListItem.Duration, - ,]" />
                         <param name="content" value="$VAR[Defs_VideoInfo_Extras]" />
                         <param name="infolabel" value="false" />
                         <param name="itemwidth" value="606.66" />
@@ -817,21 +819,32 @@
         </control>
 
         <control type="button" id="9001">
-            <label>$LOCALIZE[31203]</label>
+            <label>$LOCALIZE[31389]</label>
             <!-- If ADownloader installed but not ABeef then use AD otherwise prefer AB -->
             <!-- AD has been depreciated but some still use it -->
 
-            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + !Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,movie) + !Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,movie) + Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
 
-            <onclick condition="String.IsEqual(ListItem.DBType,episode) + !Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=episode, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + !Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,movie) + !Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,episode) + Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=auto, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=auto, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DBType,movie) + Skin.HasSetting(ArtworkDownloaderAll) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=auto, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,episode) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=episode, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=gui, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+            <description>Get Artwork</description>
+            <include>Defs_Hidden_Button</include>
+            <visible>[String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo) | String.IsEqual(ListItem.DBType,episode)] + [system.hasaddon(script.artwork.downloader) | system.hasaddon(script.artwork.beef)]</visible>
+        </control>
+
+        <control type="button" id="9011">
+            <label>$LOCALIZE[31388]</label>
+            <!-- If ADownloader installed but not ABeef then use AD otherwise prefer AB -->
+            <!-- AD has been depreciated but some still use it -->
+
+            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.downloader) + !System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.downloader, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
+
+            <onclick condition="String.IsEqual(ListItem.DBType,episode) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=auto, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,tvshow) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=auto, mediatype=tvshow, dbid=$INFO[ListItem.DBID])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DBType,movie) + System.HasAddon(script.artwork.beef)">XBMC.RunScript(script.artwork.beef, mode=auto, mediatype=movie, dbid=$INFO[ListItem.DBID])</onclick>
             <description>Get Artwork</description>
             <include>Defs_Hidden_Button</include>
             <visible>[String.IsEqual(ListItem.DBType,tvshow) | String.IsEqual(ListItem.DBType,movie) | String.IsEqual(ListItem.DBType,musicvideo) | String.IsEqual(ListItem.DBType,episode)] + [system.hasaddon(script.artwork.downloader) | system.hasaddon(script.artwork.beef)]</visible>

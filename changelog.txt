@@ -1,3 +1,30 @@
+[B]1.0.0[/B]
+Ready for release
+
+[B]0.9.36[/B]
+Add Dependencies button to AddonInfo
+Tweak Selected item colour
+Add checkmark to selected items in DialogSelect and FileManager
+Add fix for textwidth in DialogAddonSettings.xml
+
+
+[B]0.9.35[/B]
+Work on Kodi Games section begins
+Add MyGames.xml
+Update DialogGameControllers.xml
+Add GameOSD.xml
+Add GameFilter dialogs
+
+[B]0.9.34[/B]
+Test out moveup/down scroll around for EPG
+
+[B]0.9.33[/B]
+Development moves to Leia only
+Fix Kodi Requires version
+Fix Leia Icon
+Disable "Press Up to View Fanart Setting" by default (Enable in Skin Settings)
+Enable Category widget big icons / text by defaul
+
 [B]0.9.32[/B]
 ARTWORK - Add generated artwork for missing artist/album artwork.
 
@@ -14,6 +41,7 @@ PVROSD - Swap ratings for Next... info
 SKINSETTINGS - Fix reset to defaults button
 PLOTOVERLAY - Hide clock in plot overlay
 DIALOGVIDEOINFO - Add new trailer window. Thanks to VikkiXavier for the design
+PVROSD - Fix for seekbar in pvr (Thanks Loggio!)
 
 [B]0.9.29[/B]
 DEPENDENCY - Remove Skin Helper as Dependency (Now optional install)
@@ -24,6 +52,9 @@ ARIAL FONT - Tweaks
 DIALOGVIDEOINFO - Fix for trailer button (hopefully)
 DIALOGSELECT - Fix for weird multilines
 PVR - Hopefully fix artwork and info overlap issues
+LEIA - Return of Alphabet Strip
+LEIA - Minimalist subtitles button by default (option to toggle in SkinSettings)
+LEIA - Add subtitles settings button in osd settings cog menu.
 
 [B]0.9.27[/B]
 SKINSHORTCUTS Fix enable / disable code when in skinshortcuts and adding item
@@ -46,6 +77,7 @@ WIDGETS - Add top250 number for top250 widgets
 RATINGS - Disable votes by default. Option to re-enable in Skin Settings.
 
 [B]0.9.24[/B]
+LEIA - VIDEOOSD - Subtitles button opens subtitles menu
 DIALOGSUBTITLES - Fix filename length and scroll
 SKINSETTINGS/LIBRARY - Show media flags instead of ratings
 SKINSETTINGS/LIBRARY - Monochrome flags
@@ -71,10 +103,16 @@ Option to disable pressing up from menu
 Keyboard improvements (thanks loggio!)
 
 [B]0.9.20[/B]
+LEIA - Fix for artwork helper on home screen
+LEIA - Add extra download art icon
+LEIA - Update artwork helper vars (thanks Guilouz!)
+LEIA - Fix artwork helper vars
 Fix screen calibration bug
 Tweak EPG grid
 
 [B]0.9.19[/B]
+LEIA - Add artwork beef artwork helper support in videoinfodialog
+LEIA - Add support for artwork beef artwork helper for extrafanart
 Fix settings widget focus text
 Fix settings labels
 Cycle time of extrafanart reduced to 7 seconds
@@ -82,6 +120,7 @@ Lowercase text in epg
 Show start/end time in epg when genre name disabled
 
 [B]0.9.18[/B]
+LEIA - Fix some PVR recording and some infolabels
 Plot overlay delay option
 Add PVR default widget options
 Add PVR landscape text to check for channelname
@@ -99,6 +138,9 @@ Fix some music info spacing
 Add discart via skin helper to musicinfo
 
 [B]0.9.16[/B]
+LEIA - add "see more" widget item
+LEIA - fix globalsearch backing panels
+LEIA - fix for event log
 Change seekbar seeking to a white nib
 Fix widget gap bug
 Gradient option
@@ -106,12 +148,15 @@ Light Opaque colour scheme
 Add star rating option to disable in Ratings options
 
 [B]0.9.15[/B]
+LEIA - Global Search 8 now skinned
 Add widget categories text option (wider categories widget)
 Change premiered to year for movies
 Rearrange info line so duration is next to end time
 Add new sets icon (thanks braz!)
 
 [B]0.9.14[/B]
+LEIA - add extrathumbs to images in info dialog
+LEIA - fix for duration
 Fix bug in postplay nextup showing same thumb
 Add play icon to videoinfo extras
 No scroll on one page
@@ -128,8 +173,10 @@ Fix for title length
 Change to shadow for volumebar
 
 [B]0.9.12[/B]
-Fix for scrollbars in Leia
-Update watched indicators
+LEIA - Fix for scrollbars
+LEIA - DialogAddonSettings
+LEIA - Change fanart to Leia version
+Watched Indicators update
 Rearrange skin settings
 Add support for Artwork Beef
 Add download all option

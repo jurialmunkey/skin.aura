@@ -131,8 +131,15 @@
     </variable>
 
     <variable name="Defs_VideoInfo_Images">
+        <value condition="System.HasAddon(script.artwork.helper)">plugin://script.artwork.helper/multiimage/listitem/?refresh=$INFO[ListItem.Label]</value>
+    </variable>
+    <variable name="Defs_VideoInfo_Images2">
         <value condition="Container.Content(movies) + !String.StartsWith(ListItem.Path,plugin://)">$INFO[ListItem.Path,,/extrafanart/]</value>
         <value condition="!Container.Content(movies) + !String.StartsWith(ListItem.Path,plugin://)">$INFO[ListItem.FileNameAndPath,,/extrafanart/]</value>
+    </variable>
+    <variable name="Defs_VideoInfo_Images3">
+        <value condition="Container.Content(movies) + !String.StartsWith(ListItem.Path,plugin://)">$INFO[ListItem.Path,,/extrathumbs/]</value>
+        <value condition="!Container.Content(movies) + !String.StartsWith(ListItem.Path,plugin://)">$INFO[ListItem.FileNameAndPath,,/extrathumbs/]</value>
     </variable>
 
     <variable name="Defs_VideoInfo_Extras">
@@ -392,39 +399,6 @@
         <value condition="Control.HasFocus(3901) | Control.HasFocus(3902) | Control.HasFocus(3903) | Control.HasFocus(300) | Control.HasFocus(302) | Control.HasFocus(20)">00ffffff</value>
         <value>$VAR[ColorHighlight2]</value>
     </variable>
-
-    <!-- Grouplist 9000 -->
-    <include name="Defs_9000_Grouplist">
-        <visible allowhiddenfocus="true">ControlGroup(9000).HasFocus()</visible>
-        <onleft>50</onleft>
-        <onright>50</onright>
-        <onback>50</onback>
-        <left>8</left>
-        <top>16</top>
-        <width>510</width>
-        <height>350</height>
-        <itemgap>0</itemgap>
-    </include>
-
-    <!-- Context Type Menu Background -->
-    <include name="Defs_9000_Background">
-        <visible allowhiddenfocus="true">ControlGroup(9000).HasFocus()</visible>
-        <include>Animation_ZoomIn</include>
-        <include>Animation_FadeOut</include>
-        <top>184</top>
-        <centerleft>50%</centerleft>
-        <height>382</height>
-        <width>466</width>
-
-        <control type="image">
-            <description>background image</description>
-            <left>0</left>
-            <top>0</top>
-            <width>466</width>
-            <height>100%</height>
-            <texture border="16" colordiffuse="dialog_bg_100">common/rounded-shadow8.png</texture>
-        </control>
-    </include>
 
     <!-- Shadows -->
     <include name="Defs_Shadow_24">

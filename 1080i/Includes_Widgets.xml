@@ -376,7 +376,7 @@
                     </item>
                     <item id="13">
                         <description>Filemanager</description>
-                        <label>File Manager</label>
+                        <label>$LOCALIZE[10003]</label>
                         <label2>$LOCALIZE[115] • $LOCALIZE[116] • $LOCALIZE[117][CR]$LOCALIZE[118] • $LOCALIZE[14226]</label2>
                         <onclick>activatewindow(filemanager)</onclick>
                         <icon>special://skin/extras/icons/files.png</icon>
@@ -451,8 +451,8 @@
             </control>
             <control type="list" id="$PARAM[id]">
                 <top>widget_top</top>
-                <include condition="$PARAM[submenu] + !Skin.HasSetting(SubmenuLabel)">Widget_Items_Submenu_Height</include>
-                <include condition="$PARAM[submenu] + Skin.HasSetting(SubmenuLabel)">Widget_Items_Submenu_Big_Height</include>
+                <include condition="$PARAM[submenu] + Skin.HasSetting(DisableCategoriesWidgetLabel)">Widget_Items_Submenu_Height</include>
+                <include condition="$PARAM[submenu] + !Skin.HasSetting(DisableCategoriesWidgetLabel)">Widget_Items_Submenu_Big_Height</include>
                 <height>widget_poster_spacer</height>
                 <visible>$PARAM[visible] + [Integer.IsGreater(Container($PARAM[id]).NumItems,0) | Container($PARAM[id]).IsUpdating | Container(300).OnNext | Container(300).OnPrevious | String.IsEmpty(Window(Home).Property(WidgetLoading))]</visible>
                 <include content="Widget_Items" condition="!$PARAM[submenu]">
@@ -563,13 +563,13 @@
         <preloaditems>2</preloaditems>
         <onfocus>SetProperty(WidgetFocus,1,Home)</onfocus>
         <onfocus>SetProperty(SkinHelper.WidgetContainer,$PARAM[id],Home)</onfocus>
-        <include content="Widget_Movement" condition="!Skin.HasSetting(SubmenuLabel)">
+        <include content="Widget_Movement" condition="Skin.HasSetting(DisableCategoriesWidgetLabel)">
             <param name="id" value="$PARAM[id]" />
             <param name="aspect" value="$PARAM[aspect]" />
             <param name="widgetAspect" value="$PARAM[widgetAspect]" />
             <param name="submenu" value="$PARAM[submenu]" />
         </include>
-        <include content="Widget_Movement" condition="Skin.HasSetting(SubmenuLabel)">
+        <include content="Widget_Movement" condition="!Skin.HasSetting(DisableCategoriesWidgetLabel)">
             <param name="id" value="$PARAM[id]" />
             <param name="aspect" value="$PARAM[aspect]" />
             <param name="widgetAspect" value="$PARAM[widgetAspect]" />
@@ -596,21 +596,21 @@
                 <param name="submenu" value="$PARAM[submenu]" />
             </include>
 
-            <itemlayout width="130" height="130" condition="!Skin.HasSetting(SubmenuLabel)">
+            <itemlayout width="130" height="130" condition="Skin.HasSetting(DisableCategoriesWidgetLabel)">
                 <include>Widget_Submenu_ItemLayout</include>
             </itemlayout>
             
-            <focusedlayout width="130" height="130" condition="!Skin.HasSetting(SubmenuLabel)">
+            <focusedlayout width="130" height="130" condition="Skin.HasSetting(DisableCategoriesWidgetLabel)">
                 <include content="Widget_Submenu_FocusedLayout">
                     <param name="id" value="$PARAM[id]" />
                 </include>
             </focusedlayout>
 
-            <itemlayout width="260" height="170" condition="Skin.HasSetting(SubmenuLabel)">
+            <itemlayout width="260" height="170" condition="!Skin.HasSetting(DisableCategoriesWidgetLabel)">
                 <include>Widget_Submenu_ItemLayout</include>
             </itemlayout>
             
-            <focusedlayout width="260" height="170" condition="Skin.HasSetting(SubmenuLabel)">
+            <focusedlayout width="260" height="170" condition="!Skin.HasSetting(DisableCategoriesWidgetLabel)">
                 <include content="Widget_Submenu_FocusedLayout">
                     <param name="id" value="$PARAM[id]" />
                 </include>
@@ -712,12 +712,22 @@
                 <param name="widgetContent" value="$PARAM[widgetContent]" />
                 <param name="content" value="$PARAM[content]" />
                 <param name="limit" value="$VAR[Label_WidgetItemLimit]" />
+                <param name="id" value="$PARAM[id]" />
             </include>
         </definition>
     </include>
 
     <include name="Widget_ContentInclude">
         <content target="$PARAM[target]" sortby="$PARAM[sortby]" sortorder="$PARAM[sortorder]" limit="$PARAM[limit]">$PARAM[widgetContent]</content>
+        <content>
+            <item>
+                <label>$LOCALIZE[31373]...</label>
+                <icon>DefaultFolder.png</icon>
+                <onclick>ActivateWindow($PARAM[target],$PARAM[widgetContent],return)</onclick>
+                <visible>Integer.IsGreater(Container($PARAM[id]).NumItems,9)</visible>
+                <visible>!Skin.HasSetting(HideShowMoreItem)</visible>
+            </item>
+        </content>
     </include>
 
     <include name="Widget_Submenu_ItemLayout">
@@ -752,7 +762,7 @@
                         <left>30</left>
                         <label>$INFO[ListItem.Label]</label>
                         <scroll>false</scroll>
-                        <visible>Skin.HasSetting(SubmenuLabel)</visible>
+                        <visible>!Skin.HasSetting(DisableCategoriesWidgetLabel)</visible>
                         <visible>String.Contains(ListItem.Icon,special://skin/extras/icons/)</visible>
                     </control>
                     <control type="image">
@@ -760,14 +770,14 @@
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                         <texture background="true" diffuse="diffuse/submenu.png">$INFO[ListItem.Icon]</texture>
                         <visible>!String.Contains(ListItem.Icon,special://skin/extras/icons/)</visible>
-                        <visible>!Skin.HasSetting(SubmenuLabel)</visible>
+                        <visible>Skin.HasSetting(DisableCategoriesWidgetLabel)</visible>
                     </control>
                     <control type="image">
                         <bordersize>10</bordersize>
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                         <texture background="true" diffuse="diffuse/submenubig.png">$INFO[ListItem.Icon]</texture>
                         <visible>!String.Contains(ListItem.Icon,special://skin/extras/icons/)</visible>
-                        <visible>Skin.HasSetting(SubmenuLabel)</visible>
+                        <visible>!Skin.HasSetting(DisableCategoriesWidgetLabel)</visible>
                     </control>
                     <control type="image">
                         <bordersize>10</bordersize>
@@ -811,7 +821,7 @@
                         <right>30</right>
                         <left>30</left>
                         <label>$INFO[ListItem.Label]</label>
-                        <visible>Skin.HasSetting(SubmenuLabel)</visible>
+                        <visible>!Skin.HasSetting(DisableCategoriesWidgetLabel)</visible>
                         <visible>String.Contains(ListItem.Icon,special://skin/extras/icons/)</visible>
                     </control>
                     <control type="image">
@@ -819,14 +829,14 @@
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                         <texture background="true" diffuse="diffuse/submenu.png">$INFO[ListItem.Icon]</texture>
                         <visible>!String.Contains(ListItem.Icon,special://skin/extras/icons/)</visible>
-                        <visible>!Skin.HasSetting(SubmenuLabel)</visible>
+                        <visible>Skin.HasSetting(DisableCategoriesWidgetLabel)</visible>
                     </control>
                     <control type="image">
                         <bordersize>10</bordersize>
                         <aspectratio scalediffuse="false">stretch</aspectratio>
                         <texture background="true" diffuse="diffuse/submenubig.png">$INFO[ListItem.Icon]</texture>
                         <visible>!String.Contains(ListItem.Icon,special://skin/extras/icons/)</visible>
-                        <visible>Skin.HasSetting(SubmenuLabel)</visible>
+                        <visible>!Skin.HasSetting(DisableCategoriesWidgetLabel)</visible>
                     </control>
                     <control type="image">
                         <bordersize>10</bordersize>

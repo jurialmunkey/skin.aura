@@ -20,6 +20,11 @@
                 <onclick>ActivateWindow(osdaudiosettings)</onclick>
             </item>
             <item>
+                <icon />
+                <label>$LOCALIZE[31408]</label>
+                <onclick>ActivateWindow(osdsubtitlesettings)</onclick>
+            </item>
+            <item>
                 <icon/>
                 <label>297</label>
                 <onclick>audiodelay</onclick>
@@ -28,13 +33,6 @@
                 <icon/>
                 <label>22006</label>
                 <onclick>subtitledelay</onclick>
-            </item>
-            <item>
-                <icon />
-                <label>$LOCALIZE[287] $LOCALIZE[33003]</label>
-                <onclick>Close</onclick>
-                <onclick>Close</onclick>
-                <onclick>ActivateWindow(SubtitleSearch)</onclick>
             </item>
             
         </content>
@@ -225,7 +223,7 @@
             </item>
             <!-- Plot -->
             <item>
-                <label>Plot</label>
+                <label>$LOCALIZE[207]</label>
                 <icon>special://skin/extras/icons/quote.png</icon>
                 <onclick>SetFocus(9601)</onclick>
             </item>
@@ -260,14 +258,32 @@
                 <visible>Control.IsEnabled(10)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+            <!-- Fanart -->
+            <item>
+                <label>$INFO[Control.GetLabel(12)]</label>
+                <icon>special://skin/extras/icons/pictures.png</icon>
+                <onclick>SendClick(12)</onclick>
+                <visible>Control.IsEnabled(12)</visible>
+                <visible>!Skin.HasSetting(global.kioskmode)</visible>
+            </item>
             <!-- Art Downloader -->
             <item>
                 <label>$INFO[Control.GetLabel(9001)]</label>
-                <icon>special://skin/extras/icons/paintbucket3.png</icon>
+                <icon>special://skin/extras/icons/paintbrush2.png</icon>
                 <onclick>SetFocus(9001)</onclick>
                 <onclick>Select</onclick>
                 <onclick>SetFocus(300)</onclick>
                 <visible>Control.IsEnabled(9001)</visible>
+                <visible>!Skin.HasSetting(global.kioskmode)</visible>
+            </item>
+            <!-- Art Downloader All -->
+            <item>
+                <label>$INFO[Control.GetLabel(9011)]</label>
+                <icon>special://skin/extras/icons/paintbucket3.png</icon>
+                <onclick>SetFocus(9011)</onclick>
+                <onclick>Select</onclick>
+                <onclick>SetFocus(300)</onclick>
+                <visible>Control.IsEnabled(9011)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
             <!-- Refresh -->
@@ -410,6 +426,14 @@
                 <visible>Control.IsEnabled(9)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+            <!-- Dependencies -->
+            <item>
+                <label>$INFO[Control.GetLabel(10)]</label>
+                <icon>special://skin/extras/icons/dependencies.png</icon>
+                <onclick>SendClick(10)</onclick>
+                <visible>Control.IsEnabled(10)</visible>
+                <visible>!Skin.HasSetting(global.kioskmode)</visible>
+            </item>
             <!-- Auto Update -->
             <item>
                 <label>$INFO[Control.GetLabel(13)]</label>
@@ -439,7 +463,7 @@
                 <include>Items_LockUnlock</include>
                 <onclick>Container.NextViewMode</onclick>
                 <visible>Control.IsEnabled(2)</visible>
-                <visible>Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml)</visible>
+                <visible>Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyGames.xml)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
             <!-- Lock viewmode -->
@@ -472,7 +496,7 @@
                 <onclick condition="[Container.Content(games) + String.IsEmpty(Skin.String(Skin.ForcedView.games))]">AlarmClock(setviewlock,Skin.SetString(Skin.ForcedView.$INFO[Container.Content],$INFO[Container.Viewmode]),00:01,silent)</onclick>
                 <onclick condition="[Container.Content(unknown) + String.IsEmpty(Skin.String(Skin.ForcedView.unknown))]">AlarmClock(setviewlock,Skin.SetString(Skin.ForcedView.$INFO[Container.Content],$INFO[Container.Viewmode]),00:01,silent)</onclick>
                 <onclick condition="[Container.Content(videos) + String.IsEmpty(Skin.String(Skin.ForcedView.videos))]">AlarmClock(setviewlock,Skin.SetString(Skin.ForcedView.$INFO[Container.Content],$INFO[Container.Viewmode]),00:01,silent)</onclick>
-                <visible>Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml)</visible>
+                <visible>Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyGames.xml)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
 
@@ -494,9 +518,9 @@
             <item>
                 <label>$LOCALIZE[137]</label>
                 <icon>special://skin/extras/icons/search.png</icon>
-                <onclick>SendClick(8)</onclick>
-                <!-- <onclick>SetFocus(50)</onclick> -->
-                <!-- <onclick>RunScript(script.globalsearch)</onclick> -->
+                <onclick condition="!System.HasAddon(script.globalsearch)">SendClick(8)</onclick>
+                <onclick condition="System.HasAddon(script.globalsearch)">SetFocus(50)</onclick>
+                <onclick condition="System.HasAddon(script.globalsearch)">RunScript(script.globalsearch)</onclick>
                 <visible>Control.IsEnabled(8)</visible>
             </item>
             <!-- Filter -->
@@ -609,7 +633,7 @@
                 <label>$LOCALIZE[31039]</label>
                 <onclick>ActivateWindow(1117)</onclick>
                 <visible>Control.IsEnabled(2)</visible>
-                <visible>Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml)</visible>
+                <visible>Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyGames.xml)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item> -->
             

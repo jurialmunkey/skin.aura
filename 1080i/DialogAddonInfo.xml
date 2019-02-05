@@ -6,7 +6,7 @@
         
         <control type="list" id="300">
             <top>30</top>
-            <onup condition="!Skin.HasSetting(DisablePressingUp)">9601</onup>
+            <onup condition="Skin.HasSetting(EnablePressingUp)">9601</onup>
             <ondown>9601</ondown>
             <include>Topbar_Menu_Layout</include>
             <include>Items_AddonsInfo</include>
@@ -221,6 +221,11 @@
             <label>5</label>
             <include>Defs_Hidden_Button</include>
             <visible>Control.IsEnabled(9)</visible>
+        </control>
+        <control type="button" id ="10">
+            <label>$LOCALIZE[39024]</label>
+            <include>Defs_Hidden_Button</include>
+            <visible>Control.IsEnabled(10)</visible>
         </control>
         <control type="button" id ="12">
             <include>Defs_Hidden_Button</include>

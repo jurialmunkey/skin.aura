@@ -609,7 +609,7 @@
     </include>
 
     <include name="View_Forced">
-        <visible>[Container.Content(movies) + [String.IsEqual(Skin.String(Skin.ForcedView.movies),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.movies))]] | [Container.Content(sets) + [String.IsEqual(Skin.String(Skin.ForcedView.sets),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.sets))]] | [Container.Content(tvshows) + [String.IsEqual(Skin.String(Skin.ForcedView.tvshows),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.tvshows))]] | [Container.Content(seasons) + [String.IsEqual(Skin.String(Skin.ForcedView.seasons),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.seasons))]] | [Container.Content(episodes) + [String.IsEqual(Skin.String(Skin.ForcedView.episodes),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.episodes))]] | [Container.Content(actors) + [String.IsEqual(Skin.String(Skin.ForcedView.actors),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.actors))]] | [Container.Content(artists) + [String.IsEqual(Skin.String(Skin.ForcedView.artists),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.artists))]] | [Container.Content(albums) + [String.IsEqual(Skin.String(Skin.ForcedView.albums),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.albums))]] | [Container.Content(songs) + [String.IsEqual(Skin.String(Skin.ForcedView.songs),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.songs))]] | [Container.Content(addons) + [String.IsEqual(Skin.String(Skin.ForcedView.addons),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.addons))]] | [Container.Content(genres) + [String.IsEqual(Skin.String(Skin.ForcedView.genres),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.genres))]] | [Container.Content(images) + [String.IsEqual(Skin.String(Skin.ForcedView.images),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.images))]] | [Container.Content(videos) + [String.IsEqual(Skin.String(Skin.ForcedView.videos),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.videos))]] | [Container.Content() + [String.IsEqual(Skin.String(Skin.ForcedView.),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.))]] | [Container.Content(tags) + [String.IsEqual(Skin.String(Skin.ForcedView.tags),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.tags))]] | [Container.Content(years) + [String.IsEqual(Skin.String(Skin.ForcedView.years),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.years))]] | [Container.Content(countries) + [String.IsEqual(Skin.String(Skin.ForcedView.countries),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.countries))]] | [Container.Content(studios) + [String.IsEqual(Skin.String(Skin.ForcedView.studios),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.studios))]] | [Container.Content(playlists) + [String.IsEqual(Skin.String(Skin.ForcedView.playlists),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.playlists))]] | [Container.Content(musicvideos) + [String.IsEqual(Skin.String(Skin.ForcedView.musicvideos),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.musicvideos))]] | [Container.Content(directors) + [String.IsEqual(Skin.String(Skin.ForcedView.directors),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.directors))]] | [Container.Content(files) + [String.IsEqual(Skin.String(Skin.ForcedView.files),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.files))]] | [Container.Content(mixed) + [String.IsEqual(Skin.String(Skin.ForcedView.mixed),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.mixed))]] | [Container.Content(unknown) + [String.IsEqual(Skin.String(Skin.ForcedView.unknown),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.unknown))]] | [!Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(actors) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(songs) + !Container.Content(addons) + !Container.Content(genres) + !Container.Content(images) + !Container.Content(videos) + !Container.Content() + !Container.Content(tags) + !Container.Content(years) + !Container.Content(countries) + !Container.Content(studios) + !Container.Content(playlists) + !Container.Content(musicvideos) + !Container.Content(directors) + !Container.Content(files) + !Container.Content(mixed) + !Container.Content(unknown)] | Window.IsVisible(MyPlaylist.xml)</visible>
+        <visible>[Container.Content(games) + [String.IsEqual(Skin.String(Skin.ForcedView.games),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.games))]] | [Container.Content(movies) + [String.IsEqual(Skin.String(Skin.ForcedView.movies),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.movies))]] | [Container.Content(sets) + [String.IsEqual(Skin.String(Skin.ForcedView.sets),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.sets))]] | [Container.Content(tvshows) + [String.IsEqual(Skin.String(Skin.ForcedView.tvshows),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.tvshows))]] | [Container.Content(seasons) + [String.IsEqual(Skin.String(Skin.ForcedView.seasons),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.seasons))]] | [Container.Content(episodes) + [String.IsEqual(Skin.String(Skin.ForcedView.episodes),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.episodes))]] | [Container.Content(actors) + [String.IsEqual(Skin.String(Skin.ForcedView.actors),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.actors))]] | [Container.Content(artists) + [String.IsEqual(Skin.String(Skin.ForcedView.artists),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.artists))]] | [Container.Content(albums) + [String.IsEqual(Skin.String(Skin.ForcedView.albums),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.albums))]] | [Container.Content(songs) + [String.IsEqual(Skin.String(Skin.ForcedView.songs),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.songs))]] | [Container.Content(addons) + [String.IsEqual(Skin.String(Skin.ForcedView.addons),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.addons))]] | [Container.Content(genres) + [String.IsEqual(Skin.String(Skin.ForcedView.genres),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.genres))]] | [Container.Content(images) + [String.IsEqual(Skin.String(Skin.ForcedView.images),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.images))]] | [Container.Content(videos) + [String.IsEqual(Skin.String(Skin.ForcedView.videos),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.videos))]] | [Container.Content() + [String.IsEqual(Skin.String(Skin.ForcedView.),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.))]] | [Container.Content(tags) + [String.IsEqual(Skin.String(Skin.ForcedView.tags),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.tags))]] | [Container.Content(years) + [String.IsEqual(Skin.String(Skin.ForcedView.years),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.years))]] | [Container.Content(countries) + [String.IsEqual(Skin.String(Skin.ForcedView.countries),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.countries))]] | [Container.Content(studios) + [String.IsEqual(Skin.String(Skin.ForcedView.studios),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.studios))]] | [Container.Content(playlists) + [String.IsEqual(Skin.String(Skin.ForcedView.playlists),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.playlists))]] | [Container.Content(musicvideos) + [String.IsEqual(Skin.String(Skin.ForcedView.musicvideos),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.musicvideos))]] | [Container.Content(directors) + [String.IsEqual(Skin.String(Skin.ForcedView.directors),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.directors))]] | [Container.Content(files) + [String.IsEqual(Skin.String(Skin.ForcedView.files),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.files))]] | [Container.Content(mixed) + [String.IsEqual(Skin.String(Skin.ForcedView.mixed),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.mixed))]] | [Container.Content(unknown) + [String.IsEqual(Skin.String(Skin.ForcedView.unknown),$PARAM[string]) | String.IsEmpty(Skin.String(Skin.ForcedView.unknown))]] | [!Container.Content(games) + !Container.Content(movies) + !Container.Content(sets) + !Container.Content(tvshows) + !Container.Content(seasons) + !Container.Content(episodes) + !Container.Content(actors) + !Container.Content(artists) + !Container.Content(albums) + !Container.Content(songs) + !Container.Content(addons) + !Container.Content(genres) + !Container.Content(images) + !Container.Content(videos) + !Container.Content() + !Container.Content(tags) + !Container.Content(years) + !Container.Content(countries) + !Container.Content(studios) + !Container.Content(playlists) + !Container.Content(musicvideos) + !Container.Content(directors) + !Container.Content(files) + !Container.Content(mixed) + !Container.Content(unknown)] | Window.IsVisible(MyPlaylist.xml)</visible>
     </include>
 
     <include name="View_PVRGuide">
@@ -631,9 +631,9 @@
                     <bottom>view_pad</bottom>
                     <width>1796</width>
                     <height>888</height>
-                    <onleft>28</onleft>
+                    <onup>300</onup>
+                    <ondown>300</ondown>
                     <viewtype label="19069">list</viewtype>
-                    <onleft>9400</onleft>
                     <progresstexture border="5" colordiffuse="bf777777">pvr/progressline-full.png</progresstexture>
                     <scrolltime tween="quadratic">300</scrolltime>
                     <timeblocks>24</timeblocks>
@@ -880,6 +880,124 @@
                 
             </control>
         </control>
+    </include>
+
+    <include name="View_PVRGuide_Movement">
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml)">SetFocus(10)</ondown>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml)">SetFocus(10)</onup>
+
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,9)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,18)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,27)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,36)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,45)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,54)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,63)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,72)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,81)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,90)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,99)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,108)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,117)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,126)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,135)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,144)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,153)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,162)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,171)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,180)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,189)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,198)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,207)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,216)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,225)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,234)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,243)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,252)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,261)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,270)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,279)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,288)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,297)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,306)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,315)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,324)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,333)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,342)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,351)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,360)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,369)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,378)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,387)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,396)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,405)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,414)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,423)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,432)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,441)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,450)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,459)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,468)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,477)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,486)">PageUp</ondown>
+        <ondown condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,495)">PageUp</ondown>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,9)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,18)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,27)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,36)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,45)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,54)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,63)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,72)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,81)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,90)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,99)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,108)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,117)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,126)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,135)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,144)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,153)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,162)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,171)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,180)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,189)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,198)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,207)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,216)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,225)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,234)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,243)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,252)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,261)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,270)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,279)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,288)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,297)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,306)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,315)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,324)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,333)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,342)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,351)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,360)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,369)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,378)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,387)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,396)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,405)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,414)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,423)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,432)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,441)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,450)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,459)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,468)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,477)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,486)">PageDown</onup>
+        <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,495)">PageDown</onup>
     </include>
 
 </includes>

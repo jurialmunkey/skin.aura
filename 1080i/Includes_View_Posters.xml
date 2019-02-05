@@ -2,16 +2,16 @@
 <includes>
     <include name="View_Posters">
         <definition>
-            <include condition="!Skin.HasSetting(DisableViewMode.PosterWall) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml)]">View_Posters_Wall</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.LandscapeWall) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyPics.xml)]">View_Posters_LandscapeWall</include>
-            <include condition="Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml) | Window.IsVisible(AddonBrowser.xml)">View_Posters_SquareWall</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.BannerWall) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml)]">View_Posters_BannerWall</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.PosterShowcase) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml)]">View_Posters_Showcase</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.LandscapeShowcase) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml)]">View_Posters_LandscapeShowcase</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.SquareShowcase) + [Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyPrograms.xml)]">View_Posters_SquareShowcase</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.BigPosters) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml)]">View_Posters_BigPosters</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.Lovefilm) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml)]">View_Posters_Lovefilm</include>
-            <include condition="!Skin.HasSetting(DisableViewMode.EpisodeList) + [Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml)]">View_Posters_EpisodeList</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.PosterWall) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_Wall</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.LandscapeWall) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_LandscapeWall</include>
+            <include condition="Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyPics.xml) | Window.IsVisible(MyPrograms.xml) | Window.IsVisible(AddonBrowser.xml) | Window.IsVisible(MyGames.xml)">View_Posters_SquareWall</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.BannerWall) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_BannerWall</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.PosterShowcase) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_Showcase</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.LandscapeShowcase) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_LandscapeShowcase</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.SquareShowcase) + [Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_SquareShowcase</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.BigPosters) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_BigPosters</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.Lovefilm) + [Window.IsVisible(MyPrograms.xml) | Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_Lovefilm</include>
+            <include condition="!Skin.HasSetting(DisableViewMode.EpisodeList) + [Window.IsVisible(MyVideoNav.xml) | Window.IsVisible(MyMusicNav.xml) | Window.IsVisible(MyGames.xml)]">View_Posters_EpisodeList</include>
         </definition>
     </include>
     
@@ -975,32 +975,7 @@
                         <height>364</height>
                         <include>View_Posters_Itemlayout_Artwork</include>
                     </control>
-                    <control type="label">
-                        <label>$INFO[ListItem.Label]</label>
-                        <align>center</align>
-                        <aligny>top</aligny>
-                        <font>font_statusbar</font>
-                        <textcolor>main_fg_100</textcolor>
-                        <left>10</left>
-                        <right>10</right>
-                        <top>369</top>
-                        <height>30</height>
-                        <visible>$PARAM[text]</visible>
-                        <visible>!Skin.HasSetting(DisableViewText)</visible>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[ListItem.Label2]</label>
-                        <align>center</align>
-                        <aligny>top</aligny>
-                        <font>font_statusbar</font>
-                        <textcolor>main_fg_30</textcolor>
-                        <left>10</left>
-                        <right>10</right>
-                        <top>399</top>
-                        <height>30</height>
-                        <visible>$PARAM[text]</visible>
-                        <visible>!Skin.HasSetting(DisableViewText)</visible>
-                    </control>
+                    <include condition="$PARAM[text] + !Skin.HasSetting(DisableViewText)">View_Square_Text</include>
                 </control>
             </itemlayout>
             <focusedlayout width="364" height="480" condition="$PARAM[square]">
@@ -1019,32 +994,7 @@
                             <include>View_Selectbox</include>
                         </control>
                     </control>
-                    <control type="label">
-                        <label>$INFO[ListItem.Label]</label>
-                        <align>center</align>
-                        <aligny>top</aligny>
-                        <font>font_statusbar</font>
-                        <textcolor>main_fg_100</textcolor>
-                        <left>10</left>
-                        <right>10</right>
-                        <top>369</top>
-                        <height>30</height>
-                        <visible>$PARAM[text]</visible>
-                        <visible>!Skin.HasSetting(DisableViewText)</visible>
-                    </control>
-                    <control type="label">
-                        <label>$INFO[ListItem.Label2]</label>
-                        <align>center</align>
-                        <aligny>top</aligny>
-                        <font>font_statusbar</font>
-                        <textcolor>main_fg_30</textcolor>
-                        <left>10</left>
-                        <right>10</right>
-                        <top>399</top>
-                        <height>30</height>
-                        <visible>$PARAM[text]</visible>
-                        <visible>!Skin.HasSetting(DisableViewText)</visible>
-                    </control>
+                    <include condition="$PARAM[text] + !Skin.HasSetting(DisableViewText)">View_Square_Text</include>
                 </control>
             </focusedlayout>
             <itemlayout width="260" height="315" condition="$PARAM[square_small]">
@@ -1178,6 +1128,57 @@
         </definition>
     </include>
 
+    <include name="View_Square_Text">
+        <control type="label">
+            <label>$INFO[ListItem.Label]</label>
+            <align>center</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_100</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>369</top>
+            <height>30</height>
+        </control>
+        <control type="label">
+            <label>$INFO[ListItem.Label2]</label>
+            <align>center</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_30</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>399</top>
+            <height>30</height>
+        </control>
+    </include>
+
+    <include name="View_GlobalSearch_Square_Text">
+        <control type="label">
+            <label>$INFO[ListItem.Label]</label>
+            <align>center</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_100</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>369</top>
+            <height>30</height>
+        </control>
+        <control type="label">
+            <label>$INFO[ListItem.Artist]$INFO[ListItem.Duration, - ,]</label>
+            <align>center</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_30</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>399</top>
+            <height>30</height>
+            <visible>!Container.Content(artists)</visible>
+        </control>
+    </include>
+
     <include name="View_Landscape_Text">
         <control type="label">
             <label>$INFO[ListItem.Label]</label>
@@ -1220,6 +1221,50 @@
             <top>385</top>
         </control>
     </include>
+
+    <include name="View_GlobalSearch_Landscape_Text">
+        <control type="label">
+            <label>$INFO[ListItem.Label]</label>
+            <align>left</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_100</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>355</top>
+        </control>
+        <control type="label">
+            <label>$INFO[ListItem.Premiered]</label>
+            <align>right</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_70</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>355</top>
+        </control>
+        <control type="label">
+            <label>$INFO[ListItem.TvShowTitle]</label>
+            <align>left</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_30</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>385</top>
+        </control>
+        <control type="label">
+            <label>$INFO[ListItem.Duration]</label>
+            <align>right</align>
+            <aligny>top</aligny>
+            <font>font_statusbar</font>
+            <textcolor>main_fg_30</textcolor>
+            <left>10</left>
+            <right>10</right>
+            <top>385</top>
+        </control>
+    </include>
+
     <include name="View_Landscape_Artwork">
         <include>Defs_PosterBack</include>
         <control type="image">
