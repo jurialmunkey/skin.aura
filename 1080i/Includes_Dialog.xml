@@ -271,8 +271,6 @@
         </control>
     </include>
 
-    <include name="Dialog_Custom_Content"><content target="$INFO[Window(Home).Property(CustomInfoList.Target)]">$INFO[Window(Home).Property(CustomInfoList.Content)]</content></include>
-
     <!-- ============== -->
     <!-- Settings Panel -->
     <!-- ============== -->

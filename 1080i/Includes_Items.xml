@@ -223,7 +223,7 @@
             </item>
             <!-- Plot -->
             <item>
-                <label>Plot</label>
+                <label>$LOCALIZE[207]</label>
                 <icon>special://skin/extras/icons/quote.png</icon>
                 <onclick>SetFocus(9601)</onclick>
             </item>

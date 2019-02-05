@@ -400,39 +400,6 @@
         <value>$VAR[ColorHighlight2]</value>
     </variable>
 
-    <!-- Grouplist 9000 -->
-    <include name="Defs_9000_Grouplist">
-        <visible allowhiddenfocus="true">ControlGroup(9000).HasFocus()</visible>
-        <onleft>50</onleft>
-        <onright>50</onright>
-        <onback>50</onback>
-        <left>8</left>
-        <top>16</top>
-        <width>510</width>
-        <height>350</height>
-        <itemgap>0</itemgap>
-    </include>
-
-    <!-- Context Type Menu Background -->
-    <include name="Defs_9000_Background">
-        <visible allowhiddenfocus="true">ControlGroup(9000).HasFocus()</visible>
-        <include>Animation_ZoomIn</include>
-        <include>Animation_FadeOut</include>
-        <top>184</top>
-        <centerleft>50%</centerleft>
-        <height>382</height>
-        <width>466</width>
-
-        <control type="image">
-            <description>background image</description>
-            <left>0</left>
-            <top>0</top>
-            <width>466</width>
-            <height>100%</height>
-            <texture border="16" colordiffuse="dialog_bg_100">common/rounded-shadow8.png</texture>
-        </control>
-    </include>
-
     <!-- Shadows -->
     <include name="Defs_Shadow_24">
         <left>-24</left>

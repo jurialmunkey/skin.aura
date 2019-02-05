@@ -305,16 +305,6 @@
         <value>[COLOR=main_fg_100]$LOCALIZE[19055][/COLOR]</value>
     </variable>
 
-    <variable name="Label_Title">
-        <value condition="Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml)">$INFO[Window.Property(label)]</value>
-        <value condition="Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)">$INFO[Window.Property(label)]</value>
-        <value condition="[Window.IsVisible(MyPVRChannels.xml) | Window.IsVisible(MyPVRSearch.xml) | Window.IsVisible(MyPVRRecordings.xml) | Window.IsVisible(MyPVRTimers.xml)] + !String.IsEmpty(ListItem.Title)">$INFO[ListItem.Title]</value>
-        <value condition="Container.Content(artists) | Container.Content(albums) | Container.Content(songs)">$INFO[ListItem.Artist]</value>
-        <value condition="Container.Content(episodes)">$INFO[ListItem.Season,,x]$INFO[ListItem.Episode,,. ]$INFO[ListItem.Title]</value>
-        <value condition="!ListItem.IsParentFolder">$INFO[ListItem.Label]</value>
-        <value condition="!String.IsEmpty(Container(50).ListItem.Label) + !Container(50).ListItem.IsParentFolder">$INFO[Container(50).ListItem.Label]</value>
-    </variable>
-
     <variable name="Label_InfoLine">
         <value condition="Window.IsVisible(script-script.extendedinfo-DialogInfo.xml)">$INFO[Window.Property(AlsoKnownAs),[COLOR=main_fg_100],[/COLOR]]</value>
         <value condition="Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml)">$INFO[Window.Property(year),[COLOR=main_fg_100],[/COLOR]]$INFO[Window.Property(mpaa),  |  [COLOR=main_fg_100],[/COLOR]]$INFO[Window.Property(duration),  |  [COLOR=main_fg_100], $LOCALIZE[31102][/COLOR]]$INFO[Window.Property(rating),  |  [COLOR=main_fg_100],[/COLOR]]</value>
@@ -520,27 +510,5 @@
     <variable name="Label_VideoHWDecoder">
         <value condition="Player.Process(videohwdecoder)">HW</value>
         <value>SW</value>
-    </variable>
-
-    <variable name="Label_SkinSettings_Info">
-        <value condition="Control.HasFocus(9211)">$LOCALIZE[31041]</value>
-        <value condition="Control.HasFocus(9221)">$LOCALIZE[31047]</value>
-        <value condition="Control.HasFocus(9222)">$LOCALIZE[31048]</value>
-        <value condition="Control.HasFocus(9231)">$LOCALIZE[31049]</value>
-        <value condition="Control.HasFocus(9232)">$LOCALIZE[31050]</value>
-        <value condition="Control.HasFocus(9233)">$LOCALIZE[31051]</value>
-        <value condition="Control.HasFocus(9234)">$LOCALIZE[31052]</value>
-        <value condition="Control.HasFocus(9236)">$LOCALIZE[31156]</value>
-        <value condition="Control.HasFocus(9237)">$LOCALIZE[31157]</value>
-        <value condition="Control.HasFocus(9244)">$LOCALIZE[31055]</value>
-        <value condition="Control.HasFocus(9251)">$LOCALIZE[31058]</value>
-        <value condition="Control.HasFocus(9271)">$LOCALIZE[31060]</value>
-        <value condition="Control.HasFocus(9273)">$LOCALIZE[31062]</value>
-        <value condition="Control.HasFocus(9274)">$LOCALIZE[31063]</value>
-        <value condition="Control.HasFocus(9278)">$LOCALIZE[31155]</value>
-        <value condition="Control.HasFocus(9261)">$LOCALIZE[31064]</value>
-        <value condition="Control.HasFocus(9262)">$LOCALIZE[31065]</value>
-        <value condition="Control.HasFocus(9263)">$LOCALIZE[31066]</value>
-        <value condition="Control.HasFocus(9264)">$LOCALIZE[31067]</value>
     </variable>
 </includes>
