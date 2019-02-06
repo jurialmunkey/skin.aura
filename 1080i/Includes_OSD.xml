@@ -128,11 +128,17 @@
                                 <width>700</width>
                                 <visible>Window.IsVisible(VideoFullScreen.xml)</visible>
                                 <visible>!Window.IsVisible(musicosd) + !Window.IsVisible(videoosd)</visible>
-                                <include content="Object_Flags">
+                                <include content="Object_Flags" condition="!Skin.HasSetting(MonochromeFlags)">
                                     <param name="align" value="left" />
                                     <param name="source" value="VideoPlayer." />
                                     <param name="fps" value="true" />
                                     <param name="directory" value="color" />
+                                </include>
+                                <include content="Object_Flags" condition="Skin.HasSetting(MonochromeFlags)">
+                                    <param name="align" value="left" />
+                                    <param name="source" value="VideoPlayer." />
+                                    <param name="fps" value="true" />
+                                    <param name="directory" value="monochrome" />
                                 </include>
                             </control>
                         </control>
@@ -304,8 +310,14 @@
                                     <left>256</left>
                                     <visible>!Pvr.IsPlayingTv</visible>
                                     <animation effect="slide" end="-256" condition="Skin.HasSetting(DisableStarRating)">Conditional</animation>
-                                    <include content="Object_OSD_Ratings">
+                                    <include content="Object_OSD_Ratings" condition="!Skin.HasSetting(MonochromeFlags)">
                                         <param name="directory" value="color" />
+                                        <param name="align" value="left" />
+                                        <param name="width" value="1200" />
+                                        <param name="imdbvotes" value="false" />
+                                    </include>
+                                    <include content="Object_OSD_Ratings" condition="Skin.HasSetting(MonochromeFlags)">
+                                        <param name="directory" value="monochrome" />
                                         <param name="align" value="left" />
                                         <param name="width" value="1200" />
                                         <param name="imdbvotes" value="false" />
@@ -325,10 +337,16 @@
                                     <top>-12</top>
                                     <right>-30</right>
                                     <visible>!Skin.HasSetting(HideOSDVideoCodec)</visible>
-                                    <include content="Object_Flags">
+                                    <include content="Object_Flags" condition="!Skin.HasSetting(MonochromeFlags)">
                                         <param name="source" value="VideoPlayer." />
                                         <param name="fps" value="true" />
                                         <param name="directory" value="color" />
+                                        <param name="align" value="right" />
+                                    </include>
+                                    <include content="Object_Flags" condition="Skin.HasSetting(MonochromeFlags)">
+                                        <param name="source" value="VideoPlayer." />
+                                        <param name="fps" value="true" />
+                                        <param name="directory" value="monochrome" />
                                         <param name="align" value="right" />
                                     </include>
                                 </control>

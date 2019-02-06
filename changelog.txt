@@ -1,3 +1,6 @@
+[B]1.0.1[/B]
+Fix monochrome flags on osd
+
 [B]1.0.0[/B]
 Ready for release
 
