@@ -24,7 +24,7 @@
     
     <include name="Global_Visualisation">
         <control type="group">
-            <visible>String.IsEmpty(Window(10025).Property(PlayingBackgroundMedia)) + Player.HasAudio + Skin.HasSetting(global.showvisualisation)</visible>
+            <visible>String.IsEmpty(Window(Home).Property(PlayingBackgroundMedia)) + Player.HasAudio + Skin.HasSetting(global.showvisualisation)</visible>
             
             <control type="visualisation">
                 <visible>Skin.HasSetting(OSDVisualisation.ShowFanart) | [!Skin.HasSetting(musicvis.fanartfallback) + [!System.HasAddon(script.artistslideshow) | Skin.HasSetting(ArtistSlideShow.Disabled)]]</visible>
@@ -82,7 +82,7 @@
             <!-- Fanart and backgrounds with parallax -->
             <control type="group">
                 <control type="multiimage" description="Fanart">
-                    <visible>!Player.HasMedia | [Player.HasVideo + [!Skin.HasSetting(global.showvideo) | !String.IsEmpty(Window(Home).Property(TrailerPlaying))]] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio] | [Player.HasAudio + !String.IsEmpty(Window(10025).Property(PlayingBackgroundMedia))]</visible>
+                    <visible>!Player.HasMedia | [Player.HasVideo + [!Skin.HasSetting(global.showvideo) | !String.IsEmpty(Window(Home).Property(TrailerPlaying))]] | [!Skin.HasSetting(global.showvisualisation) + Player.HasAudio] | [Player.HasAudio + !String.IsEmpty(Window(Home).Property(PlayingBackgroundMedia))]</visible>
                     <include>Dimensions_Fullscreen</include>
                     <timeperimage>7000</timeperimage>
                     <randomize>true</randomize>

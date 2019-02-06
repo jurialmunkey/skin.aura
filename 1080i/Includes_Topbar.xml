@@ -171,7 +171,7 @@
                             <width>view_pad</width>
                             <visible>![Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml) | Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) | Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(DialogMusicInfo.xml) | Window.IsVisible(DialogAddonInfo.xml)]</visible>
                             <visible>!Control.HasFocus(300) | Window.IsVisible(Home)</visible>
-                            <visible>[String.IsEmpty(Window(10025).Property(PlayingBackgroundMedia)) + Player.HasMedia]</visible>
+                            <visible>[String.IsEmpty(Window(Home).Property(PlayingBackgroundMedia)) + Player.HasMedia]</visible>
                             <include>Animation_FadeIn_Delay</include>
                             <control type="multiimage">
                                 <centertop>50%</centertop>
@@ -208,7 +208,7 @@
                             <textcolor>main_fg_100</textcolor>
                             <label>$INFO[Player.Title]</label>
                             <visible>Player.HasMedia</visible>
-                            <visible>[String.IsEmpty(Window(10025).Property(PlayingBackgroundMedia)) + Player.HasMedia]</visible>
+                            <visible>[String.IsEmpty(Window(Home).Property(PlayingBackgroundMedia)) + Player.HasMedia]</visible>
                             <visible>![Window.IsVisible(script-script.extendedinfo-DialogVideoInfo.xml) | Window.IsVisible(script-script.extendedinfo-DialogInfo.xml) | Window.IsVisible(DialogVideoInfo.xml) | Window.IsVisible(DialogMusicInfo.xml) | Window.IsVisible(DialogAddonInfo.xml)]</visible>
                             <visible>!Control.HasFocus(300) | Window.IsVisible(Home)</visible>
                             <include>Animation_FadeIn_Delay</include>

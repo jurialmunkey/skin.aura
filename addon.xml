@@ -1,5 +1,4 @@
-<addon id="skin.aura" name="Aura" provider-name="jurialmunkey" 
-version="1.0.1">
+<addon id="skin.aura" name="Aura" provider-name="jurialmunkey" version="1.0.2">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
@@ -17,8 +16,8 @@ version="1.0.1">
         <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
-        <forum />
-        <source />
+        <forum>https://forum.kodi.tv/showthread.php?tid=328558</forum>
+        <source>https://github.com/jurialmunkey/skin.aura</source>
         <assets>
             <icon>icon.png</icon>
             <fanart>fanart.jpg</fanart>
