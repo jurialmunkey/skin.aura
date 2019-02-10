@@ -1,5 +1,6 @@
 [B]1.0.3[/B]
 Fix for tvshows with linked movies not showing fanart thumbs
+Add fix for avc codec flag
 
 [B]1.0.2[/B]
 Official Repo Inclusion
