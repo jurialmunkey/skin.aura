@@ -1,3 +1,6 @@
+[B]1.0.4[/B]
+Fix for login screen
+
 [B]1.0.3[/B]
 Fix for tvshows with linked movies not showing fanart thumbs
 Add fix for avc codec flag
