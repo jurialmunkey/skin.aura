@@ -117,7 +117,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31021"
-msgid "Colors"
+msgid "Colours"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -207,7 +207,7 @@ msgstr ""
 
 #: /1080i/Custom_1117_EnableViews.xml
 msgctxt "#31039"
-msgid "Enable / disable viewmodes"
+msgid "Enable / disable view modes"
 msgstr ""
 
 #: /1080i/Custom_1117_EnableViews.xml
@@ -277,12 +277,12 @@ msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31053"
-msgid "Display discart in showcase viewtypes. Available discart overrides logo if both options are enabled."
+msgid "Display discart in showcase view types. Available discart overrides logo if both options are enabled."
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31054"
-msgid "Display logo in showcase viewtypes. Available discart overrides logo if both options are enabled."
+msgid "Display logo in showcase view types. Available discart overrides logo if both options are enabled."
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
@@ -292,7 +292,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31056"
-msgid "Genre colors in PVR guide"
+msgid "Genre colours in PVR guide"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -312,7 +312,7 @@ msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31060"
-msgid "Set a music or video playlist that will run when kodi starts."
+msgid "Set music or video playlist that will run when Kodi starts."
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
@@ -332,7 +332,7 @@ msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31064"
-msgid "Backup your skin settings and home menu shortcuts to a zipfile. Useful to migrate settings to a new setup."
+msgid "Backup your skin settings and home menu shortcuts to a zip file. Useful to migrate settings to a new setup."
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
@@ -347,7 +347,7 @@ msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31067"
-msgid "Reset all your skin settings, shortcuts, and widgets to default skin settings. This will not change any kodi system settings."
+msgid "Reset all your skin settings, shortcuts, and widgets to default skin settings. This will not change any Kodi system settings."
 msgstr ""
 
 #: /1080i/Includes_Weather.xml
@@ -397,7 +397,7 @@ msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31077"
-msgid "Add a slight transparency to the top and bottom bars."
+msgid "Add slight transparency to the top and bottom bars."
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
@@ -457,7 +457,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31089"
-msgid "Position context menu based on focused item"
+msgid "Position context menu based on the focused item"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -512,7 +512,7 @@ msgstr ""
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31100"
-msgid "Processor, Memory and Video"
+msgid "Processor, Memory, and Video"
 msgstr ""
 
 msgctxt "#31101"
@@ -556,7 +556,7 @@ msgid "Background"
 msgstr ""
 
 msgctxt "#31111"
-msgid "Display now playing video in background"
+msgid "Display now playing video in the background"
 msgstr ""
 
 msgctxt "#31112"
@@ -699,7 +699,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31145"
-msgid "Display poster and plot when video is paused"
+msgid "Display poster and plot when a video is paused"
 msgstr ""
 
 msgctxt "#31146"
@@ -739,7 +739,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31154"
-msgid "Only use blur in info dialog"
+msgid "Only use blur in the info dialog"
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
@@ -749,12 +749,12 @@ msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31156"
-msgid "Apply a color changing overlay effect to music visualisation background."
+msgid "Apply a colour changing overlay effect to music visualisation background."
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31157"
-msgid "A scrolling text effect showing artist, album and song info overlayed on the music visualisation background."
+msgid "A scrolling text effect showing artist, album and song info overlaid on the music visualisation background."
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -824,7 +824,7 @@ msgid "Video Extras"
 msgstr ""
 
 msgctxt "#31172"
-msgid "Display music visualisation in background"
+msgid "Display music visualisation in the background"
 msgstr ""
 
 msgctxt "#31173"
@@ -888,7 +888,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31186"
-msgid "Display osd submenu"
+msgid "Display OSD submenu"
 msgstr ""
 
 msgctxt "#31187"
@@ -919,7 +919,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31193"
-msgid "Reset colors to default"
+msgid "Reset colours to default"
 msgstr ""
 
 #: /shortcuts/overrides.xml
@@ -998,7 +998,7 @@ msgid "Popular"
 msgstr ""
 
 msgctxt "#31211"
-msgid "Top Rated"
+msgid "Top-Rated"
 msgstr ""
 
 msgctxt "#31212"
@@ -1049,7 +1049,7 @@ msgstr ""
 
 #: /shortcuts/overrides.xml
 msgctxt "#31222"
-msgid "Top Rated TV Shows"
+msgid "Top-Rated TV Shows"
 msgstr ""
 
 msgctxt "#31223"
@@ -1061,7 +1061,7 @@ msgid "Popular Movies"
 msgstr ""
 
 msgctxt "#31225"
-msgid "Top Rated Movies"
+msgid "Top-Rated Movies"
 msgstr ""
 
 msgctxt "#31226"
@@ -1069,11 +1069,11 @@ msgid "Popular TV Shows"
 msgstr ""
 
 msgctxt "#31227"
-msgid "Top Rated TV Shows"
+msgid "Top-Rated TV Shows"
 msgstr ""
 
 msgctxt "#31228"
-msgid "On Air TV Shows"
+msgid "On-Air TV Shows"
 msgstr ""
 
 msgctxt "#31229"
@@ -1082,7 +1082,7 @@ msgstr ""
 
 #: /shortcuts/overrides.xml
 msgctxt "#31230"
-msgid "Top Rated Episodes"
+msgid "Top-Rated Episodes"
 msgstr ""
 
 #: /1080i/Includes_View_Posters.xml
@@ -1154,12 +1154,12 @@ msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31245"
-msgid "Customize"
+msgid "Customise"
 msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31246"
-msgid "Press right to customize widgets"
+msgid "Press right to customise widgets"
 msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
@@ -1174,7 +1174,7 @@ msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31249"
-msgid "Press right to customize shortcuts"
+msgid "Press right to customise shortcuts"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -1192,7 +1192,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31253"
-msgid "Use larger font for progress bar"
+msgid "Use a larger font for the progress bar"
 msgstr ""
 
 #: /1080i/script-skinshortcuts.xml
@@ -1279,7 +1279,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31273"
-msgid "Background overlay color"
+msgid "Background overlay colour"
 msgstr ""
 
 #: /shortcuts/overrides.xml
@@ -1348,7 +1348,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31288"
-msgid "Match highlight colors with poster"
+msgid "Match highlight colours with the poster"
 msgstr ""
 
 msgctxt "#31289"
@@ -1366,7 +1366,7 @@ msgstr ""
 
 #: /1080i/DialogBusy.xml
 msgctxt "#31292"
-msgid "Kodi is busy$COMMA one moment please"
+msgid "Kodi is busy$COMMA one moment, please"
 msgstr ""
 
 #: /shortcuts/overrides.xml
@@ -1431,7 +1431,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31305"
-msgid "Color cycling"
+msgid "Colour cycling"
 msgstr ""
 
 #: /1080i/Includes_Items.xml
@@ -1476,7 +1476,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31314"
-msgid "Automatically display music video info at beginning and end of clip"
+msgid "Automatically display music video info at the beginning and end of a clip"
 msgstr ""
 
 #: /1080i/Includes_Home.xml
@@ -1581,7 +1581,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31335"
-msgid "Match background overlay color with poster"
+msgid "Match background overlay colour with the poster"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -1726,7 +1726,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31364"
-msgid "Mouse compatability"
+msgid "Mouse compatibility"
 msgstr ""
 
 #: /1080i/script-script.extendedinfo-DialogVideoInfo.xml
@@ -1801,7 +1801,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31379"
-msgid "Display plot overlay after delay"
+msgid "Display plot overlay after a delay"
 msgstr ""
 
 #: /1080i/Includes_Labels.xml
@@ -1836,7 +1836,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31386"
-msgid "Auto close OSD controls after delay (in seconds)"
+msgid "Auto close OSD controls after a delay (in seconds)"
 msgstr ""
 
 #: /1080i/SkinSettings.xml
@@ -1956,7 +1956,7 @@ msgstr ""
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31410"
-msgid "Show trailers and special features in preview window"
+msgid "Show trailers and special features in the preview window"
 msgstr ""
 
 #: /1080i/Includes_Weather.xml
