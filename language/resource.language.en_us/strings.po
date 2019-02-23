@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
+"Language: en_US\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: /1080i/Includes_Global.xml
@@ -118,7 +118,7 @@ msgstr "mins"
 #: /1080i/SkinSettings.xml
 msgctxt "#31021"
 msgid "Colours"
-msgstr "Colours"
+msgstr "Colors"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31022"
@@ -148,7 +148,7 @@ msgstr "Alphabet strip"
 #: /1080i/SkinSettings.xml
 msgctxt "#31027"
 msgid "Customise power menu"
-msgstr "Customise power menu"
+msgstr "Customize power menu"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31028"
@@ -218,7 +218,7 @@ msgstr "Poster Showcase"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31041"
 msgid "Customise your home menu items, widgets, and backgrounds."
-msgstr "Customise your home menu items, widgets, and backgrounds."
+msgstr "Customize your home menu items, widgets, and backgrounds."
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31042"
@@ -258,22 +258,22 @@ msgstr "Set a fallback image for when no fanart is available."
 #: /1080i/Includes_Labels.xml
 msgctxt "#31049"
 msgid "Display artist fanart stored from the library database on the music visualisation screen."
-msgstr "Display artist fanart stored from the library database on the music visualisation screen."
+msgstr "Display artist fanart stored from the library database on the music visualization screen."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31050"
 msgid "Use artist slideshow addon to display artist fanart on the music visualisation screen."
-msgstr "Use artist slideshow addon to display artist fanart on the music visualisation screen."
+msgstr "Use artist slideshow addon to display artist fanart on the music visualization screen."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31051"
 msgid "Make the artist fanart slightly transparent so that the music visualisation shows through."
-msgstr "Make the artist fanart slightly transparent so that the music visualisation shows through."
+msgstr "Make the artist fanart slightly transparent so that the music visualization shows through."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31052"
 msgid "Use a pan and zoom effect on the artist fanart in the music visualisation."
-msgstr "Use a pan and zoom effect on the artist fanart in the music visualisation."
+msgstr "Use a pan and zoom effect on the artist fanart in the music visualization."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31053"
@@ -293,7 +293,7 @@ msgstr "Use skinhelper to provide animated posters and fanart. These can be down
 #: /1080i/SkinSettings.xml
 msgctxt "#31056"
 msgid "Genre colours in PVR guide"
-msgstr "Genre colours in PVR guide"
+msgstr "Genre colors in PVR guide"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31057"
@@ -303,7 +303,7 @@ msgstr "Use fullscreen PVR guide (hide plot info)"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31058"
 msgid "Change the highlight focus colour used throughout the skin."
-msgstr "Change the highlight focus colour used throughout the skin."
+msgstr "Change the highlight focus color used throughout the skin."
 
 #: /1080i/DialogContextMenu.xml
 msgctxt "#31059"
@@ -383,12 +383,12 @@ msgstr "Recommended Youtube Videos"
 #: /1080i/SkinSettings.xml
 msgctxt "#31074"
 msgid "Make bottom bar transparent"
-msgstr "Make bottom bar transparent"
+msgstr "Make bottombar transparent"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31075"
 msgid "Apply transparency to bottom bar"
-msgstr "Apply transparency to bottom bar"
+msgstr "Apply transparency to bottombar"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31076"
@@ -398,7 +398,7 @@ msgstr "Enable transparency"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31077"
 msgid "Add slight transparency to the top and bottom bars."
-msgstr "Add slight transparency to the top and bottom bars."
+msgstr "Add slight transparency to the top and bottombars."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31078"
@@ -448,7 +448,7 @@ msgstr "Extended Info"
 #: /1080i/SkinSettings.xml
 msgctxt "#31087"
 msgid "Colour overlay effect"
-msgstr "Colour overlay effect"
+msgstr "Color overlay effect"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31088"
@@ -549,7 +549,7 @@ msgstr "Current Menu"
 
 msgctxt "#31109"
 msgid "Customise home menu"
-msgstr "Customise home menu"
+msgstr "Customize home menu"
 
 msgctxt "#31110"
 msgid "Background"
@@ -590,7 +590,7 @@ msgstr "Artist slideshow"
 
 msgctxt "#31119"
 msgid "Visualisation behind slideshow"
-msgstr "Visualisation behind slideshow"
+msgstr "Visualization behind slideshow"
 
 msgctxt "#31120"
 msgid "Animate artist slideshow"
@@ -642,7 +642,7 @@ msgstr "Media flags"
 #: /1080i/MusicOSD.xml
 msgctxt "#31131"
 msgid "Colour overlay"
-msgstr "Colour overlay"
+msgstr "Color overlay"
 
 msgctxt "#31132"
 msgid "Reset home menu shortcuts to defaults"
@@ -750,17 +750,17 @@ msgstr "Disable the bounce in animation when scrolling between items."
 #: /1080i/Includes_Labels.xml
 msgctxt "#31156"
 msgid "Apply a colour changing overlay effect to music visualisation background."
-msgstr "Apply a colour changing overlay effect to music visualisation background."
+msgstr "Apply a color changing overlay effect to music visualization background."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31157"
 msgid "A scrolling text effect showing artist, album and song info overlaid on the music visualisation background."
-msgstr "A scrolling text effect showing artist, album and song info overlaid on the music visualisation background."
+msgstr "A scrolling text effect showing artist, album and song info overlaid on the music visualization background."
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31158"
 msgid "Automatically open visualisation after starting a song"
-msgstr "Automatically open visualisation after starting a song"
+msgstr "Automatically open visualization after starting a song"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31159"
@@ -825,7 +825,7 @@ msgstr "Video Extras"
 
 msgctxt "#31172"
 msgid "Display music visualisation in the background"
-msgstr "Display music visualisation in the background"
+msgstr "Display music visualization in the background"
 
 msgctxt "#31173"
 msgid "Recently added"
@@ -920,7 +920,7 @@ msgstr "Focus bounce animation"
 #: /1080i/SkinSettings.xml
 msgctxt "#31193"
 msgid "Reset colours to default"
-msgstr "Reset colours to default"
+msgstr "Reset colors to default"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31194"
@@ -1102,7 +1102,7 @@ msgstr "Random TV Shows"
 #: /1080i/SettingsProfile.xml
 msgctxt "#31234"
 msgid "Customise your user profiles and enable/disable the login screen."
-msgstr "Customise your user profiles and enable/disable the login screen."
+msgstr "Customize your user profiles and enable/disable the login screen."
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31235"
@@ -1155,12 +1155,12 @@ msgstr "Select Widget"
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31245"
 msgid "Customise"
-msgstr "Customise"
+msgstr "Customize"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31246"
 msgid "Press right to customise widgets"
-msgstr "Press right to customise widgets"
+msgstr "Press right to customize widgets"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31247"
@@ -1175,12 +1175,12 @@ msgstr "Edit Shortcuts"
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31249"
 msgid "Press right to customise shortcuts"
-msgstr "Press right to customise shortcuts"
+msgstr "Press right to customize shortcuts"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31250"
 msgid "Gradient colour"
-msgstr "Gradient colour"
+msgstr "Gradient color"
 
 msgctxt "#31251"
 msgid "Weather Fanart"
@@ -1280,7 +1280,7 @@ msgstr "Multi Image"
 #: /1080i/SkinSettings.xml
 msgctxt "#31273"
 msgid "Background overlay colour"
-msgstr "Background overlay colour"
+msgstr "Background overlay color"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31274"
@@ -1340,7 +1340,7 @@ msgstr "Extended info"
 
 msgctxt "#31286"
 msgid "Highlight colour"
-msgstr "Highlight colour"
+msgstr "Highlight color"
 
 msgctxt "#31287"
 msgid "Reset to default"
@@ -1349,7 +1349,7 @@ msgstr "Reset to default"
 #: /1080i/SkinSettings.xml
 msgctxt "#31288"
 msgid "Match highlight colours with the poster"
-msgstr "Match highlight colours with the poster"
+msgstr "Match highlight colors with the poster"
 
 msgctxt "#31289"
 msgid "Awards"
@@ -1432,7 +1432,7 @@ msgstr "Picture Sources"
 #: /1080i/SkinSettings.xml
 msgctxt "#31305"
 msgid "Colour cycling"
-msgstr "Colour cycling"
+msgstr "Color cycling"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31306"
@@ -1582,7 +1582,7 @@ msgstr "Alphabet strip is not available for this content"
 #: /1080i/SkinSettings.xml
 msgctxt "#31335"
 msgid "Match background overlay colour with the poster"
-msgstr "Match background overlay colour with the poster"
+msgstr "Match background overlay color with the poster"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31336"
@@ -1652,7 +1652,7 @@ msgstr "Loading Home Menu"
 #: /1080i/Startup.xml
 msgctxt "#31349"
 msgid "Initialising Skin"
-msgstr "Initialising Skin"
+msgstr "Initializing Skin"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31350"
