@@ -217,8 +217,8 @@ msgstr "Poster Showcase"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31041"
-msgid "Customise your home menu items, widgets, and backgrounds."
-msgstr "Customize your home menu items, widgets, and backgrounds."
+msgid "Customise your home menu items$COMMA widgets$COMMA and backgrounds."
+msgstr "Customize your home menu items$COMMA widgets$COMMA and backgrounds."
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31042"
@@ -337,8 +337,8 @@ msgstr "Backup your skin settings and home menu shortcuts to a zip file. Useful 
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31065"
-msgid "Restore your skin settings, shortcuts, and widgets from a backup file."
-msgstr "Restore your skin settings, shortcuts, and widgets from a backup file."
+msgid "Restore your skin settings$COMMA shortcuts$COMMA and widgets from a backup file."
+msgstr "Restore your skin settings$COMMA shortcuts$COMMA and widgets from a backup file."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31066"
@@ -347,8 +347,8 @@ msgstr "Change the location where skin backup files are saved."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31067"
-msgid "Reset all your skin settings, shortcuts, and widgets to default skin settings. This will not change any Kodi system settings."
-msgstr "Reset all your skin settings, shortcuts, and widgets to default skin settings. This will not change any Kodi system settings."
+msgid "Reset all your skin settings$COMMA shortcuts$COMMA and widgets to default skin settings. This will not change any Kodi system settings."
+msgstr "Reset all your skin settings$COMMA shortcuts$COMMA and widgets to default skin settings. This will not change any Kodi system settings."
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31068"
@@ -512,8 +512,8 @@ msgstr "CPU Usage"
 
 #: /1080i/Includes_Object.xml
 msgctxt "#31100"
-msgid "Processor, Memory, and Video"
-msgstr "Processor, Memory, and Video"
+msgid "Processor$COMMA Memory$COMMA and Video"
+msgstr "Processor$COMMA Memory$COMMA and Video"
 
 msgctxt "#31101"
 msgid "items"
@@ -754,8 +754,8 @@ msgstr "Apply a color changing overlay effect to music visualization background.
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31157"
-msgid "A scrolling text effect showing artist, album and song info overlaid on the music visualisation background."
-msgstr "A scrolling text effect showing artist, album and song info overlaid on the music visualization background."
+msgid "A scrolling text effect showing artist$COMMA album and song info overlaid on the music visualisation background."
+msgstr "A scrolling text effect showing artist$COMMA album and song info overlaid on the music visualization background."
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31158"
@@ -1366,8 +1366,8 @@ msgstr "Landscape widget text"
 
 #: /1080i/DialogBusy.xml
 msgctxt "#31292"
-msgid "Kodi is busy$COMMA one moment, please"
-msgstr "Kodi is busy$COMMA one moment, please"
+msgid "Kodi is busy$COMMA one moment$COMMA please"
+msgstr "Kodi is busy$COMMA one moment$COMMA please"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31293"
