@@ -1,4 +1,4 @@
-<addon id="skin.aura" name="Aura" provider-name="jurialmunkey" version="1.0.4">
+<addon id="skin.aura" name="Aura" provider-name="jurialmunkey" version="1.0.5">
     <requires>
         <import addon="xbmc.gui" version="5.14.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
