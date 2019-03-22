@@ -1,6 +1,7 @@
 [B]1.0.5[/B]
 Add basic filter to views
 Fix for bluray bdmv
+Add seeknumeric time
 
 [B]1.0.4[/B]
 Fix for login screen

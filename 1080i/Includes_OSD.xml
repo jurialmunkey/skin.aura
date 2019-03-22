@@ -210,7 +210,7 @@
         <control type="group">
             <visible>!VideoPlayer.Content(musicvideos)</visible>
             <visible>!Window.IsVisible(VideoOSDBookmarks.xml)</visible>
-            <visible>!String.IsEmpty(Window(Home).Property(OSDInfo)) | Player.Caching | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowInfo | Window.IsActive(musicosd) | Window.IsActive(videoosd) | Window.IsActive(DialogFullScreenInfo.xml) | Window.IsVisible(DialogPlayerProcessInfo.xml)</visible>
+            <visible>!String.IsEmpty(Window(Home).Property(OSDInfo)) | Player.Caching | Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowInfo | Window.IsActive(musicosd) | Window.IsActive(videoosd) | Window.IsActive(DialogFullScreenInfo.xml) | Window.IsVisible(DialogPlayerProcessInfo.xml) | !String.IsEmpty(Player.SeekNumeric)</visible>
             <animation effect="fade" start="0" end="100" time="300">VisibleChange</animation>
             <animation effect="fade" start="0" end="100" time="300" condition="![Player.Seeking | Player.DisplayAfterSeek | Player.Paused | Player.Forwarding | Player.Rewinding | Player.ShowInfo | Window.IsActive(musicosd) | Window.IsActive(videoosd) | Window.IsActive(DialogFullScreenInfo.xml)]">WindowOpen</animation>
             <control type="image">
