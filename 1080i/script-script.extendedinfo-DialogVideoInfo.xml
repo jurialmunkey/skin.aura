@@ -169,7 +169,7 @@
                         <param name="onup" value="150" />
                         <param name="id" value="250" />
                         <param name="ondown" value="350" />
-                        <param name="label" value="$LOCALIZE[31206]" />
+                        <param name="label" value="$LOCALIZE[20434]" />
                         <param name="infolabel" value="false" />
                         <param name="include_content" value="false" />
                     </include>
