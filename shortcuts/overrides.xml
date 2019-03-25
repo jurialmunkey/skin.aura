@@ -321,6 +321,10 @@
     <thumbnail label="years.png">special://skin/extras/icons/years.png</thumbnail>
     <thumbnail label="youtube.png">special://skin/extras/icons/youtube.png</thumbnail>
 
+    <!-- Hack to fix video and music labels in common -->
+    <availableshortcutlabel action="ActivateWindow(Videos)">$LOCALIZE[3]</availableshortcutlabel>
+    <availableshortcutlabel action="ActivateWindow(Music)">$LOCALIZE[2]</availableshortcutlabel>
+
     <!-- DEFAULT WIDGETS -->
     <!-- Movies -->
     <widgetdefaultnode labelID="20342" label="20386" path="videodb://recentlyaddedmovies/" target="videos">RecentMovies</widgetdefaultnode>
