@@ -575,7 +575,7 @@
                                 <param name="label2" value="ListItem.Tag" />
                             </include>
                             <include content="Object_VideoInfo_InfoSection">
-                                <param name="label" value="$LOCALIZE[20141]" />
+                                <param name="label" value="$LOCALIZE[36910]" />
                                 <param name="label2" value="ListItem.Set" />
                             </include>
                             <!-- <include content="Object_VideoInfo_InfoSection">
