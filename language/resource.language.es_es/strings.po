@@ -153,7 +153,7 @@ msgstr "Personalizar menú de energía"
 #: /1080i/SkinSettings.xml
 msgctxt "#31028"
 msgid "Reset skin settings to defaults (WARNING: This will reset your home menu to skin defaults)"
-msgstr "Restablecer configuración del skin a valores predeterminados[CR](ADVERTENCIA: Esto restablecerá su menú de inicio) "
+msgstr "Restablecer configuración del skin a valores por defecto (ADVERTENCIA: Esto restablecerá su skin)"
 
 #: /1080i/script-nextup-notification-PostPlayInfo.xml
 msgctxt "#31029"
@@ -203,7 +203,7 @@ msgstr "Descargar subtítulos"
 #: /1080i/Includes_View.xml
 msgctxt "#31038"
 msgid "Landscape"
-msgstr "Landscape"
+msgstr ""
 
 #: /1080i/Custom_1117_EnableViews.xml
 msgctxt "#31039"
@@ -213,7 +213,7 @@ msgstr "Habilitar / deshabilitar modos de vista"
 #: /1080i/Custom_1117_EnableViews.xml
 msgctxt "#31040"
 msgid "Poster Showcase"
-msgstr "Poster Showcase"
+msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31041"
@@ -223,7 +223,7 @@ msgstr "Personaliza tus elementos del menú de inicio, widgets, y fondos."
 #: /1080i/SkinSettings.xml
 msgctxt "#31042"
 msgid "Wall view text labels"
-msgstr "Etiquetas de texto modo muro"
+msgstr "Mostrar etiquetas de texto en el modo muro"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31043"
@@ -293,7 +293,7 @@ msgstr "Utiliza skinhelper para proporcionar carteles animados y fanart. Estos p
 #: /1080i/SkinSettings.xml
 msgctxt "#31056"
 msgid "Genre colors in PVR guide"
-msgstr "Colores de género en la guía de PVR"
+msgstr "Mostrar género por colores en la guía PVR"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31057"
@@ -403,7 +403,7 @@ msgstr "Añade una ligera transparencia a las barras superior e inferior."
 #: /1080i/Includes_Labels.xml
 msgctxt "#31078"
 msgid "Ended"
-msgstr "Terminará a las "
+msgstr "Termina a las "
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31079"
@@ -428,7 +428,7 @@ msgstr "Información de procesos de vídeo"
 #: /1080i/DialogPlayerProcessInfo.xml
 msgctxt "#31083"
 msgid "Framerate"
-msgstr "Framerate"
+msgstr "Ratio frames"
 
 #: /1080i/DialogPlayerProcessInfo.xml
 msgctxt "#31084"
@@ -448,7 +448,7 @@ msgstr "Información extendida"
 #: /1080i/SkinSettings.xml
 msgctxt "#31087"
 msgid "Colour overlay effect"
-msgstr "Efecto de color sobrepuesto"
+msgstr "Efecto de capa de color sobrepuesto"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31088"
@@ -740,7 +740,7 @@ msgstr "Ordenar por:"
 #: /1080i/SkinSettings.xml
 msgctxt "#31154"
 msgid "Only use blur in info dialog"
-msgstr "Usar difuminado solo en diálogo de información"
+msgstr "Usar desenfocado solo en el diálogo de información"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31155"
@@ -776,7 +776,7 @@ msgstr "Recursos de música"
 #: /1080i/Includes_View_Posters.xml
 msgctxt "#31161"
 msgid "Showcase"
-msgstr "Showcase"
+msgstr ""
 
 #: /1080i/Includes_Widgets.xml
 msgctxt "#31162"
@@ -791,7 +791,7 @@ msgstr "Elementos submenus"
 #: /1080i/Includes_View_List.xml
 msgctxt "#31164"
 msgid "Info List"
-msgstr "Info List"
+msgstr ""
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31165"
@@ -806,11 +806,11 @@ msgstr "Temporizadores TV"
 #: /1080i/Includes_View_List.xml
 msgctxt "#31167"
 msgid "Square list"
-msgstr "Square List"
+msgstr ""
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
-msgstr "Puesta en marcha con lista de reproducción de video o música"
+msgstr "Iniciar con una lista de reproducción de vídeo o música"
 
 msgctxt "#31169"
 msgid "Extras"
@@ -1219,7 +1219,7 @@ msgstr "Generos película"
 #: /1080i/SkinSettings.xml
 msgctxt "#31258"
 msgid "Clearart with seekbar"
-msgstr "Clearart con barra de búsqueda"
+msgstr "Mostrar Clearart con la barra de busqueda"
 
 msgctxt "#31259"
 msgid "Extra fanart"
@@ -1281,7 +1281,7 @@ msgstr "Multiples imágenes"
 #: /1080i/SkinSettings.xml
 msgctxt "#31273"
 msgid "Background overlay color"
-msgstr "Color para la superposición de fondo"
+msgstr "Color para la capa de superposición de fondo"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31274"
@@ -1433,7 +1433,7 @@ msgstr "Fuentes de imagen"
 #: /1080i/SkinSettings.xml
 msgctxt "#31305"
 msgid "Color cycling"
-msgstr "Cambiar de colores de modo cíclico"
+msgstr "Cambiar colores de modo cíclico"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31306"
@@ -1453,7 +1453,7 @@ msgstr ""
 #: /1080i/SkinSettings.xml
 msgctxt "#31309"
 msgid "Blur effect type"
-msgstr ""
+msgstr "Tipo de efecto de desenfocado"
 
 #: /1080i/Includes_Home.xml
 msgctxt "#31310"
@@ -1513,7 +1513,7 @@ msgstr "Importante"
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31321"
 msgid "Reset to defaults"
-msgstr "Restablecer a valores por defecto"
+msgstr "Restablecer valores"
 
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31322"
@@ -1548,17 +1548,17 @@ msgstr ""
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31328"
 msgid "Highest"
-msgstr ""
+msgstr "El más alto"
 
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31329"
 msgid "Colorbox Advanced Settings"
-msgstr ""
+msgstr "Ajustes avanzados para Colorbox"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31330"
 msgid "Advanced settings for colorbox (blur settings)"
-msgstr "Ajustes avanzado para colorbox (ajustes difuminar)"
+msgstr "Ajustes avanzado para colorbox (ajustes desenfocado)"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31331"
@@ -1593,12 +1593,12 @@ msgstr "Mostrar capa de color sobrepuesta en el fondo"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31337"
 msgid "Light"
-msgstr ""
+msgstr "Claro"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31338"
 msgid "Background vignette"
-msgstr "Mostrar capa de viñeta sobrepuesta en el fondo"
+msgstr "Mostrar capa vignette sobrepuesta en el fondo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31339"
@@ -1613,7 +1613,7 @@ msgstr ""
 #: /1080i/Includes_Labels.xml
 msgctxt "#31341"
 msgid "Dark"
-msgstr "Osucro"
+msgstr "Oscuro"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31342"
@@ -1793,17 +1793,17 @@ msgstr "Mostrar el elemento widget \"Ver más\""
 #: /1080i/SkinSettings.xml
 msgctxt "#31377"
 msgid "Video lyrics"
-msgstr ""
+msgstr "Mostrar letras (lyrics) en el vídeo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31378"
 msgid "Genre names in PVR guide"
-msgstr "Nombres de género en la guía PVR"
+msgstr "Mostrar nombres de género en la guía PVR"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31379"
 msgid "Display plot overlay after delay"
-msgstr ""
+msgstr "Mostrar superposición del argumento después de la pausa"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31380"
@@ -1838,12 +1838,12 @@ msgstr "Lista de episodios"
 #: /1080i/SkinSettings.xml
 msgctxt "#31386"
 msgid "Auto close OSD controls after delay (in seconds)"
-msgstr ""
+msgstr "Retraso en el cierre automático de los controles OSD (en segundos)"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31387"
 msgid "Splash screen image"
-msgstr ""
+msgstr "Establecer imagen de pantalla de bienvenida"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31388"
@@ -1858,7 +1858,7 @@ msgstr "Seleccionar ilustraciones"
 #: /1080i/SkinSettings.xml
 msgctxt "#31390"
 msgid "Pressing up from top menu shows fanart / plot"
-msgstr "Al presionar hacia arriba desde el menú superior se muestra fanart / argumento"
+msgstr "Al presionar hacia ARRIBA desde el menú superior se muestra fanart / argumento"
 
 #: /1080i/Includes_Topbar.xml
 msgctxt "#31391"
@@ -1898,7 +1898,7 @@ msgstr ""
 #: /1080i/SkinSettings.xml
 msgctxt "#31398"
 msgid "Force extendedinfo to open when pressing info"
-msgstr "Forzar extendedinfo a abrirse cuando presionamos información"
+msgstr "Forzar a extendedinfo a abrir cuando presionamos información"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31399"
@@ -1908,59 +1908,59 @@ msgstr "Texto"
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31400"
 msgid "Movies by Director"
-msgstr ""
+msgstr "Películas por director"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31401"
 msgid "Next Up Episodes"
-msgstr ""
+msgstr "Próximos episodios"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31402"
 msgid "Similar Movies"
-msgstr ""
+msgstr "Películas similares"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31403"
 msgid "Similar Tv Shows"
-msgstr ""
+msgstr "Series TV similares"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31404"
 msgid "Movies from Studio"
-msgstr ""
+msgstr "Películas del mismo estudio"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31405"
 msgid "Extrafanart"
-msgstr ""
+msgstr "Extrafanart"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31406"
 msgid "Extras / Special Features"
-msgstr ""
+msgstr "Extras / Características especiales"
 
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31407"
 msgid "Enable / disable info dialog lists"
-msgstr ""
+msgstr "Habilitar / deshabilitar diálogo de información en listas"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31408"
 msgid "Subtitle settings"
-msgstr ""
+msgstr "Ajustes subtítulos"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31409"
 msgid "Subtitles button opens subtitle settings"
-msgstr ""
+msgstr "El botón de subtítulos abre los ajustes de subtítulo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31410"
 msgid "Show trailers and special features in preview window"
-msgstr ""
+msgstr "Mostrar tráilers y características especiales en la ventana de vista previa"
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31411"
 msgid "Unavailable"
-msgstr ""
+msgstr "Indisponible"
