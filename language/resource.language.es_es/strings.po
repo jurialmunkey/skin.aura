@@ -143,7 +143,7 @@ msgstr "Desde"
 #: /1080i/SkinSettings.xml
 msgctxt "#31026"
 msgid "Alphabet strip"
-msgstr "Usar tira alfabetica"
+msgstr "Usar tira alfabética"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31027"
@@ -318,7 +318,7 @@ msgstr "Configura una lista de reproducción de música o video que se ejecutar�
 #: /1080i/Includes_Labels.xml
 msgctxt "#31061"
 msgid "Disable the alphabet strip and always use scrollbars instead."
-msgstr "Deshabilita la tira alfabetica y siempre usa barras de desplazamiento en su lugar."
+msgstr "Deshabilita la tira alfabética y siempre usa barras de desplazamiento en su lugar."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31062"
