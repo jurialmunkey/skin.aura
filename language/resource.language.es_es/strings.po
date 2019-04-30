@@ -93,7 +93,7 @@ msgstr "Indicador de ocupado mínimo"
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31016"
 msgid "By"
-msgstr "Por"
+msgstr "De"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31017"
@@ -138,7 +138,7 @@ msgstr "Misceláneo"
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31025"
 msgid "From"
-msgstr "Desde"
+msgstr "De"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31026"
@@ -537,7 +537,7 @@ msgstr ""
 
 msgctxt "#31106"
 msgid "Ends "
-msgstr "Termina a las "
+msgstr "Finaliza a las "
 
 msgctxt "#31107"
 msgid "Video Stream"
@@ -561,7 +561,7 @@ msgstr "Mostrar vídeo en reproducción como fondo"
 
 msgctxt "#31112"
 msgid "Submenu"
-msgstr "Submenu"
+msgstr "Submenú"
 
 msgctxt "#31113"
 msgid "No Timer"
@@ -721,7 +721,7 @@ msgstr "Reemplazar widget fanart con fondo"
 
 msgctxt "#31150"
 msgid "Set fallback image"
-msgstr "Establecer imagen de retroceso"
+msgstr "Establecer imagen alternativa"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31151"
@@ -753,7 +753,6 @@ msgid "Apply a color changing overlay effect to music visualisation background."
 msgstr "Aplica un efecto de cambio de color al color de fondo de la visualización de música."
 
 #: /1080i/Includes_Labels.xml
-msgctxt "#31157"
 msgctxt "#31157"
 msgid "A scrolling text effect showing artist, album and song info overlayed on the music visualisation background."
 msgstr "Aplica un efecto de texto en desplazamiento mostrando el artista, albumes e información de la canción en la visualización de música."
@@ -1286,7 +1285,7 @@ msgstr "Color para la capa de superposición de fondo"
 #: /shortcuts/overrides.xml
 msgctxt "#31274"
 msgid "TvShow Genres"
-msgstr "Géneros series TV"
+msgstr "Géneros Series TV"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31275"
@@ -1296,7 +1295,7 @@ msgstr "Usar desenfocado del fanart"
 #: /shortcuts/overrides.xml
 msgctxt "#31276"
 msgid "IMDB Top 250 Movies"
-msgstr "IMDB Top 250 películas"
+msgstr "IMDB Top 250 Películas"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31277"
@@ -1953,7 +1952,7 @@ msgstr "Ajustes subtítulos"
 #: /1080i/SkinSettings.xml
 msgctxt "#31409"
 msgid "Subtitles button opens subtitle settings"
-msgstr "El botón de subtítulos abre los ajustes de subtítulo"
+msgstr "El botón de subtítulos abre los ajustes para subtítulo"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31410"
