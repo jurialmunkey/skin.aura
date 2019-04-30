@@ -403,7 +403,7 @@ msgstr "Añade una ligera transparencia a las barras superior e inferior."
 #: /1080i/Includes_Labels.xml
 msgctxt "#31078"
 msgid "Ended"
-msgstr "Termina a las "
+msgstr "Termina a las"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31079"
