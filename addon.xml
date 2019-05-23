@@ -13,6 +13,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Minimalistic. Customisable. Multiple Widgets.</summary>
+        <summary lang="fr_FR">Minimaliste. Personnalisable. Widgets Multiple.</summary>
+        <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
+        <description lang="fr_FR">Aura est un thème hautement personnalisable avec plusieurs widgets et un menu d'accueil horizontal. Aura combine le minimalisme et les bords arrondis de l'Arctic Zephyr avec l'élégante personnalisation d'Horizon. Alors que la meilleure expérience Aura est acquise avec une télécommande, Aura a été conçue pour accueillir les utilisateurs de souris et de tactiles dans la mesure du possible.</description>
         <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
