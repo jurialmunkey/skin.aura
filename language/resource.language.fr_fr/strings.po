@@ -13,7 +13,7 @@ msgstr ""
 #: /1080i/Includes_Global.xml
 msgctxt "#31000"
 msgid "Reduced"
-msgstr "Réduit"
+msgstr "Faible"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31001"
@@ -23,7 +23,7 @@ msgstr "Revenu"
 #: /1080i/SkinSettings.xml
 msgctxt "#31002"
 msgid "Categories widget"
-msgstr "Widget de catégories"
+msgstr "Afficher les widget de catégories"
 
 #: /1080i/Includes_Furniture.xml
 msgctxt "#31003"
@@ -88,7 +88,7 @@ msgstr "Fanart extra"
 #: /1080i/SkinSettings.xml
 msgctxt "#31015"
 msgid "Minimal busy loader"
-msgstr "Charge minimale au démarrage"
+msgstr "Afficher la barre de chargement de façon discrète (en petit$COMMA en haut à droite de l'écran)"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31016"
@@ -123,7 +123,7 @@ msgstr "Couleurs"
 #: /1080i/SkinSettings.xml
 msgctxt "#31022"
 msgid "Animated artwork"
-msgstr "Artwork animé"
+msgstr "Image de couverture animée"
 
 #: /1080i/Includes_Statusbar.xml
 msgctxt "#31023"
@@ -223,7 +223,7 @@ msgstr "Personnalisez les éléments de votre menu d’accueil $COMMA widgets$CO
 #: /1080i/SkinSettings.xml
 msgctxt "#31042"
 msgid "Wall view text labels"
-msgstr "Affiche le titres des médias sous les affiches en mode de vue : mur"
+msgstr "Affiche le titres des médias sous les affiches en mode de vue mur"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31043"
@@ -248,7 +248,7 @@ msgstr "Rechercher dans la Bibliothèque"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31047"
 msgid "This disables fanart in the library and shows the fallback image instead."
-msgstr "Cette option désactive les fanarts dans la bibliothèque et affiche à la place, l'image de couverture."
+msgstr "Cette option désactive les fanarts dans la bibliothèque et affiche à la place$COMMA l'image de couverture."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31048"
@@ -293,7 +293,7 @@ msgstr "Utilisez des addons pour créer des affiches animées et des fanart. Ceu
 #: /1080i/SkinSettings.xml
 msgctxt "#31056"
 msgid "Genre colours in PVR guide"
-msgstr "Genre en couleur dans le guide PVR"
+msgstr "Genre cinématographique de couleurs différentes dans le guide PVR"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31057"
@@ -313,7 +313,7 @@ msgstr "Menu contextuel"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31060"
 msgid "Set music or video playlist that will run when Kodi starts."
-msgstr "Définir une liste de lecture audio ou vidéo qui sera exécutée au démarrage de Kodi."
+msgstr "Lancer une liste de lecture audio ou vidéo qui sera exécutée au démarrage de Kodi."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31061"
@@ -463,7 +463,7 @@ msgstr "Position du menu contextuel basé sur l'élément ciblé"
 #: /1080i/SkinSettings.xml
 msgctxt "#31090"
 msgid "Display duration format as X HRS XX MINS"
-msgstr "Format d'affichage de la durée : X HRS XX MINS"
+msgstr "Format d'affichage de la durée X HRS XX MINS"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31091"
@@ -557,7 +557,7 @@ msgstr "Arrière Plan"
 
 msgctxt "#31111"
 msgid "Display now playing video in the background"
-msgstr "Display now playing video in the background"
+msgstr "Afficher la vidéo en cours de lecture à l'arrière-plan"
 
 msgctxt "#31112"
 msgid "Submenu"
@@ -637,7 +637,7 @@ msgstr "Activer le mode Fanart plein écran pour les Fanarts"
 #: /1080i/SkinSettings.xml
 msgctxt "#31130"
 msgid "Media flags"
-msgstr "Logos des métadonnées pertinentes pour les médias (qualité video, canal audio, etc...)"
+msgstr "Afficher les logos des métadonnées du média (qualité video$COMMA canal audio$COMMA etc...)"
 
 #: /1080i/MusicOSD.xml
 msgctxt "#31131"
@@ -721,7 +721,7 @@ msgstr "Remplacer le widget Fanart avec l'arrière plan"
 
 msgctxt "#31150"
 msgid "Set fallback image"
-msgstr "Définir des images de couverture en arrière plan"
+msgstr "Changer l'image d'arrière plan du thème par défaut"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31151"
@@ -740,7 +740,7 @@ msgstr "Trier par:"
 #: /1080i/SkinSettings.xml
 msgctxt "#31154"
 msgid "Only use blur in the info dialog"
-msgstr "Appliquer uniquement le flou dans la boîte de dialogue info"
+msgstr "Appliquer uniquement le flou dans la boîte de dialogue Info"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31155"
@@ -809,7 +809,7 @@ msgstr "Liste carrée"
 
 msgctxt "#31168"
 msgid "Startup video or music playlist"
-msgstr "Lance la video ou la playlist sélectionné au démarrage de kodi"
+msgstr "Lance la video ou la playlist sélectionnée au démarrage de kodi"
 
 msgctxt "#31169"
 msgid "Extras"
@@ -825,7 +825,7 @@ msgstr "Video Extras"
 
 msgctxt "#31172"
 msgid "Display music visualisation in the background"
-msgstr "Afficher la visualisation des musiques en arrière plan"
+msgstr "Afficher la visualisation des musiques à l'arrière plan"
 
 msgctxt "#31173"
 msgid "Recently added"
@@ -1088,7 +1088,7 @@ msgstr "Episodes les mieux notés"
 #: /1080i/Includes_View_Posters.xml
 msgctxt "#31231"
 msgid "Lovefilm"
-msgstr "Film d'amour"
+msgstr "Film plein écran"
 
 msgctxt "#31232"
 msgid "Reset path"
@@ -1180,7 +1180,7 @@ msgstr "Cliquez à droite pour paramêtrer les raccourcis"
 #: /1080i/SkinSettings.xml
 msgctxt "#31250"
 msgid "Gradient colour"
-msgstr "Couleur Gradient"
+msgstr "Couleur de surbrillance (dégradé) "
 
 msgctxt "#31251"
 msgid "Weather Fanart"
@@ -1213,12 +1213,12 @@ msgstr "Afficher artwork"
 #: /shortcuts/overrides.xml
 msgctxt "#31257"
 msgid "Movie Genres"
-msgstr "Film Genres"
+msgstr "Genres du Film"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31258"
 msgid "Clearart with seekbar"
-msgstr "Clearart avec barre de lecture"
+msgstr "Barre de lecture sur la selection simplifié du média"
 
 msgctxt "#31259"
 msgid "Extra fanart"
@@ -1280,17 +1280,17 @@ msgstr "Image multiple"
 #: /1080i/SkinSettings.xml
 msgctxt "#31273"
 msgid "Background overlay colour"
-msgstr "Couleur de fond de l'arrière plan"
+msgstr "Couleur de fond de l'arrière plan superposé"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31274"
 msgid "TvShow Genres"
-msgstr "Séries TV Genres"
+msgstr "Genres de la Séries TV"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31275"
 msgid "Blur fanart"
-msgstr "Fanart flou"
+msgstr "Effet brouillé sur les Fanart"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31276"
@@ -1340,7 +1340,7 @@ msgstr "Informations suplémentaires"
 
 msgctxt "#31286"
 msgid "Highlight colour"
-msgstr "Surligner la couleur"
+msgstr "Couleur de surbrillance"
 
 msgctxt "#31287"
 msgid "Reset to default"
@@ -1349,7 +1349,7 @@ msgstr "Réinitialiser les valeurs par défaut"
 #: /1080i/SkinSettings.xml
 msgctxt "#31288"
 msgid "Match highlight colours with the poster"
-msgstr "Faites correspondre les couleurs surlignées avec l'affiche"
+msgstr "    - Fait correspondre la couleur de surbrillance avec l'affiche sélectionnée"
 
 msgctxt "#31289"
 msgid "Awards"
@@ -1362,7 +1362,7 @@ msgstr "Consensus"
 #: /1080i/SkinSettings.xml
 msgctxt "#31291"
 msgid "Landscape widget text"
-msgstr "Texte du widget Paysage"
+msgstr "Affiche le titre sur les widget de forme Paysage"
 
 #: /1080i/DialogBusy.xml
 msgctxt "#31292"
@@ -1487,12 +1487,12 @@ msgstr "VisionCinema"
 #: /1080i/SkinSettings.xml
 msgctxt "#31316"
 msgid "Increased"
-msgstr "Augmenté"
+msgstr "Elevé"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31317"
 msgid "Watched indicators"
-msgstr "Indicateurs surveillés"
+msgstr "Indicateur de lecture sur les affiches des médias"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31318"
@@ -1502,7 +1502,7 @@ msgstr "Ombres"
 #: /1080i/SkinSettings.xml
 msgctxt "#31319"
 msgid "Indicator style"
-msgstr "Style d'indicateur"
+msgstr "     - Style d'indicateur"
 
 #: /1080i/script-skinshortcuts.xml
 msgctxt "#31320"
@@ -1582,12 +1582,12 @@ msgstr "Le bandeau alphabétique n'est pas disponible pour ce contenu"
 #: /1080i/SkinSettings.xml
 msgctxt "#31335"
 msgid "Match background overlay colour with the poster"
-msgstr "Couleur de superposition de l'arrière plan identique au poster"
+msgstr "Adapter la couleur de l'arrière plan superposé$COMMA avec le poster"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31336"
 msgid "Background overlay"
-msgstr "Superposition de l'arrière plan"
+msgstr "Arrière plan superposé"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31337"
@@ -1597,7 +1597,7 @@ msgstr "Lumière"
 #: /1080i/SkinSettings.xml
 msgctxt "#31338"
 msgid "Background vignette"
-msgstr "Arrière plan vignette"
+msgstr "Arrière plan vignette (avec un contour dégradé)"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31339"
@@ -1727,7 +1727,7 @@ msgstr "Grands Posters"
 #: /1080i/SkinSettings.xml
 msgctxt "#31364"
 msgid "Mouse compatibility"
-msgstr "Compatibilité souris"
+msgstr "Compatible avec les souris"
 
 #: /1080i/script-script.extendedinfo-DialogVideoInfo.xml
 msgctxt "#31365"
@@ -1752,7 +1752,7 @@ msgstr "Images marquées"
 #: /1080i/SkinSettings.xml
 msgctxt "#31369"
 msgid "Prefer fanart for landscape widgets"
-msgstr "Préférer le fanart pour les widgets de paysage"
+msgstr "Préférer le fanart pour les widgets de forme Paysage"
 
 #: /1080i/Includes_View_Posters.xml
 msgctxt "#31370"
@@ -1762,7 +1762,7 @@ msgstr "Mur de bannière"
 #: /1080i/SkinSettings.xml
 msgctxt "#31371"
 msgid "Categories widget text"
-msgstr "Categories widget texte"
+msgstr "      - Afficher le texte sous les widget dans Categories"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31372"
@@ -1782,12 +1782,12 @@ msgstr "Ordre"
 #: /1080i/SkinSettings.xml /1080i/SkinSettings.xml
 msgctxt "#31375"
 msgid "Gradients on backing panels"
-msgstr "Gradients sur les panneaux de support"
+msgstr "Effet de dégradé sur les boutton de type \"panneaux\""
 
 #: /1080i/SkinSettings.xml /1080i/SkinSettings.xml
 msgctxt "#31376"
 msgid "Show the \"See More\" widget item"
-msgstr "Afficher le \"Voir plus\" objet du widget "
+msgstr "Afficher le \"Voir plus\" des éléments du widget "
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31377"
@@ -1797,12 +1797,12 @@ msgstr "Paroles de la vidéo"
 #: /1080i/SkinSettings.xml
 msgctxt "#31378"
 msgid "Genre names in PVR guide"
-msgstr "Nom des genre dans le guide PVR"
+msgstr "Nom des genre cinématographique dans le guide PVR"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31379"
 msgid "Display plot overlay after a delay"
-msgstr "Afficher la superposition l'intrigue après un délai"
+msgstr "Affiche l'intrigue du média en surbrillance après quelques secondes"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31380"
@@ -1857,7 +1857,7 @@ msgstr "Selectionner l'Artwork"
 #: /1080i/SkinSettings.xml
 msgctxt "#31390"
 msgid "Pressing up from top menu shows fanart / plot"
-msgstr "Un appui long du menu au-dessus affiche le fanart / l'intrigue"
+msgstr "Dans le menu supérieur du média$COMMA un appui vers le haut affiche le fanart / l'intrigue"
 
 #: /1080i/Includes_Topbar.xml
 msgctxt "#31391"
@@ -1872,12 +1872,12 @@ msgstr "Lettre de tri"
 #: /1080i/SkinSettings.xml
 msgctxt "#31393"
 msgid "Show media flags instead of ratings in library views"
-msgstr "Afficher les drapeaux des médias à la place de leur classement dans la vue bibliothèque"
+msgstr "Afficher les métadonnées du média au lieu de son classement dans les vues de la bibliothèque"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31394"
 msgid "Monochrome flags"
-msgstr "Etiquette Monochrome"
+msgstr "Métadonnées des médias en nuances de gris"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31395"
@@ -1897,7 +1897,7 @@ msgstr "Mur carré large"
 #: /1080i/SkinSettings.xml
 msgctxt "#31398"
 msgid "Force extendedinfo to open when pressing info"
-msgstr "Forcer l'affichage des informations suplémentaire en tenant appuyé sur info"
+msgstr "Ouvre les informations suplémentaires en tenant appuyé sur le bouton info"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31399"
@@ -1942,7 +1942,7 @@ msgstr "Extras / caractéristiques spéciales"
 #: /1080i/Custom_1119_EnableInfoLists.xml
 msgctxt "#31407"
 msgid "Enable / disable info dialog lists"
-msgstr "Activer / désactiver les boites de dialogue d'informations"
+msgstr "Activer / désactiver les boites d'informations supplémentaires des médias"
 
 #: /1080i/Includes_Items.xml
 msgctxt "#31408"
