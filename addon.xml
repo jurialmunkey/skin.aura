@@ -13,7 +13,9 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Minimalistic. Customisable. Multiple Widgets.</summary>
+        <summary lang="de_DE">Min. Customisable. Multiple Widgets.</summary>
         <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
+        <description lang="de_DE">Aura ist ein sehr anpassbarer Skin mit mehreren Widgets und einem horizontalen Home-Menü. Aura kombiniert den Minimalismus und die abgerundeten Kanten von Arctic Zephyr mit der eleganten Anpassungsfähigkeit von Horizon. Während das beste Aura-Erlebnis mit einer Fernbedienung geboten wird, wurde Aura so konzipiert, dass es auch Maus- und Touch-Benutzern nach Möglichkeit entgegenkommt.</description>
         <platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=328558</forum>
