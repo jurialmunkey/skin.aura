@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <includes>
 
-    <include name="View_ViewIDs"><views>50,51,52,53,503,54,55,56,57,58,59,500,501,502</views></include>
+    <include name="View_ViewIDs"><views>50,51,52,53,503,54,55,56,57,58,59,500,501,502,504</views></include>
 
     <include name="View_Group">
         <top>view_pad</top>
@@ -53,7 +53,7 @@
                 <include>Animation_FadeIn</include>
                 <include>Animation_FadeOut</include>
                 <include content="Object_Scrollbar_Vert">
-                    <param name="visible" value="Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(52) | Control.IsVisible(53) | Control.IsVisible(54) | Control.IsVisible(500) | Control.IsVisible(501) | Control.IsVisible(502)" />
+                    <param name="visible" value="Control.IsVisible(50) | Control.IsVisible(51) | Control.IsVisible(52) | Control.IsVisible(53) | Control.IsVisible(54) | Control.IsVisible(500) | Control.IsVisible(501) | Control.IsVisible(502) | Control.IsVisible(504)" />
                 </include>
                 <include content="Object_Scrollbar_Horz">
                     <param name="visible" value="Control.IsVisible(55) | Control.IsVisible(56) | Control.IsVisible(57) | Control.IsVisible(58) | Control.IsVisible(59)" />

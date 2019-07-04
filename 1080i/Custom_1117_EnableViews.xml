@@ -132,6 +132,14 @@
                     <selected>!Skin.HasSetting(DisableViewMode.EpisodeList)</selected>
                     <onfocus>SetProperty(Image_Preview,special://skin/extras/backgrounds/viewmodes/episodelist.jpg)</onfocus>
                 </control>
+                <control type="radiobutton" id="9012" description="Poster Info">
+                    <label>$LOCALIZE[31412]</label>
+                    <radioposx>630</radioposx>
+                    <include>Dialog_Standard_ListButton</include>
+                    <onclick>Skin.ToggleSetting(DisableViewMode.PosterInfo)</onclick>
+                    <selected>!Skin.HasSetting(DisableViewMode.PosterInfo)</selected>
+                    <onfocus>SetProperty(Image_Preview,special://skin/extras/backgrounds/viewmodes/posterinfo.jpg)</onfocus><!-- TODO -->
+                </control>
             </control>
         </control>
     </controls>

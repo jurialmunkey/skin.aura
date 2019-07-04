@@ -1963,3 +1963,8 @@ msgstr "Show trailers and special features in the preview window"
 msgctxt "#31411"
 msgid "Unavailable"
 msgstr "Unavailable"
+
+#: /1080i/Custom_1117_EnableViews.xml
+msgctxt "#31412"
+msgid "Poster Info"
+msgstr "Poster Info"
