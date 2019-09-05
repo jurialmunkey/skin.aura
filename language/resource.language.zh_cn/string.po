@@ -1,0 +1,1966 @@
+# Kodi Media Center language file
+# Addon Name: Horizon
+# Addon id: skin.horizon
+# Addon Provider: kendling
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: /1080i/Includes_Global.xml
+msgctxt "#31000"
+msgid "Reduced"
+msgstr "简化的"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31001"
+msgid "Revenue"
+msgstr "收入"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31002"
+msgid "Categories widget"
+msgstr "分类小部件"
+
+#: /1080i/Includes_Furniture.xml
+msgctxt "#31003"
+msgid "Current conditions"
+msgstr "现在的情况"
+
+#: /1080i/Includes_Furniture.xml
+msgctxt "#31004"
+msgid "Sunset at"
+msgstr "日落于"
+
+#: /1080i/Includes_Furniture.xml
+msgctxt "#31005"
+msgid "Sunrise at"
+msgstr "日出于"
+
+#: /1080i/Includes_Furniture.xml
+msgctxt "#31006"
+msgid "Weather provided by"
+msgstr "天气提供自"
+
+#: /1080i/Includes_Furniture.xml
+msgctxt "#31007"
+msgid "Weather forecast for"
+msgstr "天气预报"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31008"
+msgid "Install weather fanart"
+msgstr "安装天气同人画"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31009"
+msgid "Complete"
+msgstr "完成"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31010"
+msgid "Weather fanart successfully installed"
+msgstr "天气同人画成功安装"
+
+#: /1080i/MyWeather.xml
+msgctxt "#31011"
+msgid "Default weather icons"
+msgstr "默认天气图标"
+
+#: /1080i/MyWeather.xml
+msgctxt "#31012"
+msgid "Weather fanart installed"
+msgstr "天气同人画已安装"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31013"
+msgid "Set weather icons"
+msgstr "设置天气图标"
+
+#: /1080i/MyVideoNav.xml
+msgctxt "#31014"
+msgid "Extra fanart"
+msgstr "额外的同人画"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31015"
+msgid "Minimal busy loader"
+msgstr "最小的繁忙装载机"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31016"
+msgid "By"
+msgstr "通过"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31017"
+msgid "Smart Shortcuts"
+msgstr "智能快捷方式"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31018"
+msgid "Common Shortcut"
+msgstr "常用快捷方式"
+
+#: /1080i/script-globalsearch-main.xml
+msgctxt "#31019"
+msgid "Close"
+msgstr "关闭"
+
+#: /1080i/script-globalsearch-main.xml
+msgctxt "#31020"
+msgid "mins"
+msgstr "分钟"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31021"
+msgid "Colours"
+msgstr "颜色"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31022"
+msgid "Animated artwork"
+msgstr "动画作品"
+
+#: /1080i/Includes_Statusbar.xml
+msgctxt "#31023"
+msgid "Fullscreen"
+msgstr "全屏"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31024"
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31025"
+msgid "From"
+msgstr "从"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31026"
+msgid "Alphabet strip"
+msgstr "字母条"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31027"
+msgid "Customise power menu"
+msgstr "自定义电源菜单"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31028"
+msgid "Reset skin settings to defaults (WARNING: This will reset your home menu to skin defaults)"
+msgstr "将皮肤设置重置为默认值（警告：这会将您的主菜单重置为皮肤默认值）"
+
+#: /1080i/script-nextup-notification-PostPlayInfo.xml
+msgctxt "#31029"
+msgid "Hide Spoilers"
+msgstr "隐藏剧透"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31030"
+msgid "Backup / Restore"
+msgstr "备份/还原"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31031"
+msgid "Backup skin settings"
+msgstr "备份皮肤设置"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31032"
+msgid "Restore skin settings"
+msgstr "恢复皮肤设置"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31033"
+msgid "Audio Settings"
+msgstr "音频设置"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31034"
+msgid "Change backup and restore path"
+msgstr "更改备份和还原路径"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31035"
+msgid "hrs"
+msgstr "小时"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31036"
+msgid "hr"
+msgstr "小时"
+
+#: /1080i/DialogSubtitles.xml
+msgctxt "#31037"
+msgid "Download Subtitles"
+msgstr "下载字幕"
+
+#: /1080i/Includes_View.xml
+msgctxt "#31038"
+msgid "Landscape"
+msgstr "景观"
+
+#: /1080i/Custom_1117_EnableViews.xml
+msgctxt "#31039"
+msgid "Enable / disable view modes"
+msgstr "启用/禁用视图模式"
+
+#: /1080i/Custom_1117_EnableViews.xml
+msgctxt "#31040"
+msgid "Poster Showcase"
+msgstr "海报展示"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31041"
+msgid "Customise your home menu items$COMMA widgets$COMMA and backgrounds."
+msgstr "自定义您的主菜单$COMMA项$COMMA小部件和背景。"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31042"
+msgid "Wall view text labels"
+msgstr "文本标签墙视图"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31043"
+msgid "Select Action"
+msgstr "选择操作"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31044"
+msgid "Search library for movies staring"
+msgstr "搜索库中的电影凝视"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31045"
+msgid "Show extended info about"
+msgstr "显示关于额外信息"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31046"
+msgid "Search library"
+msgstr "搜索库"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31047"
+msgid "This disables fanart in the library and shows the fallback image instead."
+msgstr "这会禁用库中的同人画并显示后备图像。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31048"
+msgid "Set a fallback image for when no fanart is available."
+msgstr "设置当没有同人画可用时显示的后备图像。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31049"
+msgid "Display artist fanart stored from the library database on the music visualisation screen."
+msgstr "在音乐可视化屏幕上显示从库数据库存储的艺术家同人画。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31050"
+msgid "Use artist slideshow addon to display artist fanart on the music visualisation screen."
+msgstr "使用艺术家幻灯片插件在音乐可视化屏幕上显示艺术家同人画。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31051"
+msgid "Make the artist fanart slightly transparent so that the music visualisation shows through."
+msgstr "使艺术家同人画略微透明，以便显示音乐可视化。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31052"
+msgid "Use a pan and zoom effect on the artist fanart in the music visualisation."
+msgstr "在音乐可视化中对艺术家同人画使用平移和缩放效果。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31053"
+msgid "Display discart in showcase view types. Available discart overrides logo if both options are enabled."
+msgstr "在展示视图类型中显示光盘艺术。如果启用了两个选项，则可用光盘艺术覆盖徽标。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31054"
+msgid "Display logo in showcase view types. Available discart overrides logo if both options are enabled."
+msgstr "在展示视图类型中显示徽标。如果启用了两个选项，则可用光盘艺术覆盖徽标。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31055"
+msgid "Use skinhelper to provide animated posters and fanart. These can be downloaded from the context menu."
+msgstr "使用皮肤助手提供动画、海报和同人画。这些可以从上下文菜单中下载。"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31056"
+msgid "Genre colours in PVR guide"
+msgstr "PVR指南中的流派色彩"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31057"
+msgid "Use fullscreen PVR guide (hide plot info)"
+msgstr "使用全屏PVR指南（隐藏情节信息）"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31058"
+msgid "Change the highlight focus colour used throughout the skin."
+msgstr "更改整个皮肤中使用的高光聚焦颜色。"
+
+#: /1080i/DialogContextMenu.xml
+msgctxt "#31059"
+msgid "Context Menu"
+msgstr "上下文菜单"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31060"
+msgid "Set music or video playlist that will run when Kodi starts."
+msgstr "设置将在Kodi启动时运行的音乐或视频播放列表。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31061"
+msgid "Disable the alphabet strip and always use scrollbars instead."
+msgstr "禁用字母条，并始终使用滚动条。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31062"
+msgid "Disable changing view settings and some settings buttons in information dialogs."
+msgstr "禁用更改信息对话框中的视图设置和一些设置按钮。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31063"
+msgid "Change the items displayed in the power menu."
+msgstr "更改电源菜单中显示的项目。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31064"
+msgid "Backup your skin settings and home menu shortcuts to a zip file. Useful to migrate settings to a new setup."
+msgstr "将您的皮肤设置和主菜单快捷方式备份到zip文件。将设置迁移到新设置很有用。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31065"
+msgid "Restore your skin settings$COMMA shortcuts$COMMA and widgets from a backup file."
+msgstr "从备份文件恢复您的$COMMA皮肤设置$COMMA快捷方式和小部件。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31066"
+msgid "Change the location where skin backup files are saved."
+msgstr "更改皮肤备份文件的保存位置。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31067"
+msgid "Reset all your skin settings$COMMA shortcuts$COMMA and widgets to default skin settings. This will not change any Kodi system settings."
+msgstr "重置你的$COMMA皮肤设置$COMMA快捷方式和小部件到默认皮肤设置。这不会改变任何Kodi系统设置。"
+
+#: /1080i/Includes_Weather.xml
+msgctxt "#31068"
+msgid "Cloud cover"
+msgstr "云封面"
+
+#: /1080i/Includes_Weather.xml
+msgctxt "#31069"
+msgid "Cloud cover is "
+msgstr "云封面是"
+
+#: /1080i/Includes_Weather.xml
+msgctxt "#31070"
+msgid "Cloud Cover"
+msgstr "云封面"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31071"
+msgid "IMDB Top250"
+msgstr "IMDB Top250"
+
+#: /1080i/DialogButtonMenu.xml
+msgctxt "#31072"
+msgid "Power Menu"
+msgstr "电源菜单"
+
+#: /1080i/VideoOSD.xml
+msgctxt "#31073"
+msgid "Recommended Youtube Videos"
+msgstr "推荐的Youtube视频"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31074"
+msgid "Make bottom bar transparent"
+msgstr "使底栏透明"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31075"
+msgid "Apply transparency to bottom bar"
+msgstr "将透明度应用于底栏"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31076"
+msgid "Enable transparency"
+msgstr "启用透明度"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31077"
+msgid "Add slight transparency to the top and bottom bars."
+msgstr "为顶部和底部条添加轻微透明度。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31078"
+msgid "Ended"
+msgstr "截至"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31079"
+msgid "Pause video when opening extended info"
+msgstr "打开扩展信息时暂停视频"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31080"
+msgid "Artwork button downloads all available artwork (as specified in artwork downloader settings)"
+msgstr "艺术品按钮下载所有可用的艺术作品（如艺术品下载设置中所指定）"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31081"
+msgid "Hide plot"
+msgstr "隐藏情节"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#31082"
+msgid "Video process information"
+msgstr "视频处理信息"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#31083"
+msgid "Framerate"
+msgstr "帧率"
+
+#: /1080i/DialogPlayerProcessInfo.xml
+msgctxt "#31084"
+msgid "Aspect Ratio"
+msgstr "宽高比"
+
+#: /1080i/Includes_OSD.xml
+msgctxt "#31085"
+msgid "Codec Info"
+msgstr "编解码信息"
+
+#: /1080i/Includes_OSD.xml
+msgctxt "#31086"
+msgid "Extended Info"
+msgstr "扩展信息"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31087"
+msgid "Colour overlay effect"
+msgstr "颜色叠加效果"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31088"
+msgid "Scrolling text effect"
+msgstr "滚动文字效果"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31089"
+msgid "Position context menu based on the focused item"
+msgstr "基于焦点项目定位上下文菜单"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31090"
+msgid "Display duration format as X HRS XX MINS"
+msgstr "显示持续时间格式为X小时XX分"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31091"
+msgid "Prefer list view for seasons"
+msgstr "喜欢季的列表视图"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31092"
+msgid "System Name"
+msgstr "系统名称"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31093"
+msgid "Gateway Address"
+msgstr "网关地址"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31094"
+msgid "Network and Storage"
+msgstr "网络和存储"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31095"
+msgid "Video Encoder"
+msgstr "视频编码器"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31096"
+msgid "Memory"
+msgstr "内存"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31097"
+msgid "Fan Speed"
+msgstr "风扇"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31098"
+msgid "CPU Info"
+msgstr "CPU 信息"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31099"
+msgid "CPU Usage"
+msgstr "CPU 使用率"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31100"
+msgid "Processor$COMMA Memory$COMMA and Video"
+msgstr "处理器$COMMA内存$COMMA和视频"
+
+msgctxt "#31101"
+msgid "items"
+msgstr "项目"
+
+msgctxt "#31102"
+msgid "min"
+msgstr "分"
+
+msgctxt "#31103"
+msgid "Live TV"
+msgstr "电视直播"
+
+msgctxt "#31104"
+msgid "Used Memory"
+msgstr "已用内存"
+
+msgctxt "#31105"
+msgid "Spotlight"
+msgstr "聚焦"
+
+msgctxt "#31106"
+msgid "Ends "
+msgstr "完"
+
+msgctxt "#31107"
+msgid "Video Stream"
+msgstr "视频流"
+
+msgctxt "#31108"
+msgid "Current Menu"
+msgstr "当前菜单"
+
+msgctxt "#31109"
+msgid "Customise home menu"
+msgstr "自定义主菜单"
+
+msgctxt "#31110"
+msgid "Background"
+msgstr "背景"
+
+msgctxt "#31111"
+msgid "Display now playing video in the background"
+msgstr "在背景中显示正在播放的视频"
+
+msgctxt "#31112"
+msgid "Submenu"
+msgstr "子菜单"
+
+msgctxt "#31113"
+msgid "No Timer"
+msgstr "没有计时器"
+
+msgctxt "#31114"
+msgid "Now Playing"
+msgstr "正在播放"
+
+#: /1080i/Includes_OSD.xml
+msgctxt "#31115"
+msgid "Recommended"
+msgstr "推荐"
+
+msgctxt "#31116"
+msgid "DVD Menu"
+msgstr "DVD菜单"
+
+msgctxt "#31117"
+msgid "3D Mode"
+msgstr "3D模式"
+
+msgctxt "#31118"
+msgid "Artist slideshow"
+msgstr "艺术家幻灯片"
+
+msgctxt "#31119"
+msgid "Visualisation behind slideshow"
+msgstr "幻灯片背后的可视化"
+
+msgctxt "#31120"
+msgid "Animate artist slideshow"
+msgstr "动画艺术家幻灯片"
+
+msgctxt "#31121"
+msgid "Fanart"
+msgstr "同人画"
+
+msgctxt "#31122"
+msgid "Ongoing Episodes"
+msgstr "正在进行的剧集"
+
+msgctxt "#31123"
+msgid "Resumable Movies"
+msgstr "可恢复的电影"
+
+msgctxt "#31124"
+msgid "Recent Movies"
+msgstr "最近的电影"
+
+msgctxt "#31125"
+msgid "Recent Episodes"
+msgstr "最近的剧集"
+
+msgctxt "#31126"
+msgid "Episodes Spotlight"
+msgstr "剧集聚焦"
+
+msgctxt "#31127"
+msgid "Movies Spotlight"
+msgstr "电影聚焦"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31128"
+msgid "Allow scrolling through items when in full fanart mode"
+msgstr "在完全同人画模式下允许滚动项目"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31129"
+msgid "Enable full fanart mode"
+msgstr "启用完全同人画模式"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31130"
+msgid "Media flags"
+msgstr "媒体标志"
+
+#: /1080i/MusicOSD.xml
+msgctxt "#31131"
+msgid "Colour overlay"
+msgstr "颜色叠加"
+
+msgctxt "#31132"
+msgid "Reset home menu shortcuts to defaults"
+msgstr "将主菜单快捷方式重置为默认值"
+
+msgctxt "#31133"
+msgid "Hide watched"
+msgstr "隐藏已观看"
+
+msgctxt "#31134"
+msgid "Trending Movies"
+msgstr "热门电影"
+
+msgctxt "#31135"
+msgid "Trending Shows"
+msgstr "热门节目"
+
+msgctxt "#31136"
+msgid "Airing Shows"
+msgstr "正在播出的节目"
+
+msgctxt "#31137"
+msgid "Premiering Shows"
+msgstr "首映节目"
+
+msgctxt "#31138"
+msgid "Content Loading"
+msgstr "内容加载"
+
+msgctxt "#31139"
+msgid "Box Office"
+msgstr "票房"
+
+msgctxt "#31140"
+msgid "Budget"
+msgstr "预算"
+
+msgctxt "#31141"
+msgid "Youtube"
+msgstr "Youtube"
+
+#: /1080i/MusicOSD.xml
+msgctxt "#31142"
+msgid "Scrolling text"
+msgstr "滚动文字"
+
+msgctxt "#31143"
+msgid "Set weather fanart"
+msgstr "设置天气同人画"
+
+msgctxt "#31144"
+msgid "Edit Widgets"
+msgstr "编辑小部件"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31145"
+msgid "Display poster and plot when a video is paused"
+msgstr "在视频暂停时显示海报和情节"
+
+msgctxt "#31146"
+msgid "Animate fanart"
+msgstr "同人画动画"
+
+msgctxt "#31147"
+msgid "Extra Info"
+msgstr "额外信息"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31148"
+msgid "Hide artwork"
+msgstr "隐藏艺术图"
+
+msgctxt "#31149"
+msgid "Replace widget fanart with background"
+msgstr "用背景替换同人画小部件"
+
+msgctxt "#31150"
+msgid "Set fallback image"
+msgstr "设置后备图像"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31151"
+msgid "Hide tvshow labels"
+msgstr "隐藏电视节目标签"
+
+msgctxt "#31152"
+msgid "Furniture"
+msgstr "家具"
+
+#: /1080i/Includes_Statusbar.xml
+msgctxt "#31153"
+msgid "Sort by:"
+msgstr "排序方式："
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31154"
+msgid "Only use blur in the info dialog"
+msgstr "仅在信息对话框中使用模糊"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31155"
+msgid "Disable the bounce in animation when scrolling between items."
+msgstr "在项目之间滚动时禁用动画中的反弹。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31156"
+msgid "Apply a colour changing overlay effect to music visualisation background."
+msgstr "将颜色更改叠加效果应用于音乐可视化背景。"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31157"
+msgid "A scrolling text effect showing artist$COMMA album and song info overlaid on the music visualisation background."
+msgstr "滚动文本效果显示$COMMA艺术家专辑和歌曲信息覆盖在音乐可视化背景上。"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31158"
+msgid "Automatically open visualisation after starting a song"
+msgstr "启动歌曲后自动打开可视化"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31159"
+msgid "Video Sources"
+msgstr "视频来源"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31160"
+msgid "Music sources"
+msgstr "音乐来源"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31161"
+msgid "Showcase"
+msgstr "展示"
+
+#: /1080i/Includes_Widgets.xml
+msgctxt "#31162"
+msgid "Categories"
+msgstr "分类"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31163"
+msgid "Submenu Items"
+msgstr "子菜单项目"
+
+#: /1080i/Includes_View_List.xml
+msgctxt "#31164"
+msgid "Info List"
+msgstr "信息列表"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31165"
+msgid "TV recordings"
+msgstr "电视录音"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31166"
+msgid "TV timers"
+msgstr "电视定时器"
+
+#: /1080i/Includes_View_List.xml
+msgctxt "#31167"
+msgid "Square list"
+msgstr "方形列表"
+
+msgctxt "#31168"
+msgid "Startup video or music playlist"
+msgstr "启动视频或音乐播放列表"
+
+msgctxt "#31169"
+msgid "Extras"
+msgstr "附加功能"
+
+msgctxt "#31170"
+msgid "Cinema Experience"
+msgstr "影院体验"
+
+msgctxt "#31171"
+msgid "Video Extras"
+msgstr "视频附加功能"
+
+msgctxt "#31172"
+msgid "Display music visualisation in the background"
+msgstr "在后台显示音乐可视化"
+
+msgctxt "#31173"
+msgid "Recently added"
+msgstr "最近添加的"
+
+msgctxt "#31174"
+msgid "Recently played"
+msgstr "最近播放的"
+
+msgctxt "#31175"
+msgid "Play random"
+msgstr "随机播放"
+
+msgctxt "#31176"
+msgid "Delete Settings Shortcut"
+msgstr "删除设置快捷方式"
+
+msgctxt "#31177"
+msgid "Are you sure you want to remove the settings shortcut?[CR]Please ensure that you have an alternative method of accessing settings before you remove this shortcut."
+msgstr "确定要删除设置快捷方式吗？[CR]在删除此快捷方式之前，请确保您有另一种访问设置的方法。"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31178"
+msgid "Show extended info"
+msgstr "显示扩展信息"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31179"
+msgid "Lock view"
+msgstr "锁定视图"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31180"
+msgid "Unlock view"
+msgstr "解锁视图"
+
+msgctxt "#31181"
+msgid "Select icon"
+msgstr "选择图标"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31182"
+msgid "Additional Widgets"
+msgstr "其他小部件"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31183"
+msgid "Default Widgets"
+msgstr "默认小部件"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31184"
+msgid "Recently played movies"
+msgstr "最近播放的电影"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31185"
+msgid "Recently Added Movies"
+msgstr "最近添加的电影"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31186"
+msgid "Display OSD submenu"
+msgstr "显示OSD子菜单"
+
+msgctxt "#31187"
+msgid "Random Albums"
+msgstr "随机相册"
+
+msgctxt "#31188"
+msgid "Recent Albums"
+msgstr "最近的专辑"
+
+msgctxt "#31189"
+msgid "Recommended Albums"
+msgstr "推荐相册"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31190"
+msgid "Recently Played Movies"
+msgstr "最近播放的电影"
+
+msgctxt "#31191"
+msgid "Directed by"
+msgstr "导演是"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31192"
+msgid "Focus bounce animation"
+msgstr "聚焦反弹动画"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31193"
+msgid "Reset colours to default"
+msgstr "将颜色重置为默认值"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31194"
+msgid "Recently Played TV Shows"
+msgstr "最近播放的电视节目"
+
+msgctxt "#31195"
+msgid "Reload Skin"
+msgstr "重新加载皮肤"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31196"
+msgid "In Progress TV Shows"
+msgstr "未播放完的电视节目"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31197"
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31198"
+msgid "Recently Played Episodes"
+msgstr "最近播放的剧集"
+
+msgctxt "#31199"
+msgid "Kiosk mode"
+msgstr "Kiosk模式"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31200"
+msgid "Random Movies"
+msgstr "随机电影"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31201"
+msgid "Pressing info only displays seekbar (hides poster and plot)"
+msgstr "按信息仅显示搜索栏（隐藏海报和图表）"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31202"
+msgid "Random Episodes"
+msgstr "随机剧集"
+
+msgctxt "#31203"
+msgid "Artwork"
+msgstr "艺术图"
+
+msgctxt "#31204"
+msgid "Similar to"
+msgstr "相近"
+
+msgctxt "#31205"
+msgid "Released by"
+msgstr "发布于"
+
+msgctxt "#31206"
+msgid "Similar"
+msgstr "类似"
+
+msgctxt "#31207"
+msgid "themoviedb.org"
+msgstr "themoviedb.org"
+
+msgctxt "#31208"
+msgid "In Cinemas"
+msgstr "在电影院"
+
+msgctxt "#31209"
+msgid "Upcoming"
+msgstr "即将到来"
+
+msgctxt "#31210"
+msgid "Popular"
+msgstr "流行"
+
+msgctxt "#31211"
+msgid "Top-Rated"
+msgstr "收视率最高"
+
+msgctxt "#31212"
+msgid "Airing"
+msgstr "正在播出"
+
+msgctxt "#31213"
+msgid "Today"
+msgstr "今天"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31214"
+msgid "Recently Added Episodes"
+msgstr "最近添加的剧集"
+
+msgctxt "#31215"
+msgid "Unwatched"
+msgstr "未观看"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31216"
+msgid "In Progress Movies"
+msgstr "观看中的电影"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31217"
+msgid "Change location"
+msgstr "换地点"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31218"
+msgid "In Progress Episodes"
+msgstr "观看中的剧集"
+
+#: /1080i/script-nextup-notification-PostPlayInfo.xml
+msgctxt "#31219"
+msgid "Previous"
+msgstr "以前"
+
+msgctxt "#31220"
+msgid "Next Aired"
+msgstr "接下来播出"
+
+#: /1080i/script-nextup-notification-PostPlayInfo.xml
+msgctxt "#31221"
+msgid "Next Up"
+msgstr "接下来"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31222"
+msgid "Top-Rated TV Shows"
+msgstr "评分最高的电视节目"
+
+msgctxt "#31223"
+msgid "Upcoming Movies"
+msgstr "即将上映的电影"
+
+msgctxt "#31224"
+msgid "Popular Movies"
+msgstr "热门电影"
+
+msgctxt "#31225"
+msgid "Top-Rated Movies"
+msgstr "评分最高的电影"
+
+msgctxt "#31226"
+msgid "Popular TV Shows"
+msgstr "热门电视节目"
+
+msgctxt "#31227"
+msgid "Top-Rated TV Shows"
+msgstr "评分最高的电视节目"
+
+msgctxt "#31228"
+msgid "On-Air TV Shows"
+msgstr "正在播出的电视节目"
+
+msgctxt "#31229"
+msgid "TV Shows Airing Today"
+msgstr "今天播出的电视节目"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31230"
+msgid "Top-Rated Episodes"
+msgstr "评分最高的剧集"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31231"
+msgid "Lovefilm"
+msgstr "Lovefilm"
+
+msgctxt "#31232"
+msgid "Reset path"
+msgstr "重置路径"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31233"
+msgid "Random TV Shows"
+msgstr "随机电视节目"
+
+#: /1080i/SettingsProfile.xml
+msgctxt "#31234"
+msgid "Customise your user profiles and enable/disable the login screen."
+msgstr "自定义用户配置文件并启用/禁用登录屏幕。"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31235"
+msgid "Set sorting (default$COMMA year$COMMA rating$COMMA lastplayed$COMMA dateadded$COMMA etc.)"
+msgstr "设置排序（默认$COMMA年$COMMA评级$COMMA最后播放$COMMA加入日期$COMMA等）"
+
+msgctxt "#31236"
+msgid "Now playing..."
+msgstr "现在正播放......"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31237"
+msgid "Sort"
+msgstr "排序"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31238"
+msgid "Recently Added Albums"
+msgstr "最近添加的专辑"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31239"
+msgid "Direction"
+msgstr "方向"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31240"
+msgid "Aspect"
+msgstr "宽高"
+
+msgctxt "#31241"
+msgid "Additional info"
+msgstr "附加信息"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31242"
+msgid "Recently Played Albums"
+msgstr "最近播放的专辑"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31243"
+msgid "Top 100 Albums"
+msgstr "Top 100专辑"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31244"
+msgid "Select Widget"
+msgstr "选择小部件"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31245"
+msgid "Customise"
+msgstr "定制"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31246"
+msgid "Press right to customise widgets"
+msgstr "按向右键以自定义小部件"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31247"
+msgid "Widgets"
+msgstr "小部件"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31248"
+msgid "Edit Shortcuts"
+msgstr "编辑快捷方式"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31249"
+msgid "Press right to customise shortcuts"
+msgstr "按向右键以自定义快捷方式"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31250"
+msgid "Gradient colour"
+msgstr "渐变色"
+
+msgctxt "#31251"
+msgid "Weather Fanart"
+msgstr "天气同人画"
+
+msgctxt "#31252"
+msgid "Weather Forecast"
+msgstr "天气预报"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31253"
+msgid "Use a larger font for the progress bar"
+msgstr "使用更大的字体作为进度条"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31254"
+msgid "If you are having difficulties with widgets or home menu items not displaying correctly please make sure that you press the \"save changes\" button to ensure that your shortcuts and widgets are set."
+msgstr "如果您在小部件或主菜单项目无法正确显示时遇到困难，请确保按下“保存更改”按钮以确保设置了快捷方式和小部件。"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31255"
+msgid "Generate landscape art"
+msgstr "生成景观艺术图"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31256"
+msgid "Display artwork"
+msgstr "显示艺术图"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31257"
+msgid "Movie Genres"
+msgstr "电影类型"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31258"
+msgid "Clearart with seekbar"
+msgstr "清除艺术图与搜索栏"
+
+msgctxt "#31259"
+msgid "Extra fanart"
+msgstr "额外同人画"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31260"
+msgid "Movie Sets"
+msgstr "电影集"
+
+msgctxt "#31261"
+msgid "Widget aspect"
+msgstr "小部件宽高"
+
+msgctxt "#31262"
+msgid "Poster"
+msgstr "海报"
+
+msgctxt "#31263"
+msgid "Square"
+msgstr "方形"
+
+msgctxt "#31264"
+msgid "Thumbnail"
+msgstr "缩略图"
+
+msgctxt "#31265"
+msgid "Fanart"
+msgstr "同人画"
+
+msgctxt "#31266"
+msgid "Widget"
+msgstr "小部件"
+
+msgctxt "#31267"
+msgid "Action"
+msgstr "行动"
+
+msgctxt "#31268"
+msgid "Label"
+msgstr "标签"
+
+msgctxt "#31269"
+msgid "Fallback widget"
+msgstr "后备小部件"
+
+msgctxt "#31270"
+msgid "Video / Music OSD"
+msgstr "视频/音乐OSD"
+
+msgctxt "#31271"
+msgid "Single Image"
+msgstr "单张图片"
+
+msgctxt "#31272"
+msgid "Multi Image"
+msgstr "多张图像"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31273"
+msgid "Background overlay colour"
+msgstr "背景叠加颜色"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31274"
+msgid "TvShow Genres"
+msgstr "电视节目类型"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31275"
+msgid "Blur fanart"
+msgstr "模糊同人画"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31276"
+msgid "IMDB Top 250 Movies"
+msgstr "IMDB Top 250 电影"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31277"
+msgid "Animations"
+msgstr "动画"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31278"
+msgid "Unwatched Movies"
+msgstr "未观看的电影"
+
+msgctxt "#31279"
+msgid "Video decoder"
+msgstr "视频解码器"
+
+msgctxt "#31280"
+msgid "Pixel format"
+msgstr "像素格式"
+
+msgctxt "#31281"
+msgid "by"
+msgstr "于"
+
+msgctxt "#31282"
+msgid "on"
+msgstr "在"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31283"
+msgid "Unwatched Episodes"
+msgstr "未观看的剧集"
+
+#: MPAA Rating
+msgctxt "#31284"
+msgid "Classification"
+msgstr "分类"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31285"
+msgid "Extended info"
+msgstr "扩展信息"
+
+msgctxt "#31286"
+msgid "Highlight colour"
+msgstr "突出显示颜色"
+
+msgctxt "#31287"
+msgid "Reset to default"
+msgstr "重置为默认"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31288"
+msgid "Match highlight colours with the poster"
+msgstr "将高亮颜色与海报相匹配"
+
+msgctxt "#31289"
+msgid "Awards"
+msgstr "奖项"
+
+msgctxt "#31290"
+msgid "Consensus"
+msgstr "共识"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31291"
+msgid "Landscape widget text"
+msgstr "景观小部件文本"
+
+#: /1080i/DialogBusy.xml
+msgctxt "#31292"
+msgid "Kodi is busy$COMMA one moment$COMMA please"
+msgstr "Kodi正忙于$COMMA，请给我点时间$COMMA"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31293"
+msgid "Skin Helper Widgets"
+msgstr "皮肤助手小部件"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31294"
+msgid "PVR / Live TV"
+msgstr "PVR /直播电视"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31295"
+msgid "Random Artists"
+msgstr "随机艺术家"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31296"
+msgid "Movie Nodes"
+msgstr "电影节点"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31297"
+msgid "TvShow Nodes"
+msgstr "电视节目节点"
+
+#: /1080i/Includes_View_List.xml
+msgctxt "#31298"
+msgid "Media Info"
+msgstr "媒体信息"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31299"
+msgid "Premiered"
+msgstr "首映"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31300"
+msgid "Music Nodes"
+msgstr "音乐节点"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31301"
+msgid "TV Shows"
+msgstr "电视节目"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31302"
+msgid "Music Sources"
+msgstr "音乐来源"
+
+#: /1080i/DialogAddonInfo.xml
+msgctxt "#31303"
+msgid "Latest Changes"
+msgstr "最新变化"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31304"
+msgid "Picture Sources"
+msgstr "图片来源"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31305"
+msgid "Colour cycling"
+msgstr "颜色循环"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31306"
+msgid "Special Features"
+msgstr "特殊功能"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31307"
+msgid "Prefer plot outline"
+msgstr "喜欢剧情简介"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31308"
+msgid "Player"
+msgstr "播放器"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31309"
+msgid "Blur effect type"
+msgstr "模糊效果类型"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31310"
+msgid "User rating"
+msgstr "用户评分"
+
+#: /1080i/Includes_OSD.xml
+msgctxt "#31311"
+msgid "Rate Song"
+msgstr "评级歌曲"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31312"
+msgid "Enable / disable ratings"
+msgstr "启用/禁用评级"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31313"
+msgid "Background transparency"
+msgstr "背景透明度"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31314"
+msgid "Automatically display music video info at the beginning and end of a clip"
+msgstr "在剪辑的开头和结尾自动显示音乐视频信息"
+
+#: /1080i/Includes_Home.xml
+msgctxt "#31315"
+msgid "CinemaVision"
+msgstr "影院视觉"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31316"
+msgid "Increased"
+msgstr "增加"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31317"
+msgid "Watched indicators"
+msgstr "已观看指示"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31318"
+msgid "Shadows"
+msgstr "阴影"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31319"
+msgid "Indicator style"
+msgstr "指示样式"
+
+#: /1080i/script-skinshortcuts.xml
+msgctxt "#31320"
+msgid "Important"
+msgstr "重点"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31321"
+msgid "Reset to defaults"
+msgstr "重置为默认值"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31322"
+msgid "Image quality changes the resolution of the generated image. Better quality images take longer to process. Quality changes can alter the intensity of the effect in addition to other effect settings. The blend setting will blend the effect with the original image$COMMA with a value of 100 showing the full image effect."
+msgstr "图像质量会改变生成图像的分辨率。质量更好的图像处理时间更长。除了其他效果设置之外，质量更改还可以改变效果的强度。混合设置将效果与原始图像$COMMA混合，值为100，显示完整的图像效果。"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31323"
+msgid "Blend"
+msgstr "混合"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31324"
+msgid "Bitsize"
+msgstr "位大小"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31325"
+msgid "Pixel size"
+msgstr "像素大小"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31326"
+msgid "Blur radius"
+msgstr "模糊半径"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31327"
+msgid "Image quality"
+msgstr "画面质量"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31328"
+msgid "Highest"
+msgstr "最高"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31329"
+msgid "Colorbox Advanced Settings"
+msgstr "彩盒高级设置"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31330"
+msgid "Advanced settings for colorbox (blur settings)"
+msgstr "彩盒的高级设置（模糊设置）"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31331"
+msgid "Icon only mode"
+msgstr "仅图标模式"
+
+#: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
+msgctxt "#31332"
+msgid "Change image"
+msgstr "更改图像"
+
+#: /1080i/script-globalsearch-main.xml
+msgctxt "#31333"
+msgid "Programmes"
+msgstr "程序"
+
+#: /1080i/Includes_Object.xml
+msgctxt "#31334"
+msgid "Alphabet strip is not available for this content"
+msgstr "字母条不适用于此内容"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31335"
+msgid "Match background overlay colour with the poster"
+msgstr "匹配背景叠加颜色与海报"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31336"
+msgid "Background overlay"
+msgstr "背景叠加"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31337"
+msgid "Light"
+msgstr "亮"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31338"
+msgid "Background vignette"
+msgstr "背景小插图"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31339"
+msgid "Effects"
+msgstr "效果"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31340"
+msgid "Match poster"
+msgstr "匹配海报"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31341"
+msgid "Dark"
+msgstr "暗"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31342"
+msgid "Widget item limit"
+msgstr "小部件项目限制"
+
+#: /1080i/Settings.xml
+msgctxt "#31343"
+msgid "PVR"
+msgstr "PVR"
+
+#: /1080i/Settings.xml
+msgctxt "#31344"
+msgid "Install from repository or zip"
+msgstr "从存储库或zip安装"
+
+#: /1080i/Includes_Widgets.xml
+msgctxt "#31345"
+msgid "Event logging"
+msgstr "事件记录"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31346"
+msgid "Video OSD"
+msgstr "视频OSD"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31347"
+msgid "Music OSD"
+msgstr "音乐OSD"
+
+#: /1080i/Home.xml
+msgctxt "#31348"
+msgid "Loading Home Menu"
+msgstr "加载主菜单"
+
+#: /1080i/Startup.xml
+msgctxt "#31349"
+msgid "Initialising Skin"
+msgstr "初始化皮肤"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31350"
+msgid "Similar to "
+msgstr "相近"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31351"
+msgid "Directed by "
+msgstr "导演是"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31352"
+msgid "Added"
+msgstr "已添加"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31353"
+msgid "Played"
+msgstr "已播放"
+
+#: /1080i/DialogMusicInfo.xml
+msgctxt "#31354"
+msgid "Instrument"
+msgstr "仪表"
+
+#: /1080i/DialogMusicInfo.xml
+msgctxt "#31355"
+msgid "Mood"
+msgstr "心情"
+
+#: /1080i/script-script.extendedinfo-DialogInfo.xml
+msgctxt "#31356"
+msgid "Years Old"
+msgstr "岁"
+
+#: /1080i/script-script.extendedinfo-DialogInfo.xml
+msgctxt "#31357"
+msgid "Crew"
+msgstr "演员"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31358"
+msgid "Poster Wall"
+msgstr "海报墙"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31359"
+msgid "Landscape Wall"
+msgstr "景观墙"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31360"
+msgid "Square Wall"
+msgstr "方形墙"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31361"
+msgid "Landscape Showcase"
+msgstr "景观展示"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31362"
+msgid "Square Showcase"
+msgstr "方形展示"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31363"
+msgid "Big Posters"
+msgstr "大海报"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31364"
+msgid "Mouse compatibility"
+msgstr "鼠标兼容性"
+
+#: /1080i/script-script.extendedinfo-DialogVideoInfo.xml
+msgctxt "#31365"
+msgid "Images"
+msgstr "图片"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31366"
+msgid "Artwork button downloads all artwork"
+msgstr "艺术图按钮下载所有艺术图"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31367"
+msgid "Recently Added TV Shows"
+msgstr "最近添加的电视节目"
+
+#: /1080i/script-script.extendedinfo-DialogInfo.xml
+msgctxt "#31368"
+msgid "Tagged Images"
+msgstr "已标记图像"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31369"
+msgid "Prefer fanart for landscape widgets"
+msgstr "喜欢同人画用于景观小工具"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31370"
+msgid "Banner Wall"
+msgstr "横幅墙"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31371"
+msgid "Categories widget text"
+msgstr "类别小部件文本"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31372"
+msgid "Force default menu position"
+msgstr "强制默认菜单位置"
+
+#: /1080i/Includes_Widgets.xml
+msgctxt "#31373"
+msgid "See More"
+msgstr "看更多"
+
+#: /1080i/EventLog.xml
+msgctxt "#31374"
+msgid "Order"
+msgstr "订购"
+
+#: /1080i/SkinSettings.xml /1080i/SkinSettings.xml
+msgctxt "#31375"
+msgid "Gradients on backing panels"
+msgstr "背板上的渐变"
+
+#: /1080i/SkinSettings.xml /1080i/SkinSettings.xml
+msgctxt "#31376"
+msgid "Show the \"See More\" widget item"
+msgstr "显示“看更多”小部件项目"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31377"
+msgid "Video lyrics"
+msgstr "视频歌词"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31378"
+msgid "Genre names in PVR guide"
+msgstr "PVR指南中的流派名称"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31379"
+msgid "Display plot overlay after a delay"
+msgstr "延迟显示剧情叠加"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31380"
+msgid "Untitled"
+msgstr "无标题"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31381"
+msgid "Last Played Channels"
+msgstr "最后播放的频道"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31382"
+msgid "Active Recordings"
+msgstr "活动录音"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31383"
+msgid "Grouped Active Recordings"
+msgstr "分组活动录音"
+
+#: /shortcuts/overrides.xml
+msgctxt "#31384"
+msgid "Grouped Deleted Recordings"
+msgstr "已分组删除的录音"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31385"
+msgid "Episode List"
+msgstr "剧集列表"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31386"
+msgid "Auto close OSD controls after a delay (in seconds)"
+msgstr "延迟自动关闭OSD控制（以秒为单位）"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31387"
+msgid "Splash screen image"
+msgstr "启动画面图像"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31388"
+msgid "Download All Artwork"
+msgstr "下载所有艺术图"
+
+#: /1080i/DialogVideoInfo.xml
+msgctxt "#31389"
+msgid "Select Artwork"
+msgstr "选择艺术图"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31390"
+msgid "Pressing up from top menu shows fanart / plot"
+msgstr "从顶部菜单按下显示同人画/剧情"
+
+#: /1080i/Includes_Topbar.xml
+msgctxt "#31391"
+msgid "Page"
+msgstr "页"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31392"
+msgid "Sort Letter"
+msgstr "字母排序"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31393"
+msgid "Show media flags instead of ratings in library views"
+msgstr "在库视图中显示媒体标志而不是评级"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31394"
+msgid "Monochrome flags"
+msgstr "单色标志"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31395"
+msgid "Music Playlist"
+msgstr "音乐播放列表"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31396"
+msgid "Video Playlist"
+msgstr "视频播放列表"
+
+#: /1080i/Includes_View_Posters.xml
+msgctxt "#31397"
+msgid "Square Wall Large"
+msgstr "大方形墙"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31398"
+msgid "Force extendedinfo to open when pressing info"
+msgstr "按下信息时强制扩展信息打开"
+
+#: /1080i/Includes_Labels.xml
+msgctxt "#31399"
+msgid "Text"
+msgstr "文本"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31400"
+msgid "Movies by Director"
+msgstr "导演的电影"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31401"
+msgid "Next Up Episodes"
+msgstr "下一集剧集"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31402"
+msgid "Similar Movies"
+msgstr "类似电影"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31403"
+msgid "Similar Tv Shows"
+msgstr "类似的电视节目"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31404"
+msgid "Movies from Studio"
+msgstr "工作室的电影"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31405"
+msgid "Extrafanart"
+msgstr "额外同人画"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31406"
+msgid "Extras / Special Features"
+msgstr "额外/特殊功能"
+
+#: /1080i/Custom_1119_EnableInfoLists.xml
+msgctxt "#31407"
+msgid "Enable / disable info dialog lists"
+msgstr "启用/禁用信息对话框列表"
+
+#: /1080i/Includes_Items.xml
+msgctxt "#31408"
+msgid "Subtitle settings"
+msgstr "字幕设置"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31409"
+msgid "Subtitles button opens subtitle settings"
+msgstr "字幕按钮可打开字幕设置"
+
+#: /1080i/SkinSettings.xml
+msgctxt "#31410"
+msgid "Show trailers and special features in the preview window"
+msgstr "在预览窗口中显示预告片和特殊功能"
+
+#: /1080i/Includes_Weather.xml
+msgctxt "#31411"
+msgid "Unavailable"
+msgstr "不可用"
+
