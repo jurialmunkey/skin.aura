@@ -13,7 +13,7 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Minimalistic. Customisable. Multiple Widgets.</summary>
-        <summary lang="zh_CN">简单。 可定制。 众多小部件</summary>
+        <summary lang="zh_CN">简单。 可定制。 众多小部件。</summary>
         <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
         <description lang="zh_CN">Aura是高度可定制的皮肤，具有众多小部件和水平主菜单。 Aura结合了Arctic Zephyr的极简主义和圆润边缘以及Horizon的时尚可定制性。 虽然最好的Aura体验是通过遥控器实现的，但Aura的设计可以尽可能地容纳鼠标和触控用户。</description>
         <platform>all</platform>
