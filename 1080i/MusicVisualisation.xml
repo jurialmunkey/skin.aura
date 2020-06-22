@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Foundation -->
 <window id="2006">
+    <onload>RunScript(script.artistslideshow)</onload>
     <controls>
         <control type="visualisation" id="2">
             <visible>Skin.HasSetting(OSDVisualisation.ShowFanart) | [!Skin.HasSetting(musicvis.fanartfallback) + [!System.HasAddon(script.artistslideshow) | Skin.HasSetting(ArtistSlideShow.Disabled)]]</visible>
@@ -8,22 +9,22 @@
             <include>Dimensions_Fullscreen</include>
             <include>Animation_FadeIn</include>
             <include>Animation_FadeOut</include>
-        </control>
-        
+    	</control>
+
         <control type="multiimage">
             <aspectratio>scale</aspectratio>
             <include>Dimensions_Fullscreen</include>
             <timeperimage>10000</timeperimage>
             <randomize>true</randomize>
             <fadetime>600</fadetime>
-            <loop>true</loop>
-            <imagepath background="true">$VAR[Image_ArtistFanartVis]</imagepath>
+	    <loop>true</loop>
+	    <imagepath background="true">$VAR[Image_ArtistFanartVis]</imagepath>
             <animation effect="fade" start="100" end="65" time="0" condition="Skin.HasSetting(OSDVisualisation.ShowFanart)">Conditional</animation>
             <animation effect="zoom" start="110" end="130" center="auto" time="10000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(ArtistSlideshow.Animate)">Conditional</animation>
             <animation effect="slide" start="-30,-30" end="30,30" time="6000" tween="sine" easing="inout" pulse="true" condition="Skin.HasSetting(ArtistSlideshow.Animate)">Conditional</animation>
             <include>Animation_FadeIn</include>
             <include>Animation_FadeOut</include>
-        </control>
+	</control>
 
         <control type="multiimage">
             <include>Dimensions_Fullscreen</include>
