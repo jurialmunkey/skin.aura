@@ -353,17 +353,17 @@ msgstr "Restablece todas tus configuraciones para el skin, accesos directos, y w
 #: /1080i/Includes_Weather.xml
 msgctxt "#31068"
 msgid "Cloud cover"
-msgstr ""
+msgstr "Nubosidad"
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31069"
 msgid "Cloud cover is "
-msgstr ""
+msgstr "La nubosidad es"
 
 #: /1080i/Includes_Weather.xml
 msgctxt "#31070"
 msgid "Cloud Cover"
-msgstr ""
+msgstr "Nubosidad"
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31071"
@@ -829,7 +829,7 @@ msgstr "Mostrar visualización de música como fondo"
 
 msgctxt "#31173"
 msgid "Recently added"
-msgstr "Añadidos recientemente"
+msgstr "Añadidas recientemente"
 
 msgctxt "#31174"
 msgid "Recently played"
@@ -1477,7 +1477,7 @@ msgstr "Transparencia de fondo"
 #: /1080i/SkinSettings.xml
 msgctxt "#31314"
 msgid "Automatically display music video info at the beginning and end of a clip"
-msgstr "Mostrar automáticamente información del vídeo musical al inicio y al final del vídeo"
+msgstr "Mostrar automáticamente información del vídeo musical al principio y al final del vídeo"
 
 #: /1080i/Includes_Home.xml
 msgctxt "#31315"
@@ -1652,7 +1652,7 @@ msgstr "Cargando menú de inicio"
 #: /1080i/Startup.xml
 msgctxt "#31349"
 msgid "Initialising Skin"
-msgstr "Inicializando skin"
+msgstr "Iniciando skin"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31350"
@@ -1817,7 +1817,7 @@ msgstr "Últimos canales reproducidos"
 #: /shortcuts/overrides.xml
 msgctxt "#31382"
 msgid "Active Recordings"
-msgstr "Activar grabaciones"
+msgstr "Grabaciones activas"
 
 #: /shortcuts/overrides.xml
 msgctxt "#31383"
@@ -1837,7 +1837,7 @@ msgstr "Lista de episodios"
 #: /1080i/SkinSettings.xml
 msgctxt "#31386"
 msgid "Auto close OSD controls after a delay (in seconds)"
-msgstr "Retraso en el cierre automático de los controles OSD (en segundos)"
+msgstr "Tiempo para cierre automático de los controles OSD (en segundos)"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31387"
@@ -1962,4 +1962,4 @@ msgstr "Mostrar tráilers y características especiales en la ventana de vista p
 #: /1080i/Includes_Weather.xml
 msgctxt "#31411"
 msgid "Unavailable"
-msgstr "Indisponible"
+msgstr "No disponible"
