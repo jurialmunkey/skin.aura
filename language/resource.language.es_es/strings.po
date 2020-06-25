@@ -313,7 +313,7 @@ msgstr "Menú contextual"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31060"
 msgid "Set a music or video playlist that will run when kodi starts."
-msgstr "Configura una lista de reproducción de música o video que se ejecutará cuando se inicie Kodi."
+msgstr "Configura una lista de reproducción de música o vídeo que se ejecutará cuando se inicie Kodi."
 
 #: /1080i/Includes_Labels.xml
 msgctxt "#31061"
@@ -408,7 +408,7 @@ msgstr "Finaliza a las"
 #: /1080i/SkinSettings.xml
 msgctxt "#31079"
 msgid "Pause video when opening extended info"
-msgstr "Pausar video al abrir información extendida"
+msgstr "Pausar vídeo al abrir información extendida"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31080"
@@ -1857,7 +1857,7 @@ msgstr "Seleccionar ilustraciones"
 #: /1080i/SkinSettings.xml
 msgctxt "#31390"
 msgid "Pressing up from top menu shows fanart / plot"
-msgstr "Al presionar hacia ARRIBA desde el menú superior se muestra fanart / argumento"
+msgstr "Mostrar fanart / argumento al presionar hacia ARRIBA desde el menú superior"
 
 #: /1080i/Includes_Topbar.xml
 msgctxt "#31391"
@@ -1947,7 +1947,7 @@ msgstr "Habilitar / deshabilitar diálogo de información en listas"
 #: /1080i/Includes_Items.xml
 msgctxt "#31408"
 msgid "Subtitle settings"
-msgstr "Ajustes subtítulos"
+msgstr "Ajustes de subtítulos"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31409"
