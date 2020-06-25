@@ -533,7 +533,7 @@ msgstr "Memoria usada"
 
 msgctxt "#31105"
 msgid "Spotlight"
-msgstr ""
+msgstr "Destacado"
 
 msgctxt "#31106"
 msgid "Ends "
@@ -1447,7 +1447,7 @@ msgstr "Preferir resumen del argumento"
 #: /1080i/Includes_Labels.xml
 msgctxt "#31308"
 msgid "Player"
-msgstr ""
+msgstr "Reproductor"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31309"
@@ -1527,22 +1527,22 @@ msgstr ""
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31324"
 msgid "Bitsize"
-msgstr ""
+msgstr "Tamaño bit"
 
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31325"
 msgid "Pixel size"
-msgstr ""
+msgstr "Tamaño píxel"
 
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31326"
 msgid "Blur radius"
-msgstr ""
+msgstr "Radio"
 
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31327"
 msgid "Image quality"
-msgstr ""
+msgstr "Calidad imagen"
 
 #: /1080i/Custom_1116_ColorBoxAdvancedSettings.xml
 msgctxt "#31328"
@@ -1687,12 +1687,12 @@ msgstr ""
 #: /1080i/script-script.extendedinfo-DialogInfo.xml
 msgctxt "#31356"
 msgid "Years Old"
-msgstr ""
+msgstr "Edad"
 
 #: /1080i/script-script.extendedinfo-DialogInfo.xml
 msgctxt "#31357"
 msgid "Crew"
-msgstr ""
+msgstr "Equipo"
 
 #: /1080i/Includes_View_Posters.xml
 msgctxt "#31358"
@@ -1732,7 +1732,7 @@ msgstr "Habilitar compatibilidad con mouse"
 #: /1080i/script-script.extendedinfo-DialogVideoInfo.xml
 msgctxt "#31365"
 msgid "Images"
-msgstr ""
+msgstr "Imágenes"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31366"
@@ -1747,7 +1747,7 @@ msgstr "Series TV añadidas recientemente"
 #: /1080i/script-script.extendedinfo-DialogInfo.xml
 msgctxt "#31368"
 msgid "Tagged Images"
-msgstr ""
+msgstr "Imágenes etiquetadas"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31369"
