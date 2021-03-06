@@ -1,8 +1,7 @@
 <addon id="skin.aura" name="Aura" provider-name="jurialmunkey" version="1.0.5">
     <requires>
-        <import addon="xbmc.gui" version="5.14.0" />
+        <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0" />
-        <import addon="script.extendedinfo" version="3.0.0" />
         <import addon="script.image.resource.select" version="0.0.5" />
         <import addon="plugin.program.autocompletion" version="1.0.1" />
         <import addon="resource.images.studios.white" version="0.0.10" />
@@ -13,8 +12,16 @@
     </extension>
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Minimalistic. Customisable. Multiple Widgets.</summary>
+        <summary lang="es_ES">Minimalista. Personzalizable. Múltiples Widgets.</summary>
+        <summary lang="de_DE">Min. Customisable. Multiple Widgets.</summary>
+        <summary lang="fr_FR">Minimaliste. Personnalisable. Widgets Multiple.</summary>
+        <summary lang="zh_CN">简单。 可定制。 众多小部件。</summary>
         <description lang="en_GB">Aura is highly customisable skin with multiple widgets and a horizontal home menu. Aura combines the minimalism and rounded edges of Arctic Zephyr with the sleek customisability of Horizon. Whilst the best Aura experience is had with a remote, Aura has been designed to accomodate mouse and touch users where possible.</description>
-        <platform>all</platform>
+        <description lang="es_ES">Aura es un skin altamente personalizable con múltiples widgets y un menú de inicio horizontal. Aura combina el minimalismo y los bordes redondeados de Arctic Zephyr con la personalización elegante de Horizon. Mientras que la mejor experiencia de Aura es teniendo un control remoto, Aura se ha diseñado para complacer a los usuarios de mouse y los usuarios del modo táctil siempre que sea posible.</description>
+        <description lang="de_DE">Aura ist ein sehr anpassbarer Skin mit mehreren Widgets und einem horizontalen Home-Menü. Aura kombiniert den Minimalismus und die abgerundeten Kanten von Arctic Zephyr mit der eleganten Anpassungsfähigkeit von Horizon. Während das beste Aura-Erlebnis mit einer Fernbedienung geboten wird, wurde Aura so konzipiert, 1dass es auch Maus- und Touch-Benutzern nach Möglichkeit entgegenkommt.</description>
+        <description lang="fr_FR">Aura est un thème hautement personnalisable avec plusieurs widgets et un menu d'accueil horizontal. Aura combine le minimalisme et les bords arrondis de l'Arctic Zephyr avec l'élégante personnalisation d'Horizon. Alors que la meilleure expérience Aura est acquise avec une télécommande, Aura a été conçue pour accueillir les utilisateurs de souris et de tactiles dans la mesure du possible.</description>
+        <description lang="zh_CN">Aura是高度可定制的皮肤，具有众多小部件和水平主菜单。 Aura结合了Arctic Zephyr的极简主义和圆润边缘以及Horizon的时尚可定制性。 虽然最好的Aura体验是通过遥控器实现的，但Aura的设计可以尽可能地容纳鼠标和触控用户。</description>
+	<platform>all</platform>
         <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
         <forum>https://forum.kodi.tv/showthread.php?tid=328558</forum>
         <source>https://github.com/jurialmunkey/skin.aura</source>
