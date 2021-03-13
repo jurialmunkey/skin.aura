@@ -40,13 +40,14 @@
         <value condition="Integer.IsGreater(ListItem.Ratings(themoviedb),0)">$INFO[ListItem.Ratings(themoviedb)]</value>
     </variable>
 
+
     <variable name="Label_RottenTomatoesCritics">
-        <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating))">$INFO[Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating),,%]</value>
+        <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating.Percent)) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating.Percent))">$INFO[Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating.Percent),,%]</value>
         <value condition="Integer.IsGreater(ListItem.Ratings(tomatometerallcritics),0)">$INFO[ListItem.Ratings(tomatometerallcritics)]</value>
     </variable>
 
     <variable name="Label_RottenTomatoesUserMeter">
-        <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter))">$INFO[Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter),,%]</value>
+        <value condition="!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter)) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter))">$INFO[Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter),,%]</value>
         <value condition="Integer.IsGreater(ListItem.Ratings(tomatometerallaudience),0)">$INFO[ListItem.Ratings(tomatometerallaudience)]</value>
     </variable>
     

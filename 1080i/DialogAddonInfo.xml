@@ -217,6 +217,15 @@
             <include>Defs_Hidden_Button</include>
             <visible>Control.IsEnabled(8)</visible>
         </control>
+
+<!-- EXPERIMENT -->
+        <control type="button" id="9998">
+            <description>Goto Series</description>
+            <label>9998</label>
+            <include>Defs_Hidden_Button</include>
+            <visible>Control.IsEnabled(8)</visible>
+        </control>
+
         <control type="button" id ="9">
             <label>5</label>
             <include>Defs_Hidden_Button</include>

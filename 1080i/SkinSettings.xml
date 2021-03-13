@@ -835,6 +835,7 @@
                             <selected>System.HasAddon(script.skin.helper.skinbackup)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+<!-- 
                         <control type="radiobutton" id="9805">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>script.module.metadatautils</label>
@@ -844,6 +845,7 @@
                             <selected>System.HasAddon(script.module.metadatautils)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+-->
                         <control type="radiobutton" id="9806">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>plugin.video.specialfeatures</label>

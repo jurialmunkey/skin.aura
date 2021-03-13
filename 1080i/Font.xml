@@ -78,7 +78,7 @@
         <font>
             <name>font_plotbox</name>
             <filename>Roboto-Regular-LineSpacingMod.ttf</filename>
-            <size>30</size>
+            <size>35</size>
             <linespacing>1</linespacing>
             <aspect>0.9</aspect>
         </font>
@@ -552,14 +552,14 @@
         <font>
             <name>font_plotbox</name>
             <filename>Arial.ttf</filename>
-            <size>30</size>
+            <size>35</size>
             <linespacing>1.2</linespacing>
             <aspect>0.9</aspect>
         </font>
         <font>
             <name>font_textviewer</name>
             <filename>Arial.ttf</filename>
-            <size>30</size>
+            <size>35</size>
             <linespacing>1</linespacing>
             <aspect>0.9</aspect>
         </font>

@@ -9,7 +9,7 @@
     <shortcut>
         <label2>Power Menu Shortcut</label2>
         <label>13012</label>
-        <action>XBMC.Quit()</action>
+        <action>Quit()</action>
         <visible>System.ShowExitButton</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>
@@ -55,7 +55,7 @@
         <label>20046</label>
         <altlabel>20045</altlabel>
         <usealttexture>!System.IsMaster</usealttexture>
-        <action>xbmc.mastermode</action>
+        <action>mastermode</action>
         <visible>System.HasLocks</visible>
         <icon>special://skin/extras/icons/power.png</icon>
     </shortcut>

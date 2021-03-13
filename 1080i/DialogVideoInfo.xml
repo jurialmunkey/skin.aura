@@ -2,6 +2,9 @@
 <!-- Foundation -->
 <window id="2003">
     <defaultcontrol always="true">9570</defaultcontrol>
+
+<!-- 
+
     <onload condition="Skin.HasSetting(ForceExtendedInfo) + System.HasAddon(script.extendedinfo) + [Container.Content(movies) | Container.Content(tvshows) | Container.Content(seasons) | Container.Content(episodes)]">Action(close)</onload>
     <onload condition="Skin.HasSetting(ForceExtendedInfo) + System.HasAddon(script.extendedinfo) + Container.Content(movies) + Skin.String(ListItem.IMDBNumber)">RunScript(script.extendedinfo,info=extendedinfo,dbid=$INFO[ListItem.DBID],imdb_id=$INFO[ListItem.IMDBNumber],name=$INFO[ListItem.Title])</onload>
     <onload condition="Skin.HasSetting(ForceExtendedInfo) + System.HasAddon(script.extendedinfo) + Container.Content(movies) + !Skin.String(ListItem.IMDBNumber)">RunScript(script.extendedinfo,info=extendedinfo,dbid=$INFO[ListItem.DBID],name=$INFO[ListItem.Title])</onload>
@@ -11,6 +14,7 @@
     <onload condition="Skin.HasSetting(ForceExtendedInfo) + System.HasAddon(script.extendedinfo) + Container.Content(tvshows) + !Skin.String(ListItem.IMDBNumber) + !Skin.String(ListItem.TVShowTitle)">RunScript(script.extendedinfo,info=extendedtvinfo,dbid=$INFO[ListItem.DBID],name=$INFO[ListItem.Title])</onload>
     <onload condition="Skin.HasSetting(ForceExtendedInfo) + System.HasAddon(script.extendedinfo) + Container.Content(seasons)">RunScript(script.extendedinfo,info=seasoninfo,tvshow=$INFO[ListItem.TVShowTitle],dbid=$INFO[ListItem.DBID],season=$INFO[ListItem.Season])</onload>
     <onload condition="Skin.HasSetting(ForceExtendedInfo) + System.HasAddon(script.extendedinfo) + Container.Content(episodes)">RunScript(script.extendedinfo,info=extendedepisodeinfo,tvshow=$INFO[ListItem.TVShowTitle],dbid=$INFO[ListItem.DBID],episode=$INFO[ListItem.Episode],season=$INFO[ListItem.Season])</onload>
+-->
 
     <onload>ClearProperty(TrailerPlaying,Home)</onload>
     <onunload>ClearProperty(TrailerPlaying,Home)</onunload>
@@ -392,10 +396,11 @@
                         <param name="id" value="9501" />
                         <param name="ondown" value="9502" />
                         <param name="label" value="$INFO[ListItem.Director,$LOCALIZE[31016] ,]" />
-                        <param name="content" value="plugin://script.extendedinfo?info=personmovies&amp;&amp;person=$INFO[ListItem.Director]" />
+                        <!-- <param name="content" value="plugin://script.extendedinfo?info=personmovies&amp;&amp;person=$INFO[ListItem.Director]" /> -->
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
-                        <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" />
+                        <param name="onclick" value="noop" />
+                        <!-- <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" /> -->
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.DirectorMovies)" />
                     </include>
 
@@ -422,7 +427,8 @@
                         <param name="content" value="plugin://script.skin.helper.widgets/?action=similar&amp;mediatype=movies&amp;imdbid=$INFO[ListItem.IMDBNumber]" />
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
-                        <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" />
+                        <param name="onclick" value="noop" />
+                        <!-- <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" /> -->
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.SimilarMovies)" />
                     </include>
 
@@ -435,11 +441,12 @@
                         <param name="content" value="plugin://script.skin.helper.widgets/?action=similar&amp;mediatype=tvshows&amp;imdbid=$INFO[ListItem.IMDBNumber]" />
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
-                        <param name="onclick" value="RunScript(script.extendedinfo,info=extendedtvinfo,name=$INFO[ListItem.Label])" />
+                        <param name="onclick" value="noop" />
+                        <!-- <param name="onclick" value="RunScript(script.extendedinfo,info=extendedtvinfo,name=$INFO[ListItem.Label])" /> -->
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.SimilarTvShows)" />
                     </include>
 
-                    <!-- Studio Movies 9503 -->
+<!-- Studio Movies 9503
                     <include content="Object_VideoInfo_CastList">
                         <param name="onup" value="9502" />
                         <param name="id" value="9503" />
@@ -448,10 +455,11 @@
                         <param name="content" value="$VAR[Defs_VideoInfo_StudioMovies]" />
                         <param name="infolabel" value="false" />
                         <param name="include_onclick" value="true" />
+                        <param name="onclick" value="noop" />
                         <param name="onclick" value="RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Label],imdb_id=$INFO[ListItem.IMDBNumber])" />
                         <param name="visible" value="!Skin.HasSetting(VideoInfo.StudioMovies)" />
                     </include>
-
+-->
                     <!-- Images -->
                     <include content="Object_VideoInfo_CastList">
                         <param name="onup" value="9503" />
@@ -741,6 +749,17 @@
             <include>Defs_Hidden_Button</include>
         </control>
 
+
+		<!-- EXPERIMENT -->
+        <control type="button" id ="9998">
+            <description>Goto Series</description>
+            <label>Goto Series</label>
+            <onclick>Dialog.Close(all)</onclick>
+            <onclick condition="!String.IsEmpty(ListItem.DBID)">ActivateWindow(videos,videodb://tvshows/titles/$INFO[ListItem.TvShowDBID]/,return)</onclick>
+            <include>Defs_Hidden_Button</include>
+        </control>
+
+
         <control type="button" id="11">
             <description>Trailer button</description>
             <label>20410</label>
@@ -800,8 +819,10 @@
         <control type="button" id="9005">
             <label>$LOCALIZE[29915]</label>
             <include>Defs_Hidden_Button</include>
-            <onclick condition="String.IsEqual(ListItem.DbType,movie)">RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Title],imdb_id=$INFO[ListItem.IMDBNumber])</onclick>
-            <onclick condition="String.IsEqual(ListItem.DbType,tvshow) | String.IsEqual(ListItem.DbType,episode)">RunScript(script.extendedinfo,info=extendedtvinfo,name=$INFO[ListItem.TvShowTitle])</onclick>
+            <onclick condition="String.IsEqual(ListItem.DbType,movie)">noop</onclick>
+            <!-- <onclick condition="String.IsEqual(ListItem.DbType,movie)">RunScript(script.extendedinfo,info=extendedinfo,name=$INFO[ListItem.Title],imdb_id=$INFO[ListItem.IMDBNumber])</onclick> -->
+            <onclick condition="String.IsEqual(ListItem.DbType,tvshow) | String.IsEqual(ListItem.DbType,episode)">noop</onclick>
+            <!-- <onclick condition="String.IsEqual(ListItem.DbType,tvshow) | String.IsEqual(ListItem.DbType,episode)">RunScript(script.extendedinfo,info=extendedtvinfo,name=$INFO[ListItem.TvShowTitle])</onclick> -->
             <visible>System.hasAddon(script.extendedinfo) + [String.IsEqual(ListItem.DbType,movie) | String.IsEqual(ListItem.DbType,tvshow) | String.IsEqual(ListItem.DbType,episode)]</visible>
             <onclick>SetFocus(300)</onclick>
         </control>
@@ -948,7 +969,8 @@
                         <width>458</width>
                         <label>$LOCALIZE[31178]</label>
                         <onclick>SetFocus(9950)</onclick>
-                        <onclick>RunScript(script.extendedinfo,info=extendedactorinfo,name=$INFO[Container(50).ListItem.Label])</onclick>
+                        <onclick>noop</onclick>
+                        <!-- <onclick>RunScript(script.extendedinfo,info=extendedactorinfo,name=$INFO[Container(50).ListItem.Label])</onclick> -->
                         <include>Defs_Context_Button</include>
                     </control>
                 </control>
