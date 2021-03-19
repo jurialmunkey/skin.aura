@@ -123,13 +123,19 @@
         <value condition="Integer.IsGreater(ListItem.Property(UnWatchedEpisodes),0) + [Container.Content(tvshows) | Container.Content(seasons) | Window.IsVisible(Home)]">indicator/corner.png</value>
     </variable>
 
-    <variable name="Image_Poster">
+
+    <variable name="Image_Poster">        
         <value condition="Skin.HasSetting(SkinHelper.EnableAnimatedPosters) + !String.IsEmpty(ListItem.Art(animatedposter))">$INFO[ListItem.Art(animatedposter)]</value>
-        <!-- <value condition="Skin.HasSetting(SkinHelper.EnableAnimatedPosters) + !String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.Art.AnimatedPoster))">$INFO[Window(Home).Property(SkinHelper.ListItem.Art.AnimatedPoster)]</value> -->
-        <value condition="[Container.Content(seasons) | Container.Content(episodes)] + !String.IsEmpty(ListItem.Art(season.poster))">$INFO[ListItem.Art(season.poster)]</value>
-        <value condition="Container.Content(seasons) + !String.IsEmpty(ListItem.Icon)">$INFO[ListItem.Icon]</value>
-        <value condition="!String.IsEmpty(ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(tvshow.poster)]</value>
+        <value condition="!String.IsEmpty(ListItem.Art(season.poster))">$INFO[ListItem.Art(season.poster)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
+        <value condition="!String.IsEmpty(ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(tvshow.poster)]</value>
+        <value condition="String.IsEqual(ListItem.DBType,genre) | String.EndsWith(Container.FolderPath,Genres)">$VAR[ThumbImageGenres]</value>
+        <value condition="!String.IsEmpty(Container.Art(poster)) + Container.Content(episodes)">$INFO[Container.Art(poster)]</value>
+ 		<value condition="!String.IsEmpty(Container.Art(season.poster)) + Container.Content(episodes)">$INFO[Container.Art(season.poster)]</value>
+		<value condition="!String.IsEmpty(Container.Art(tvshow.poster)) + Container.Content(episodes)">$INFO[Container.Art(tvshow.poster)]</value>
+		<value condition="!String.IsEmpty(Container.Art(tvshow.poster)) + Container.Content(seasons) + Window.IsActive(movieinformation)">$INFO[Container.Art(tvshow.poster)]</value>
+		<value condition="!String.IsEmpty(ListItem.Art(tvshow.poster)) + !String.IsEqual(listitem.dbtype,season)">$INFO[ListItem.Art(tvshow.poster)]</value>
+
         <value>$INFO[ListItem.Icon]</value>
     </variable>
 

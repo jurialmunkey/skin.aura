@@ -1313,20 +1313,13 @@
     </include>
     <include name="View_Posters_Itemlayout_Artwork">
         <control type="group" description="ParentFolder and DefaultIcon">
-            <visible>ListItem.IsParentFolder | String.StartsWith(ListItem.Icon,Default) | ![!String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(season.poster))] | Container.Content(musicvideos)</visible>
+            <visible>ListItem.IsParentFolder | ![!String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(season.poster))] | Container.Content(musicvideos)</visible>
             <include>Defs_PosterBack</include>
-            <control type="image">
-                <bordersize>10</bordersize>
-                <aspectratio aligny="center" scalediffuse="false">keep</aspectratio>
-                <texture colordiffuse="PosterFront_70" background="true" diffuse="diffuse/widgetposter.png">$INFO[ListItem.Icon]</texture>
-                <visible>String.StartsWith(ListItem.Icon,Default)</visible>
-                <visible>![[Container.Content(genres) | [Container.Content(addons) + String.Contains(Container.FolderPath,Genres)]] | Container.Content(studios) | Container.Content(years) | Container.Content(directors) | Container.Content(countries) | Container.Content(tags) | Container.Content(playlists)] | ListItem.IsParentFolder</visible>
-            </control>
             <control type="image">
                 <bordersize>10</bordersize>
                 <aspectratio aligny="center" scalediffuse="false">scale</aspectratio>
                 <texture background="true" diffuse="diffuse/widgetposter.png">$INFO[ListItem.Icon]</texture>
-                <visible>!String.StartsWith(ListItem.Icon,Default) + !ListItem.IsParentFolder</visible>
+                <visible>!ListItem.IsParentFolder</visible>
                 <visible>![[Container.Content(genres) | [Container.Content(addons) + String.Contains(Container.FolderPath,Genres)]] | Container.Content(studios) | Container.Content(years) | Container.Content(directors) | Container.Content(countries) | Container.Content(tags) | Container.Content(playlists)]</visible>
             </control>
             <control type="image">
@@ -1366,7 +1359,6 @@
             <aspectratio scalediffuse="false">scale</aspectratio>
             <texture fallback="DefaultAddonNone.png" background="true" diffuse="diffuse/widgetposter.png">$VAR[Image_Poster]</texture>
             <visible>!ListItem.IsParentFolder</visible>
-            <visible>!String.StartsWith(ListItem.Icon,Default)</visible>
             <visible>[!String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(season.poster))]</visible>
             <visible>!Container.Content(musicvideos)</visible>
         </control>
@@ -1379,20 +1371,13 @@
 
     <include name="View_Posters_Focusedlayout_Artwork">
         <control type="group" description="ParentFolder and DefaultIcon">
-            <visible>ListItem.IsParentFolder | String.StartsWith(ListItem.Icon,Default) | Container.Content(musicvideos) | ![!String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(season.poster))]</visible>
+            <visible>ListItem.IsParentFolder | Container.Content(musicvideos) | ![!String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(season.poster))]</visible>
             <include>Defs_PosterBack</include>
-            <control type="image">
-                <bordersize>10</bordersize>
-                <aspectratio aligny="center" scalediffuse="false">keep</aspectratio>
-                <texture colordiffuse="PosterFront" background="true" diffuse="diffuse/widgetposter.png">$INFO[ListItem.Icon]</texture>
-                <visible>String.StartsWith(ListItem.Icon,Default)</visible>
-                <visible>![[Container.Content(genres) | [Container.Content(addons) + String.Contains(Container.FolderPath,Genres)]] | Container.Content(studios) | Container.Content(years) | Container.Content(directors) | Container.Content(countries) | Container.Content(tags) | Container.Content(playlists)] | ListItem.IsParentFolder</visible>
-            </control>
             <control type="image">
                 <bordersize>10</bordersize>
                 <aspectratio aligny="center" scalediffuse="false">scale</aspectratio>
                 <texture background="true" diffuse="diffuse/widgetposter.png">$INFO[ListItem.Icon]</texture>
-                <visible>!String.StartsWith(ListItem.Icon,Default) + !ListItem.IsParentFolder</visible>
+                <visible>!ListItem.IsParentFolder</visible>
                 <visible>![[Container.Content(genres) | [Container.Content(addons) + String.Contains(Container.FolderPath,Genres)]] | Container.Content(studios) | Container.Content(years) | Container.Content(directors) | Container.Content(countries) | Container.Content(tags) | Container.Content(playlists)]</visible>
             </control>
             <control type="image">
@@ -1433,7 +1418,6 @@
             <aspectratio scalediffuse="false">scale</aspectratio>
             <texture fallback="DefaultAddonNone.png" background="true" diffuse="diffuse/widgetposter.png">$VAR[Image_Poster]</texture>
             <visible>!ListItem.IsParentFolder</visible>
-            <visible>!String.StartsWith(ListItem.Icon,Default)</visible>
             <visible>[!String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(season.poster))]</visible>
             <visible>!Container.Content(musicvideos)</visible>
         </control>
