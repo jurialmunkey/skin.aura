@@ -1,4 +1,42 @@
-Working towards getting this running on Matrix
+To use this skin:
+
+Install each of the below in this order (be sure to wait for each to install before moving on to the next):
+
+
+script.module.cherrypy
+https://github.com/kodi-community-addons/script.module.cherrypy/archive/master.zip
+
+script.module.musicbrainz
+https://github.com/kodi-community-addons/script.module.musicbrainz/archive/master.zip
+
+script.module.thetvdb
+https://github.com/kodi-community-addons/script.module.thetvdb/archive/master.zip
+
+script.module.metadatautils
+https://github.com/kodi-community-addons/script.module.metadatautils/archive/master.zip
+
+script.skin.helper.service
+https://github.com/kodi-community-addons/script.skin.helper.service/archive/master.zip
+
+script.skin.helper.widgets
+https://github.com/kodi-community-addons/script.skin.helper.widgets/archive/master.zip
+
+script.skin.helper.skinbackup
+https://github.com/kodi-community-addons/script.skin.helper.skinbackup/archive/master.zip
+
+script.skin.helper.backgrounds
+https://github.com/kodi-community-addons/script.skin.helper.backgrounds/archive/master.zip
+
+script.tv.show.next.aired
+https://github.com/kodi-community-addons/script.tv.show.next.aired/archive/master.zip
+
+Once the above are installed, then download the Aura skin from my repository (new version that has requirements for the above is live), it will take time to install, please wait until completed.
+
+Once installed, you can switch to Aura skin and try it out.
+
+Still many fine details to work out, but in general it is useable.
+
+------------------
 
 
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
