@@ -123,18 +123,24 @@
         <value condition="Integer.IsGreater(ListItem.Property(UnWatchedEpisodes),0) + [Container.Content(tvshows) | Container.Content(seasons) | Window.IsVisible(Home)]">indicator/corner.png</value>
     </variable>
 
+    <variable name="ThumbImageGenres">
+        <value condition="[Window.IsVisible(home) | Window.IsVisible(MyVideoNav.xml)] + !String.IsEmpty(Skin.String(genre.icons.path)) + String.IsEqual(Skin.String(genre.icons.ext),.jpg)">$INFO[Skin.String(genre.icons.path)]$INFO[ListItem.Label,,.jpg]</value>
+        <value condition="[Window.IsVisible(home) | Window.IsVisible(MyVideoNav.xml)] + !String.IsEmpty(Skin.String(genre.icons.path)) + String.IsEqual(Skin.String(genre.icons.ext),.png)">$INFO[Skin.String(genre.icons.path)]$INFO[ListItem.Label,,.png]</value>
+        <value condition="Container.Content(genres) + Window.IsVisible(MyMusicNav.xml) + !String.IsEmpty(Skin.String(genre.music.path)) + String.IsEqual(Skin.String(genre.music.ext),.jpg)">$INFO[Skin.String(genre.music.path)]$INFO[ListItem.Label,,.jpg]</value>
+        <value>DefaultFolder.png</value>
+    </variable>
 
     <variable name="Image_Poster">        
         <value condition="Skin.HasSetting(SkinHelper.EnableAnimatedPosters) + !String.IsEmpty(ListItem.Art(animatedposter))">$INFO[ListItem.Art(animatedposter)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(poster))">$INFO[ListItem.Art(poster)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(tvshow.poster))">$INFO[ListItem.Art(tvshow.poster)]</value>
         <value condition="!String.IsEmpty(ListItem.Art(season.poster))">$INFO[ListItem.Art(season.poster)]</value>
-        <value condition="String.IsEqual(ListItem.DBType,genre) | String.EndsWith(Container.FolderPath,Genres)">$VAR[ThumbImageGenres]</value>
         <value condition="!String.IsEmpty(Container.Art(poster)) + Container.Content(episodes)">$INFO[Container.Art(poster)]</value>
  		<value condition="!String.IsEmpty(Container.Art(season.poster)) + Container.Content(episodes)">$INFO[Container.Art(season.poster)]</value>
 		<value condition="!String.IsEmpty(Container.Art(tvshow.poster)) + Container.Content(episodes)">$INFO[Container.Art(tvshow.poster)]</value>
 		<value condition="!String.IsEmpty(Container.Art(tvshow.poster)) + Container.Content(seasons) + Window.IsActive(movieinformation)">$INFO[Container.Art(tvshow.poster)]</value>
 		<value condition="!String.IsEmpty(Container.Art(tvshow.poster)) + !String.IsEqual(listitem.dbtype,season)">$INFO[Container.Art(tvshow.poster)]</value>
+		<value condition="String.IsEqual(ListItem.DBType,genre) | String.EndsWith(Container.FolderPath,Genres)">$VAR[ThumbImageGenres]</value>
         <value>$INFO[ListItem.Icon]</value>
     </variable>
 

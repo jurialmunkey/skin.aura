@@ -790,7 +790,7 @@
                     </control>
 
                     <control type="group">
-                        <visible>$PARAM[container]ListItem.IsParentFolder | String.StartsWith($PARAM[container]ListItem.Icon,Default)</visible>
+                        <visible>ListItem.IsParentFolder</visible>
   
                         <control type="image">
                             <aspectratio aligny="center" scalediffuse="false">center</aspectratio>
