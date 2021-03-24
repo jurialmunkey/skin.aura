@@ -464,7 +464,8 @@
                         <bottom>42</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_100</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -477,7 +478,7 @@
                         <bottom>18</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_70</textcolor>
                         <label>$PARAM[label2]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -490,7 +491,7 @@
                         <bottom>20</bottom>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <font>font_tiny</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_70</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[textonly]</visible>
@@ -549,7 +550,7 @@
                         <bottom>42</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_100</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -562,7 +563,7 @@
                         <bottom>18</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_70</textcolor>
                         <label>$PARAM[label2]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -575,7 +576,7 @@
                         <bottom>20</bottom>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <font>font_tiny</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>Selected</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[textonly]</visible>
