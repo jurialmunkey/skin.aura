@@ -325,9 +325,11 @@
                                 <onleft>SetFocus(50)</onleft>
                                 <onleft>Left</onleft>
                                 <onleft>SetFocus(9950)</onleft>
+                                <onleft>SetFocus(50)</onleft>
                                 <onright>SetFocus(50)</onright>
                                 <onright>Right</onright>
                                 <onright>SetFocus(9950)</onright>
+                                <onright>SetFocus(50)</onright>
                                 <onclick>SetFocus(9959)</onclick>
                             </control>
                             <control type="list" id="50">
