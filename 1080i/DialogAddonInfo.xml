@@ -230,6 +230,7 @@
             <label>5</label>
             <include>Defs_Hidden_Button</include>
             <visible>Control.IsEnabled(9)</visible>
+            <onfocus>SetFocus(300)</onfocus>
         </control>
         <control type="button" id ="10">
             <label>$LOCALIZE[39024]</label>
