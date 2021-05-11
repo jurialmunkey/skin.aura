@@ -2,6 +2,7 @@
 <!-- Foundation -->
 <window id="146">
     <defaultcontrol always="true">300</defaultcontrol>
+    <onload>AlarmClock(defaultcontrol,SetFocus(300),00:00,silent)</onload>
     <controls>
         
         <control type="list" id="300">
@@ -230,7 +231,6 @@
             <label>5</label>
             <include>Defs_Hidden_Button</include>
             <visible>Control.IsEnabled(9)</visible>
-            <onfocus>SetFocus(300)</onfocus>
         </control>
         <control type="button" id ="10">
             <label>$LOCALIZE[39024]</label>
