@@ -38,10 +38,10 @@ Once installed, you can switch to Aura skin and try it out.
 
 RottenTomatoes and Metacritic Setup via SkinHelper and OMDB api
 
-1. Install the beta version of skin helper from marcelveldt's beta repository (and update all relevant dependencies e.g. metadatautils and simplecache).
-https://github.com/kodi-community-addons/repository.marcelveldt/archive/refs/heads/master.zip
+1. Install the beta version of skin helper from marcelveldt's beta repository (and update all relevant dependencies e.g. metadatautils , skin helper and simplecache).
+https://github.com/kodi-community-addons/repository.marcelveldt/raw/master/repository.marcelveldt-1.0.3.zip
 
-( or download zip direct from: https://github.com/kodi-community-addons/repository.marcelveldt )
+
 
 2. Go to omdb and get an API key. If you are lucky you can get a free key, but please consider donating to omdb via Patreon to keep omdb alive
 http://www.omdbapi.com/apikey.aspx
