@@ -34,6 +34,32 @@ Once the above are installed, then download the Aura skin from my repository (ne
 
 Once installed, you can switch to Aura skin and try it out.
 
+-----------------------------
+
+RottenTomatoes and Metacritic Setup via SkinHelper and OMDB api
+
+1. Install the beta version of skin helper from marcelveldt's beta repository (and update all relevant dependencies e.g. metadatautils and simplecache).
+https://github.com/kodi-community-addons/repository.marcelveldt/archive/refs/heads/master.zip
+
+( or download zip direct from: https://github.com/kodi-community-addons/repository.marcelveldt )
+
+2. Go to omdb and get an API key. If you are lucky you can get a free key, but please consider donating to omdb via Patreon to keep omdb alive
+http://www.omdbapi.com/apikey.aspx
+
+3. Once you have an API key, go to Skin Settings > Manage Dependencies and click "script.module.metadatautils" to open it's settings
+
+4. Go to the API section of the settings and enter your omdb api key, then press OK to save your settings.
+
+5. Close Kodi and delete simplecache.db from kodi/userdata/addon_data/script.module.simplecache/simplecache.db - this step is not necessary, but it will force skin helper to rebuild its info cache and retrieve the ratings.
+
+6. Open kodi and your ratings should now work. It can take a little while for skin helper to retrieve ratings for the focused item the first time around, so make sure you give it a little bit of time before reporting problems.
+
+7. SkinHelper is heavily rate limited if you do not also have api keys for TMDb and Fanart.tv - I recommend also getting api keys for these.
+
+
+------------------
+
+
 Still many fine details to work out, but in general it is useable.
 
 ------------------
