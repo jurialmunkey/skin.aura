@@ -1162,7 +1162,7 @@
                     <width>32</width>
                     <height>32</height>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/metacritic.png</texture>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.MetaCritic.Rating))</visible>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.metacritic.rating))</visible>
                     <visible>$PARAM[metacritic]</visible>
                     <visible>!Skin.HasSetting(Ratings.Metacritic)</visible>
                 </control>
@@ -1173,8 +1173,8 @@
                     <height>28</height>
                     <align>right</align>
                     <font>font_tiny</font>
-                    <label>$INFO[Window(Home).Property(SkinHelper.ListItem.MetaCritic.Rating), ,%   ]</label>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.MetaCritic.Rating))</visible>
+                    <label>$INFO[Window(Home).Property(SkinHelper.ListItem.metacritic.rating), ,%   ]</label>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.metacritic.rating))</visible>
                     <visible>$PARAM[metacritic]</visible>
                     <visible>!Skin.HasSetting(Ratings.Metacritic)</visible>
                 </control>
@@ -1225,8 +1225,8 @@
                     <width>32</width>
                     <height>32</height>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/popcorn.png</texture>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter))</visible>
-                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Us​erMeter),59)</visible>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.usermeter))</visible>
+                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.usermeter),59)</visible>
                     <visible>$PARAM[usermeter]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
@@ -1235,8 +1235,8 @@
                     <width>32</width>
                     <height>32</height>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/spilt.png</texture>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter))</visible>
-                    <visible>!Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Us​erMeter),59)</visible>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.usermeter))</visible>
+                    <visible>!Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.usermeter),59)</visible>
                     <visible>$PARAM[usermeter]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
@@ -1247,8 +1247,8 @@
                     <height>28</height>
                     <align>right</align>
                     <font>font_tiny</font>
-                    <label>$INFO[Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter), ,%   ]</label>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.UserMeter))</visible>
+                    <label>$INFO[Window(Home).Property(SkinHelper.ListItem.rottentomatoes.usermeter), ,%   ]</label>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.usermeter))</visible>
                     <visible>$PARAM[usermeter]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
@@ -1256,8 +1256,8 @@
                     <width>32</width>
                     <height>32</height>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/rtrotten.png</texture>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating))</visible>
-                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Rating),0) + !Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Rating),59)</visible>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.rating))</visible>
+                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.rating),0) + !Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.rating),59)</visible>
                     <visible>$PARAM[rottentomatoes]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
@@ -1265,8 +1265,8 @@
                     <width>32</width>
                     <height>32</height>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/rtfresh.png</texture>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating))</visible>
-                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Rating),59) + !Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Rating),74)</visible>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.rating))</visible>
+                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.rating),59) + !Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.rating),74)</visible>
                     <visible>$PARAM[rottentomatoes]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
@@ -1275,8 +1275,8 @@
                     <height>32</height>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/rtfresh.png</texture>
                     <texture colordiffuse="$PARAM[colordiffuse]">flags/$PARAM[directory]/ratings/certified.png</texture>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating))</visible>
-                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.RottenTomatoes.Rating),74)</visible>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.rating))</visible>
+                    <visible>Integer.IsGreater(Window(home).Property(SkinHelper.ListItem.rottentomatoes.rating),74)</visible>
                     <visible>$PARAM[rottentomatoes]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
@@ -1287,8 +1287,8 @@
                     <height>28</height>
                     <align>right</align>
                     <font>font_tiny</font>
-                    <label>$INFO[Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating), ,%   ]</label>
-                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.RottenTomatoes.Rating))</visible>
+                    <label>$INFO[Window(Home).Property(SkinHelper.ListItem.rottentomatoes.rating), ,%   ]</label>
+                    <visible>!String.IsEmpty(Window(Home).Property(SkinHelper.ListItem.rottentomatoes.rating))</visible>
                     <visible>$PARAM[rottentomatoes]</visible>
                     <visible>!Skin.HasSetting(Ratings.RottenTomatoes)</visible>
                 </control>
