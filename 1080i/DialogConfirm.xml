@@ -2,7 +2,7 @@
 <!-- Foundation -->
 <window id="101">
     <onunload condition="!Skin.HasSetting(WidgetsInit)">RunScript(script.skinshortcuts,type=manage&amp;group=mainmenu)</onunload>
-    <onunload condition="String.IsEmpty(Window(Home).Property(SkinInitStarted))">ReplaceWindow(Startup.xml)</onunload>
+    <!-- <onunload condition="String.IsEmpty(Window(Home).Property(SkinInitStarted))">ReplaceWindow(Startup.xml)</onunload> -->
     <!-- <onunload condition="String.IsEmpty(Window(Home).Property(SkinInitStarted))">ReplaceWindow(1117)</onunload> -->
     <controls>
 

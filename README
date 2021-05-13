@@ -1,3 +1,70 @@
+To use this skin:
+
+Install each of the below in this order (be sure to wait for each to install before moving on to the next):
+
+
+script.module.cherrypy
+https://github.com/kodi-community-addons/script.module.cherrypy/archive/master.zip
+
+script.module.musicbrainz
+https://github.com/kodi-community-addons/script.module.musicbrainz/archive/master.zip
+
+script.module.thetvdb
+https://github.com/kodi-community-addons/script.module.thetvdb/archive/master.zip
+
+script.module.metadatautils
+https://github.com/kodi-community-addons/script.module.metadatautils/archive/master.zip
+
+script.skin.helper.service
+https://github.com/kodi-community-addons/script.skin.helper.service/archive/master.zip
+
+script.skin.helper.widgets
+https://github.com/kodi-community-addons/script.skin.helper.widgets/archive/master.zip
+
+script.skin.helper.skinbackup
+https://github.com/kodi-community-addons/script.skin.helper.skinbackup/archive/master.zip
+
+script.skin.helper.backgrounds
+https://github.com/kodi-community-addons/script.skin.helper.backgrounds/archive/master.zip
+
+script.tv.show.next.aired
+https://github.com/kodi-community-addons/script.tv.show.next.aired/archive/master.zip
+
+Once the above are installed, then download the Aura skin from my repository (new version that has requirements for the above is live), it will take time to install, please wait until completed.
+
+Once installed, you can switch to Aura skin and try it out.
+
+-----------------------------
+
+RottenTomatoes and Metacritic Setup via SkinHelper and OMDB api
+
+1. Install the beta version of skin helper from marcelveldt's beta repository (and update all relevant dependencies e.g. metadatautils , skin helper and simplecache).
+https://github.com/kodi-community-addons/repository.marcelveldt/raw/master/repository.marcelveldt-1.0.3.zip
+
+
+
+2. Go to omdb and get an API key. If you are lucky you can get a free key, but please consider donating to omdb via Patreon to keep omdb alive
+http://www.omdbapi.com/apikey.aspx
+
+3. Once you have an API key, go to Skin Settings > Manage Dependencies and click "script.module.metadatautils" to open it's settings
+
+4. Go to the API section of the settings and enter your omdb api key, then press OK to save your settings.
+
+5. Close Kodi and delete simplecache.db from kodi/userdata/addon_data/script.module.simplecache/simplecache.db - this step is not necessary, but it will force skin helper to rebuild its info cache and retrieve the ratings.
+
+6. Open kodi and your ratings should now work. It can take a little while for skin helper to retrieve ratings for the focused item the first time around, so make sure you give it a little bit of time before reporting problems.
+
+7. SkinHelper is heavily rate limited if you do not also have api keys for TMDb and Fanart.tv - I recommend also getting api keys for these.
+
+
+------------------
+
+
+Still many fine details to work out, but in general it is useable.
+
+------------------
+
+
 This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 Unported License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/
 or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.

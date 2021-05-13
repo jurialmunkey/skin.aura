@@ -202,6 +202,22 @@
                 <onclick>SendClick(8)</onclick>
                 <visible>Control.IsEnabled(8)</visible>
             </item>
+ 
+ 
+            <!-- EXPERIMENT  -->
+            <item>
+                <label>Series List</label>
+                <icon>special://skin/extras/icons/folder.png</icon>
+                <onclick>Dialog.Close(all)</onclick>
+                <onclick condition="!String.IsEmpty(ListItem.DBID)">ActivateWindow(videos,videodb://tvshows/titles/$INFO[ListItem.TvShowDBID]/$INFO[ListItem.Season]/,return)</onclick>
+                <visible>Control.IsEnabled(8)</visible>
+                <visible>String.IsEqual(ListItem.DBType,episode)</visible>
+            </item> 
+ 
+
+ 
+ 
+ 
             <!-- CinemaVision -->
             <item>
                  <label>$LOCALIZE[31315]</label>
@@ -228,6 +244,7 @@
                 <onclick>SetFocus(9601)</onclick>
             </item>
             <!-- Info -->
+<!--
             <item>
                 <label>$LOCALIZE[31285]</label>
                 <icon>special://skin/extras/icons/infobubble.png</icon>
@@ -243,6 +260,8 @@
                 <onclick>Close</onclick>
                 <onclick>RunScript(plugin.video.specialfeatures,listitem)</onclick>
             </item>
+-->
+
             <!-- User Rating -->
             <item>
                 <label>$LOCALIZE[31310]$INFO[ListItem.UserRating,: ,]</label>
@@ -251,6 +270,8 @@
                 <visible>Control.IsEnabled(7)</visible>
             </item>
             <!-- Art -->
+
+<!--
             <item>
                 <label>$INFO[Control.GetLabel(10)]</label>
                 <icon>special://skin/extras/icons/paintbrush.png</icon>
@@ -294,6 +315,8 @@
                 <visible>Control.IsEnabled(6)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+-->
+
         </content>
     </include>
 

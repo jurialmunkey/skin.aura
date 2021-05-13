@@ -271,7 +271,7 @@
                 <align>center</align>
                 <font>font_small</font>
                 <textcolor>panel_fg_100</textcolor>
-                <label fallback="$LOCALIZE[31411]">$PARAM[label]</label>
+                <label fallback="31411">$PARAM[label]</label>
             </control>
             <control type="label">
                 <centertop>75%</centertop>
@@ -291,7 +291,7 @@
                 <aligny>top</aligny>
                 <font>font_small</font>
                 <textcolor>panel_fg_100</textcolor>
-                <label fallback="$LOCALIZE[31411]">$INFO[Window(Weather).Property($PARAM[day].Outlook),[CAPITALIZE],[/CAPITALIZE]]</label>
+                <label fallback="31411">$INFO[Window(Weather).Property($PARAM[day].Outlook),[CAPITALIZE],[/CAPITALIZE]]</label>
             </control>
         </control>
     </include>
