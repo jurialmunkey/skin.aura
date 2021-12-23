@@ -39,12 +39,12 @@ msgstr "Aktuelle Bedingungen"
 #: /1080i/Includes_Furniture.xml
 msgctxt "#31004"
 msgid "Sunset at"
-msgstr "Sonnenuntergang um"
+msgstr "Sonnenuntg.:"
 
 #: /1080i/Includes_Furniture.xml
 msgctxt "#31005"
 msgid "Sunrise at"
-msgstr "Sonnenaufgang um"
+msgstr "Sonnenaufg.:"
 
 #: /1080i/Includes_Furniture.xml
 msgctxt "#31006"
@@ -59,7 +59,7 @@ msgstr "Wettervorhersage für"
 #: /1080i/SkinSettings.xml
 msgctxt "#31008"
 msgid "Install weather fanart"
-msgstr "Wetter Fanart installieren"
+msgstr "Wetter-Fanart installieren"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31009"
@@ -69,7 +69,7 @@ msgstr "Fertiggestellt"
 #: /1080i/SkinSettings.xml
 msgctxt "#31010"
 msgid "Weather fanart successfully installed"
-msgstr "Wetter Fanart erfolgreich installiert"
+msgstr "Wetter-Fanart erfolgreich installiert"
 
 #: /1080i/MyWeather.xml
 msgctxt "#31011"
@@ -79,7 +79,7 @@ msgstr "Standard Wetter-Icons"
 #: /1080i/MyWeather.xml
 msgctxt "#31012"
 msgid "Weather fanart installed"
-msgstr "Wetter Fanart installiert"
+msgstr "Wetter-Fanart installiert"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31013"
@@ -89,12 +89,12 @@ msgstr "Wetter-Icons festlegen"
 #: /1080i/MyVideoNav.xml
 msgctxt "#31014"
 msgid "Extra fanart"
-msgstr "Extra Fanart"
+msgstr "Extra-Fanart"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31015"
 msgid "Minimal busy loader"
-msgstr "Minimaler Busy-Loader"
+msgstr "Minimale Ladeanzeige"
 
 #: /1080i/DialogVideoInfo.xml
 msgctxt "#31016"
@@ -129,7 +129,7 @@ msgstr "Farben"
 #: /1080i/SkinSettings.xml
 msgctxt "#31022"
 msgid "Animated artwork"
-msgstr "Animiertes  Artwork"
+msgstr "Animiertes Artwork"
 
 #: /1080i/Includes_Statusbar.xml
 msgctxt "#31023"
@@ -149,7 +149,7 @@ msgstr "Von"
 #: /1080i/SkinSettings.xml
 msgctxt "#31026"
 msgid "Alphabet strip"
-msgstr "Alphabetische Leiste"
+msgstr "Alphabet-Leiste"
 
 #: /1080i/SkinSettings.xml
 msgctxt "#31027"
