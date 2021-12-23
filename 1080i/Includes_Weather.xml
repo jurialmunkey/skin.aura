@@ -99,7 +99,7 @@
                         <aligny>top</aligny>
                         <font>font_small</font>
                         <textcolor>main_fg_100</textcolor>
-                        <label>$INFO[Window(Weather).Property(Current.Humidity),, [LOWERCASE]$LOCALIZE[406][/LOWERCASE]]</label>
+                        <label>$INFO[Window(Weather).Property(Current.Humidity),, $LOCALIZE[406]]</label>
                     </control>
                 </control>
             </control>
@@ -291,7 +291,7 @@
                 <aligny>top</aligny>
                 <font>font_small</font>
                 <textcolor>panel_fg_100</textcolor>
-                <label fallback="31411">$INFO[Window(Weather).Property($PARAM[day].Outlook),[CAPITALIZE],[/CAPITALIZE]]</label>
+                <label fallback="31411">$INFO[Window(Weather).Property($PARAM[day].Outlook),,]</label>
             </control>
         </control>
     </include>
