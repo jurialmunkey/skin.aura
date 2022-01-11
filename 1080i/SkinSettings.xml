@@ -950,7 +950,7 @@
                             <include>Defs_Settings_Button</include>
                         </control>
 
-<!--
+
                         <control type="radiobutton" id="9817">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>resource.images.moviecountryicons.maps</label>
@@ -979,7 +979,7 @@
                             <include>Defs_Settings_Button</include>
                         </control>
 
--->
+
                         <control type="radiobutton" id="9820">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>resource.images.weathericons.white</label>

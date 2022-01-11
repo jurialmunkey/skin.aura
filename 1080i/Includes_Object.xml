@@ -790,7 +790,7 @@
                     </control>
 
                     <control type="group">
-                        <visible>ListItem.IsParentFolder</visible>
+                        <visible>true</visible>
   
                         <control type="image">
                             <aspectratio aligny="center" scalediffuse="false">center</aspectratio>

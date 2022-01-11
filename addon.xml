@@ -5,6 +5,7 @@
         <import addon="script.globalsearch" version="9.0.5"/>
         <import addon="script.image.resource.select" version="0.0.5"/>
         <import addon="resource.images.weathericons.white" version="0.0.6"/>
+        <import addon="resource.images.moviegenreicons.transparent" version="0.0.6" />
         <import addon="script.skin.helper.colorpicker" version="1.0.11"/>
         <import addon="script.embuary.info" version="0.0.1"/>
         <import addon="script.embuary.helper" version="1.2.14"/>
