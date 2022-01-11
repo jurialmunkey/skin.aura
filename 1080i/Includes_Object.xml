@@ -777,10 +777,10 @@
                         <control type="image">
                             <aspectratio aligny="center" scalediffuse="false">scale</aspectratio>
                             <texture background="true" fallback="DefaultAddonImages.png" diffuse="diffuse/bigposter.png">$PARAM[variable]</texture>
-                            <visible>[!ListItem.IsParentFolder + [!String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(season.poster))]]</visible>
+                            <visible>[!$PARAM[container]ListItem.IsParentFolder + !String.StartsWith($PARAM[container]ListItem.Icon,Default) + [!String.IsEmpty($PARAM[container]ListItem.Art(tvshow.poster)) | !String.IsEmpty($PARAM[container]ListItem.Art(poster)) | !String.IsEmpty($PARAM[container]ListItem.Art(season.poster))]]</visible>
                         </control>
                         <control type="group">
-                            <visible>[!ListItem.IsParentFolder + ![!String.IsEmpty(ListItem.Art(tvshow.poster)) | !String.IsEmpty(ListItem.Art(poster)) | !String.IsEmpty(ListItem.Art(season.poster))]]</visible>
+                            <visible>[[!$PARAM[container]ListItem.IsParentFolder + !String.StartsWith($PARAM[container]ListItem.Icon,Default)] + ![!String.IsEmpty($PARAM[container]ListItem.Art(tvshow.poster)) | !String.IsEmpty($PARAM[container]ListItem.Art(poster)) | !String.IsEmpty($PARAM[container]ListItem.Art(season.poster))]]</visible>
         
                             <control type="image">
                                 <aspectratio aligny="center" scalediffuse="false">$PARAM[aspect]</aspectratio>
@@ -790,7 +790,7 @@
                     </control>
 
                     <control type="group">
-                        <visible>true</visible>
+                        <visible>$PARAM[container]ListItem.IsParentFolder | String.StartsWith($PARAM[container]ListItem.Icon,Default)</visible>
   
                         <control type="image">
                             <aspectratio aligny="center" scalediffuse="false">center</aspectratio>
