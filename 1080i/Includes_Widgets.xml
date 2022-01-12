@@ -1100,7 +1100,7 @@
                     <bottom>10</bottom>
                     <left>10</left>
                     <include condition="!$PARAM[poster] + !$PARAM[landscape] + !$PARAM[text]">Widget_Items_Textbox</include>
-                    <include condition="$PARAM[genres]">Widget_Items_Genres</include>
+                    <include condition="true">Widget_Items_Genres</include>
                     <include condition="$PARAM[studios] + !$PARAM[genres]">Widget_Items_Studios</include>
                     <include condition="$PARAM[text] + !$PARAM[genres] + !$PARAM[studios]">Widget_Items_Text</include>
                     <include condition="$PARAM[square] + !$PARAM[studios] + !$PARAM[genres] + !$PARAM[text]">Widget_Items_Square</include>
@@ -1144,7 +1144,7 @@
                     <include condition="!$PARAM[poster] + !$PARAM[landscape] + !$PARAM[text]" content="Widget_Items_Textbox">
                         <param name="color" value="PosterFront" />
                     </include>
-                    <include condition="$PARAM[genres]" content="Widget_Items_Genres">
+                    <include condition="true" content="Widget_Items_Genres">
                         <param name="color" value="PosterFront" />
                     </include>
                     <include condition="$PARAM[studios] + !$PARAM[genres]" content="Widget_Items_Studios">
