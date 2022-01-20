@@ -78,7 +78,7 @@
                 <param name="aspect" value="Container(300).ListItem.Property(widgetAspect.Widget2)" />
                 <param name="label" value="$SKINSHORTCUTS[widgetName]" />
                 <param name="visible" value="String.IsEqual(Container(300).ListItem.Property(id),$SKINSHORTCUTS[id])" />
-                <param name="genres" value="$PYTHON['true' if widgetContent in 'tvGenres' or widgetContent in 'movieGenres' or widgetContent in 'TvGenres' or widgetContent in 'MovieGenres' or widgetContent in 'genres.xml' or widgetContent in 'Genres.xsp' or widgetContent in 'genres.xsp' else 'false']" />
+                <param name="genres" value="true" />
                 <param name="studios" value="$PYTHON['true' if widgetContent in 'studios.xml' or widgetContent in 'Studios.xsp' or widgetContent in 'studios.xsp' else 'false']" />
                 <param name="text" value="$PYTHON['true' if widgetContent in 'years.xml' or widgetContent in 'country.xml' or widgetContent in 'tags.xml' or widgetContent in 'directors.xml' or widgetContent in 'special://videoplaylists/' or widgetContent in 'years.xsp' or widgetContent in 'countries.xsp' or widgetContent in 'tags.xsp' or widgetContent in 'directors.xsp' or widgetContent in 'Years.xsp' or widgetContent in 'Countries.xsp' or widgetContent in 'Tags.xsp' or widgetContent in 'Directors.xsp' else 'false']" />
             </include>
