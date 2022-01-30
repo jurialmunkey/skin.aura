@@ -12,7 +12,7 @@
         
         <control type="label" id="29"><visible>false</visible></control>
         
-        <include>View_PVRGuide</include>
+        <include>View_PVRGuide_WithInfo</include>
 
         <include>Topbar</include>
 

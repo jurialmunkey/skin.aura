@@ -564,10 +564,10 @@
                     <texture>$INFO[$PARAM[artwork]]</texture>
                 </control>
                 <control type="group">
-                    <height>430</height>
+                    <height>400</height>
                     <top>view_top</top>
                     <right>view_pad</right>
-                    <width>765</width>
+                    <width>750</width>
                     <control type="group">
                         <left>-10</left>
                         <right>-10</right>
@@ -652,7 +652,7 @@
             </control>
         </control>
         <control type="label">
-            <label>$INFO[ListItem.ChannelNumber,[COLOR=main_fg_100],. [/COLOR]]$INFO[ListItem.ChannelName,[COLOR=main_fg_100],[/COLOR]]$INFO[ListItem.StartTime,  |  [COLOR=main_fg_100]$LOCALIZE[19126] ,[/COLOR]]$INFO[ListItem.EndTime,  |  [COLOR=main_fg_100]$LOCALIZE[19127] ,[/COLOR]]</label>
+            <label>$INFO[ListItem.Year]$INFO[ListItem.ChannelNumber,  |  [COLOR=main_fg_100],. [/COLOR]]$INFO[ListItem.ChannelName,[COLOR=main_fg_100],[/COLOR]]$INFO[ListItem.StartTime,  |  [COLOR=main_fg_100]$LOCALIZE[19126] ,[/COLOR]]$INFO[ListItem.EndTime,  |  [COLOR=main_fg_100]$LOCALIZE[19127] ,[/COLOR]]</label>
             <height>75</height>
             <aligny>top</aligny>
             <textcolor>$VAR[ColorHighlight]</textcolor>
