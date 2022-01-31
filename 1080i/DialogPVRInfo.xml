@@ -108,13 +108,13 @@
                 <height>60</height>
                 <orientation>horizontal</orientation>
                 <itemgap>14</itemgap>
-                <control type="button" id="4">
-                    <label>19003</label>
+                <control type="button" id="5">
+                    <label>19165</label>
                     <include>Dialog_Info_Buttons</include>
                     <visible>Window.IsActive(PVRGuideInfo)</visible>
                 </control>
-                <control type="button" id="5">
-                    <label>19165</label>
+                <control type="button" id="4">
+                    <label>19003</label>
                     <include>Dialog_Info_Buttons</include>
                     <visible>Window.IsActive(PVRGuideInfo)</visible>
                 </control>
