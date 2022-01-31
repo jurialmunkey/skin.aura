@@ -75,9 +75,30 @@
                         <textcolor>dialog_fg_70</textcolor>
                         <font>font_small</font>
                         <aligny>top</aligny>
-                        <label fallback="19055">$INFO[ListItem.ChannelName]$INFO[ListItem.ChannelNumber, (,)]</label>
+                        <label fallback="19055">$INFO[ListItem.ChannelName]$INFO[ListItem.ChannelNumberLabel, (,)]</label>
                     </control>
                 </control>
+                <!-- Cast -->
+                <control type="group">
+                    <height>50</height>
+                    <control type="label">
+                        <left>0</left>
+                        <width>160</width>
+                        <align>right</align>
+                        <textcolor>dialog_fg_30</textcolor>
+                        <font>font_small</font>
+                        <label>$LOCALIZE[206]</label>
+                        <aligny>top</aligny>
+                    </control>
+                    <control type="label">
+                        <left>176</left>
+                        <textcolor>dialog_fg_70</textcolor>
+                        <font>font_small</font>
+                        <aligny>top</aligny>
+                        <label fallback="19055">$INFO[ListItem.Cast]</label>
+                    </control>
+                </control>
+
                 <!-- Plot -->
                 <control type="group">
                     <height>250</height>

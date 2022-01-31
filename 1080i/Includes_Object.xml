@@ -552,7 +552,6 @@
         <value>Highlight2</value>
     </variable>
     <include name="Object_PVR_Info">
-        <param name="artwork" default="Window(Home).Property(TMDBHelper.ListItem.Fanart)" />
         <param name="fallback" default="ListItem.Icon" />
         <definition>
             <control type="group">
