@@ -631,6 +631,7 @@
     </include>
 
     <include name="Object_PVR_Info_Content">
+
         <control type="group">
             <height>80</height>
             <control type="label">
@@ -652,7 +653,7 @@
         </control>
         <control type="label">
             <label>$INFO[ListItem.Year]$INFO[ListItem.ChannelNumber,  |  [COLOR=main_fg_100],. [/COLOR]]$INFO[ListItem.ChannelName,[COLOR=main_fg_100],[/COLOR]]$INFO[ListItem.StartTime,  |  [COLOR=main_fg_100]$LOCALIZE[19126] ,[/COLOR]]$INFO[ListItem.EndTime,  |  [COLOR=main_fg_100]$LOCALIZE[19127] ,[/COLOR]]</label>
-            <height>75</height>
+            <height>55</height>
             <aligny>top</aligny>
             <textcolor>$VAR[ColorHighlight]</textcolor>
             <font>font_small</font>
@@ -660,14 +661,39 @@
         </control>
         <control type="label">
             <label>S$INFO[ListItem.Season]E$INFO[ListItem.Episode]$INFO[ListItem.ChannelNumber,  |  [COLOR=main_fg_100],. [/COLOR]]$INFO[ListItem.ChannelName,[COLOR=main_fg_100],[/COLOR]]$INFO[ListItem.StartTime,  |  [COLOR=main_fg_100]$LOCALIZE[19126] ,[/COLOR]]$INFO[ListItem.EndTime,  |  [COLOR=main_fg_100]$LOCALIZE[19127] ,[/COLOR]]</label>
-            <height>75</height>
+            <height>55</height>
             <aligny>top</aligny>
             <textcolor>$VAR[ColorHighlight]</textcolor>
             <font>font_small</font>
             <visible>[!String.IsEmpty(ListItem.Title) | !String.IsEmpty(ListItem.ChannelNumber)] + !String.IsEmpty(ListItem.Season)</visible>
         </control>
+
+
+        <control type="group">
+            <top>5</top>
+            <left>256</left>
+            <width>750</width>
+            <height>45</height>
+            <animation effect="slide" end="-256" condition="Skin.HasSetting(DisableStarRating)">Conditional</animation>
+            <include content="Object_Ratings" condition="true">                            
+                <param name="directory" value="color" />
+                <param name="align" value="left" />
+                <param name="width" value="750" />
+                <param name="rottentomatoes" value="true" />
+                <param name="imdbvotes" value="Skin.HasSetting(Ratings.IMDBVotes)" />
+                <param name="usermeter" value="true" />
+                <param name="imdb" value="true" />
+                <param name="tmdb" value="true" />
+                <param name="metacritic" value="true" />
+                <param name="oscars" value="true" />
+                <param name="top250" value="true" />
+            </include>
+        </control>
+
+
         <control type="label">
             <label>Available in library!</label>
+            <top>-45</top>
             <height>45</height>
             <aligny>top</aligny>
             <textcolor>$VAR[ColorHighlight]</textcolor>
