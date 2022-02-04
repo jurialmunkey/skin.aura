@@ -316,6 +316,8 @@
                 <onright>8000</onright>
                 <onup>3</onup>
                 <ondown>3</ondown>
+                <onback condition="!String.IsEmpty(Window(Home).Property(CloseFromDialogSelect))">SetProperty(DoCloseEPG,1,Home)</onback>
+                <onback condition="!String.IsEmpty(Window(Home).Property(CloseFromDialogSelect))">AlarmClock(CloseEPG,Action(Close),00:01,silent,false)</onback>
                 <itemlayout height="69" width="1080">
                     <control type="label">
                         <left>30</left>

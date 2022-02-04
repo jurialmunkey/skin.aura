@@ -252,7 +252,9 @@
                 <onclick>Select</onclick>
                 <visible>Control.IsEnabled(9005)</visible>
             </item>
+-->
             <!-- Special Features -->
+<!--
             <item>
                 <label>$LOCALIZE[31306]</label>
                 <icon>special://skin/extras/icons/stream-video.png</icon>
@@ -279,7 +281,9 @@
                 <visible>Control.IsEnabled(10)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+-->
             <!-- Fanart -->
+<!--
             <item>
                 <label>$INFO[Control.GetLabel(12)]</label>
                 <icon>special://skin/extras/icons/pictures.png</icon>
@@ -287,7 +291,9 @@
                 <visible>Control.IsEnabled(12)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+-->
             <!-- Art Downloader -->
+<!--
             <item>
                 <label>$INFO[Control.GetLabel(9001)]</label>
                 <icon>special://skin/extras/icons/paintbrush2.png</icon>
@@ -297,7 +303,9 @@
                 <visible>Control.IsEnabled(9001)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+-->
             <!-- Art Downloader All -->
+<!--
             <item>
                 <label>$INFO[Control.GetLabel(9011)]</label>
                 <icon>special://skin/extras/icons/paintbucket3.png</icon>
@@ -307,7 +315,9 @@
                 <visible>Control.IsEnabled(9011)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
+-->
             <!-- Refresh -->
+<!--
             <item>
                 <label>$INFO[Control.GetLabel(6)]</label>
                 <icon>special://skin/extras/icons/update.png</icon>

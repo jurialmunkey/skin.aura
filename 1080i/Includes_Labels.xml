@@ -140,7 +140,7 @@
         <value condition="Window.IsVisible(script-nextup-notification-PostPlayInfo.xml) + Control.HasFocus(202)">$INFO[Control.GetLabel(202)]</value>
         <value condition="Window.IsVisible(script-nextup-notification-PostPlayInfo.xml)">$LOCALIZE[31221]</value>
         <value condition="Window.IsVisible(MyPVRChannels.xml)">$LOCALIZE[19023]</value>
-        <value condition="Window.IsVisible(MyPVRGuide.xml)">$LOCALIZE[19273]</value>
+        <value condition="Window.IsVisible(MyPVRGuide.xml)">$LOCALIZE[19273] / $INFO[Control.GetLabel(28)]</value>
         <value condition="Window.IsVisible(MyPVRRecordings.xml)">$LOCALIZE[31165]</value>
         <value condition="Window.IsVisible(MyPVRTimers.xml)">$LOCALIZE[31166]</value>
         <value condition="Window.IsVisible(MyPVRSearch.xml)">$LOCALIZE[137]</value>

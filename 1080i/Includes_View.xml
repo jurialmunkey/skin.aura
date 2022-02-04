@@ -1003,17 +1003,31 @@
 
 
 	<include name="View_PVRGuide_WithInfo">
-	<control type="image">
-	    <width>100%</width>
-	    <height>100%</height>
-	    <texture background="true" colordiffuse="FF000000">common/white.png</texture>
-	</control>
+	    <control type="image">
+	        <width>100%</width>
+	        <height>100%</height>
+	        <texture background="true" colordiffuse="FF000000">common/white.png</texture>
+	    </control>
+	    <control type="button" id="9192">
+           <onback condition="String.IsEmpty(Window(Home).Property(DoCloseEPG))">10</onback>
+           <onback condition="String.IsEmpty(Window(Home).Property(DoCloseEPG))">SetProperty(CloseFromDialogSelect,1,Home)</onback>
+           <onback condition="String.IsEmpty(Window(Home).Property(DoCloseEPG))">SendClick(28)</onback>
+           <onleft>10</onleft>
+           <onright>10</onright>
+           <ondown>10</ondown>
+           <onup>10</onup>
+           <onclick>10</onclick>
+           <visible allowhiddenfocus="true">false</visible>
+           <width>1</width>
+           <height>1</height>
+           <left>-2160</left>
+        </control>
         <control type="group" id="50">
-	    <left>-10</left>
+            <left>-10</left>
             <control type="group">
                 <visible>Control.IsVisible(10)</visible>
                 <control type="group">
-		   <left>-20</left>
+                    <left>-20</left>
                     <height>600</height>
                     <width>590</width>
                     <bottom>-40</bottom>
@@ -1035,10 +1049,9 @@
                     <width>1980</width>
                     <height>592</height>
                     <viewtype label="19069">list</viewtype>
-		    <onback>9102</onback>
+                    <onback>9192</onback>
                     <onback>SetProperty(CloseFromDialogSelect,1,Home)</onback>
-		    <onback>sendclick(28)</onback>
-                    <!-- <progresstexture border="5" colordiffuse="bf777777">pvr/progressline-full.png</progresstexture> -->
+                    <onback>sendclick(28)</onback>
                     <progresstexture border="5" colordiffuse="bfafb1b5">pvr/progressline-full.png</progresstexture> 
                     <scrolltime tween="quadratic">300</scrolltime>
                     <timeblocks>28</timeblocks>
@@ -1047,7 +1060,7 @@
                         <control type="label" id="2">
                             <posx>30</posx>
                             <posy>46</posy>
-			    <width>232</width>
+                            <width>232</width>
                             <align>left</align>
                             <aligny>top</aligny>
                             <font>font_epg_timeline</font>
@@ -1055,7 +1068,7 @@
                             <textcolor>main_fg_100</textcolor>
                         </control>
                     </rulerlayout>
-                    <channellayout height="103.6" width="524">
+                    <channellayout height="103.6" width="374">
                         <control type="image">
                             <left>0</left>
                             <right>1</right>
@@ -1078,14 +1091,14 @@
                         </control>
                         <control type="label">
                             <posx>90</posx>
-                            <width>250</width>
+                            <width>100</width>
                             <aligny>center</aligny>
                             <height>103.6</height>
                             <font>font_tiny_bold_uppercase</font>
                             <textcolor>main_fg_70</textcolor>
                             <label>$INFO[ListItem.ChannelName]</label>
                         </control>
-<control type="label">
+                        <control type="label">
                             <centerleft>45</centerleft>
                             <width>90</width>
                             <align>center</align>
@@ -1104,12 +1117,12 @@
                             <aspectratio aligny="center" align="right">keep</aspectratio>
                         </control>
                     </channellayout>
-                    <focusedchannellayout height="103.6" width="524">
+                    <focusedchannellayout height="103.6" width="374">
                         <control type="group">
                             <left>0</left>
                             <right>4</right>
                             <top>4</top>
-			    <control type="image">
+                            <control type="image">
                                 <texture colordiffuse="$VAR[ColorHighlight]">common/white.png</texture>
                             </control>
                             <control type="image">
@@ -1124,7 +1137,7 @@
                         </control>
                         <control type="label">
                             <posx>90</posx>
-                            <width>250</width>
+                            <width>100</width>
                             <aligny>center</aligny>
                             <height>103.6</height>
                             <selectedcolor>Selected</selectedcolor>
@@ -1152,7 +1165,7 @@
                             <aspectratio aligny="center" align="right">keep</aspectratio>
                         </control>
                     </focusedchannellayout>
-<itemlayout height="103.6" width="262">
+                    <itemlayout height="103.6" width="262">
                         <control type="image" id="2">
                             <left>0</left>
                             <width>258</width>
@@ -1191,7 +1204,7 @@
                             <label>$INFO[ListItem.Label]</label>
                             <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
                         </control>
-                      <control type="label" id="1">
+                        <control type="label" id="1">
                             <left>20</left>
                             <width>218</width>
                             <centertop>50%</centertop>
@@ -1203,7 +1216,7 @@
                         </control>
                         <control type="label" id="1">
                             <left>20</left>
-			    <width>218</width>
+			                <width>218</width>
                             <centerbottom>35%</centerbottom>
                             <textcolor>main_fg_70</textcolor>
                             <textoffsetx>0</textoffsetx>
@@ -1244,7 +1257,7 @@
                             <top>5</top>
                             <width>24</width>
                             <height>24</height>
-			    <texture colordiffuse="ff000000">indicator/new.png</texture>
+			                <texture colordiffuse="ff000000">indicator/new.png</texture>
                             <visible>ListItem.HasTimer</visible>
                         </control>
                         <control type="image">
@@ -1283,7 +1296,7 @@
                             <textoffsetx>0</textoffsetx>
                             <font>font_statusbar</font>
                             <label>$INFO[ListItem.Genre,[UPPERCASE],[/UPPERCASE]]</label>
-			    <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
+			                <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
                         </control>
                     </focusedlayout>
                 </control>
@@ -1294,9 +1307,6 @@
             <include>Object_PVR_Info</include>
         </control>
     </include>
-
-
-
 
 </includes>
 
