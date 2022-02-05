@@ -577,7 +577,7 @@
                         <control type="image">
                             <bordersize>10</bordersize>
                             <fadetime>100</fadetime>
-                            <aspectratio scalediffuse="false">scale</aspectratio>
+                            <aspectratio scalediffuse="false">keep</aspectratio>
                             <texture diffuse="diffuse/mediainfo.png">$INFO[$PARAM[fallback]]</texture>
                         </control>
                         <control type="image">
