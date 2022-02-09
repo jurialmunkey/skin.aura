@@ -1,4 +1,4 @@
-<addon id="skin.aura" name="Aura" provider-name="kcook98765" version="2.0.20">
+<addon id="skin.aura" name="Aura" provider-name="kcook98765" version="2.0.21">
     <requires>
         <import addon="xbmc.gui" version="5.15.0" />
         <import addon="script.skinshortcuts" version="0.4.0"/>
