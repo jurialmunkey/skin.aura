@@ -293,7 +293,7 @@
             </item>
 
             <!-- Art Downloader -->
-<!--
+
             <item>
                 <label>$INFO[Control.GetLabel(9001)]</label>
                 <icon>special://skin/extras/icons/paintbrush2.png</icon>
@@ -301,11 +301,11 @@
                 <onclick>Select</onclick>
                 <onclick>SetFocus(300)</onclick>
                 <visible>Control.IsEnabled(9001)</visible>
-                <visible>!Skin.HasSetting(global.kioskmode)</visible>
+                <visible>!Skin.HasSetting(global.kioskmode) + system.hasaddon(script.artwork.beef)</visible>
             </item>
--->
+
             <!-- Art Downloader All -->
-<!--
+
             <item>
                 <label>$INFO[Control.GetLabel(9011)]</label>
                 <icon>special://skin/extras/icons/paintbucket3.png</icon>
@@ -313,9 +313,9 @@
                 <onclick>Select</onclick>
                 <onclick>SetFocus(300)</onclick>
                 <visible>Control.IsEnabled(9011)</visible>
-                <visible>!Skin.HasSetting(global.kioskmode)</visible>
+                <visible>!Skin.HasSetting(global.kioskmode) + system.hasaddon(script.artwork.beef)</visible>
             </item>
--->
+
             <!-- Refresh -->
 
             <item>
