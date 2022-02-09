@@ -273,7 +273,7 @@
             </item>
             <!-- Art -->
 
-<!--
+
             <item>
                 <label>$INFO[Control.GetLabel(10)]</label>
                 <icon>special://skin/extras/icons/paintbrush.png</icon>
@@ -281,9 +281,9 @@
                 <visible>Control.IsEnabled(10)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
--->
+
             <!-- Fanart -->
-<!--
+
             <item>
                 <label>$INFO[Control.GetLabel(12)]</label>
                 <icon>special://skin/extras/icons/pictures.png</icon>
@@ -291,7 +291,7 @@
                 <visible>Control.IsEnabled(12)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
--->
+
             <!-- Art Downloader -->
 <!--
             <item>
@@ -317,7 +317,7 @@
             </item>
 -->
             <!-- Refresh -->
-<!--
+
             <item>
                 <label>$INFO[Control.GetLabel(6)]</label>
                 <icon>special://skin/extras/icons/update.png</icon>
@@ -325,7 +325,7 @@
                 <visible>Control.IsEnabled(6)</visible>
                 <visible>!Skin.HasSetting(global.kioskmode)</visible>
             </item>
--->
+
 
         </content>
     </include>
