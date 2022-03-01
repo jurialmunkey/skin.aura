@@ -202,6 +202,13 @@
                 <onclick>SendClick(8)</onclick>
                 <visible>Control.IsEnabled(8)</visible>
             </item>
+
+            <!-- Plot -->
+            <item>
+                <label>$LOCALIZE[207]</label>
+                <icon>special://skin/extras/icons/quote.png</icon>
+                <onclick>SetFocus(9601)</onclick>
+            </item>
  
  
             <!-- EXPERIMENT  -->
@@ -214,7 +221,14 @@
                 <visible>String.IsEqual(ListItem.DBType,episode)</visible>
             </item> 
  
-
+            <item>
+                <label>Movie Set</label>
+                <icon>special://skin/extras/icons/sets.png</icon>
+                <onclick>Dialog.Close(all)</onclick>
+                <onclick condition="!String.IsEmpty(ListItem.SetID)">ActivateWindow(Videos,videodb://movies/sets/$INFO[ListItem.SetId]/?setid=$INFO[ListItem.SetId])</onclick>
+                <visible>Control.IsEnabled(8)</visible>
+                <visible>!String.IsEmpty(ListItem.SetID)</visible>
+            </item> 
  
  
  
@@ -237,12 +251,7 @@
                 <visible>Control.IsEnabled(11)</visible>
                 <visible>!String.IsEmpty(ListItem.Trailer)</visible>
             </item>
-            <!-- Plot -->
-            <item>
-                <label>$LOCALIZE[207]</label>
-                <icon>special://skin/extras/icons/quote.png</icon>
-                <onclick>SetFocus(9601)</onclick>
-            </item>
+
             <!-- Info -->
 <!--
             <item>

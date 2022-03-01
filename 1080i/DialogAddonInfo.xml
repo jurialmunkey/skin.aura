@@ -227,6 +227,13 @@
             <visible>Control.IsEnabled(8)</visible>
         </control>
 
+        <control type="button" id ="9997">
+            <description>View Set</description>
+            <label>9997</label>
+            <include>Defs_Hidden_Button</include>
+            <visible>!String.IsEmpty(ListItem.SetID)</visible>
+        </control>
+
         <control type="button" id ="9">
             <label>5</label>
             <include>Defs_Hidden_Button</include>

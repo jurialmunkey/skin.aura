@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="2003">
+<onload>RunPlugin(plugin://script.embuary.helper?info=getcast&amp;type=movie&amp;title=$ESCINFO[ListItem.EpgEventTitle])</onload>
+
     <defaultcontrol always="true">9000</defaultcontrol>
     <controls>
         <include>Global_Overlay</include>
@@ -75,7 +77,7 @@
                         <textcolor>dialog_fg_70</textcolor>
                         <font>font_small</font>
                         <aligny>top</aligny>
-                        <label fallback="19055">$INFO[ListItem.Cast]</label>
+                        <label fallback="19055">$INFO[ListItem.Cast] -- $INFO[ListItem.Property(Cast.1)]</label>
                     </control>
                 </control>
 
