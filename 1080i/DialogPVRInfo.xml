@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window id="2003">
+<onload>RunPlugin(plugin://script.embuary.helper?info=getcast&amp;type=movie&amp;title=$ESCINFO[ListItem.EpgEventTitle])</onload>
+
     <defaultcontrol always="true">9000</defaultcontrol>
     <controls>
         <include>Global_Overlay</include>
@@ -18,7 +20,7 @@
                 <top>100</top>
                 <right>60</right>
                 <include>Dialog_Info_Details_Grouplist</include>
-                <!-- Start Time -->
+                <!-- start,stop and channel -->
                 <control type="group">
                     <height>50</height>
                     <control type="label">
@@ -35,52 +37,12 @@
                         <textcolor>dialog_fg_70</textcolor>
                         <font>font_small</font>
                         <aligny>top</aligny>
-                        <label fallback="19055">$INFO[ListItem.StartDate] - $INFO[ListItem.StartTime]</label>
-                    </control>
-                </control>
-                <!-- End Time -->
-                <control type="group">
-                    <height>50</height>
-                    <control type="label">
-                        <left>0</left>
-                        <width>160</width>
-                        <align>right</align>
-                        <textcolor>dialog_fg_30</textcolor>
-                        <font>font_small</font>
-                        <label>19127</label>
-                        <aligny>top</aligny>
-                    </control>
-                    <control type="label">
-                        <left>176</left>
-                        <textcolor>dialog_fg_70</textcolor>
-                        <font>font_small</font>
-                        <aligny>top</aligny>
-                        <label fallback="19055">$INFO[ListItem.EndDate] - $INFO[ListItem.EndTime]</label>
-                    </control>
-                </control>
-                <!-- Channel Name -->
-                <control type="group">
-                    <height>50</height>
-                    <control type="label">
-                        <left>0</left>
-                        <width>160</width>
-                        <align>right</align>
-                        <textcolor>dialog_fg_30</textcolor>
-                        <font>font_small</font>
-                        <label>19029</label>
-                        <aligny>top</aligny>
-                    </control>
-                    <control type="label">
-                        <left>176</left>
-                        <textcolor>dialog_fg_70</textcolor>
-                        <font>font_small</font>
-                        <aligny>top</aligny>
-                        <label fallback="19055">$INFO[ListItem.ChannelName]$INFO[ListItem.ChannelNumber, (,)]</label>
+                        <label fallback="19055">$INFO[ListItem.StartTime] - $INFO[ListItem.EndTime] : $INFO[ListItem.ChannelName]$INFO[ListItem.ChannelNumberLabel, (,)]</label>
                     </control>
                 </control>
                 <!-- Plot -->
                 <control type="group">
-                    <height>250</height>
+                    <height>150</height>
                     <control type="label">
                         <left>0</left>
                         <width>160</width>
@@ -98,6 +60,27 @@
                         <label fallback="19055">$INFO[ListItem.Plot]</label>
                     </control>
                 </control>
+                <!-- Cast -->
+                <control type="group">
+                    <height>50</height>
+                    <control type="label">
+                        <left>0</left>
+                        <width>160</width>
+                        <align>right</align>
+                        <textcolor>dialog_fg_30</textcolor>
+                        <font>font_small</font>
+                        <label>$LOCALIZE[206]</label>
+                        <aligny>top</aligny>
+                    </control>
+                    <control type="label">
+                        <left>176</left>
+                        <textcolor>dialog_fg_70</textcolor>
+                        <font>font_small</font>
+                        <aligny>top</aligny>
+                        <label fallback="19055">$INFO[ListItem.Cast] -- $INFO[ListItem.Property(Cast.1)]</label>
+                    </control>
+                </control>
+
             </control>
             <!-- Buttons -->
             <control type="grouplist" id="9000">
@@ -108,13 +91,19 @@
                 <height>60</height>
                 <orientation>horizontal</orientation>
                 <itemgap>14</itemgap>
-                <control type="button" id="4">
-                    <label>19003</label>
+                <control type="button" id="9091">
+                    <label>Local Copy</label>
                     <include>Dialog_Info_Buttons</include>
-                    <visible>Window.IsActive(PVRGuideInfo)</visible>
+                    <visible>Window.IsActive(PVRGuideInfo) + !String.IsEmpty(Window(Home).Property(Fuzzy.xsp))</visible>
+                    <onclick>RunScript(script.epg_fuzzy_match,$INFO[Window(Home).Property(Fuzzy.context)])</onclick>
                 </control>
                 <control type="button" id="5">
                     <label>19165</label>
+                    <include>Dialog_Info_Buttons</include>
+                    <visible>Window.IsActive(PVRGuideInfo)</visible>
+                </control>
+                <control type="button" id="4">
+                    <label>19003</label>
                     <include>Dialog_Info_Buttons</include>
                     <visible>Window.IsActive(PVRGuideInfo)</visible>
                 </control>

@@ -844,6 +844,7 @@
                             <selected>System.HasAddon(script.module.metadatautils)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+<!--
                         <control type="radiobutton" id="9806">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>plugin.video.specialfeatures</label>
@@ -880,6 +881,8 @@
                             <selected>System.HasAddon(script.extendedinfo)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+
+-->
                         <control type="radiobutton" id="9810">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>script.skinshortcuts</label>
@@ -889,6 +892,8 @@
                             <selected>System.HasAddon(script.skinshortcuts)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+
+<!-- 
                         <control type="radiobutton" id="9811">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>script.cu.lrclyrics</label>
@@ -907,6 +912,7 @@
                             <selected>System.HasAddon(script.artistslideshow)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+-->
                         <control type="radiobutton" id="9813">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>script.globalsearch</label>
@@ -943,6 +949,8 @@
                             <selected>System.HasAddon(resource.images.studios.white)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+
+
                         <control type="radiobutton" id="9817">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>resource.images.moviecountryicons.maps</label>
@@ -970,6 +978,8 @@
                             <selected>System.HasAddon(resource.images.weatherfanart.multi)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+
+
                         <control type="radiobutton" id="9820">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>resource.images.weathericons.white</label>
@@ -979,6 +989,7 @@
                             <selected>System.HasAddon(resource.images.weathericons.white)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
+<!--
                         <control type="radiobutton" id="9821">
                             <visible>Integer.IsEqual(Window.Property(CurrentFocus),9008)</visible>
                             <label>script.artwork.beef</label>
@@ -997,7 +1008,7 @@
                             <selected>System.HasAddon(script.artwork.helper)</selected>
                             <include>Defs_Settings_Button</include>
                         </control>
-
+-->
                         <!-- ================ -->
                         <!-- Backup / Restore -->
                         <!-- ================ -->

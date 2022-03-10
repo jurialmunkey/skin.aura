@@ -15,7 +15,6 @@
             <visible>!Player.Seeking</visible>
             <visible>Player.HasMedia</visible>
         </control>
-
         <control type="progress" id="499">
             <width>100%</width>
             <height>12</height>
@@ -38,7 +37,17 @@
             </include>
             <visible>Player.HasMedia + !Pvr.IsPlayingTv</visible>
         </control>
-
+        <control type="ranges">
+            <width>100%</width>
+            <height>12</height>
+            <bottom>70</bottom>
+            <info>Player.Cutlist</info>
+            <texturebg colordiffuse="00ffffff" border="4">diffuse/progress-nib.png</texturebg>
+            <lefttexture>progress/left.png</lefttexture>
+            <midtexture colordiffuse="FFFF0000">diffuse/progress-end.png</midtexture>
+            <righttexture>progress/right.png</righttexture>
+            <visible>Player.HasMedia</visible>
+        </control>
         <control type="progress" id="498">
             <width>100%</width>
             <height>12</height>

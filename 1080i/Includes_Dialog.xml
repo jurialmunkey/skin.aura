@@ -168,7 +168,7 @@
     <!-- ============ -->
 
     <include name="Dialog_Info_Buttons">
-        <width>320</width>
+        <width>220</width>
         <font>font_button</font>
         <texturefocus colordiffuse="$VAR[ColorHighlight]" border="5">common/box.png</texturefocus>
         <texturenofocus colordiffuse="dialog_fg_12" border="5">common/box.png</texturenofocus>
@@ -316,6 +316,8 @@
                 <onright>8000</onright>
                 <onup>3</onup>
                 <ondown>3</ondown>
+                <onback condition="!String.IsEmpty(Window(Home).Property(CloseFromDialogSelect))">SetProperty(DoCloseEPG,1,Home)</onback>
+                <onback condition="!String.IsEmpty(Window(Home).Property(CloseFromDialogSelect))">AlarmClock(CloseEPG,Action(Close),00:01,silent,false)</onback>
                 <itemlayout height="69" width="1080">
                     <control type="label">
                         <left>30</left>

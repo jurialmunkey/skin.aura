@@ -464,7 +464,8 @@
                         <bottom>42</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_100</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -477,7 +478,7 @@
                         <bottom>18</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_70</textcolor>
                         <label>$PARAM[label2]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -490,7 +491,7 @@
                         <bottom>20</bottom>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <font>font_tiny</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_70</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[textonly]</visible>
@@ -549,7 +550,7 @@
                         <bottom>42</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_100</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -562,7 +563,7 @@
                         <bottom>18</bottom>
                         <align>left</align>
                         <aligny>center</aligny>
-                        <font>font_statusbar</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>main_fg_70</textcolor>
                         <label>$PARAM[label2]</label>
                         <visible>$PARAM[infolabel]</visible>
@@ -575,7 +576,7 @@
                         <bottom>20</bottom>
                         <align>center</align>
                         <aligny>center</aligny>
-                        <font>font_tiny</font>
+                        <font>font_tiny_bold</font>
                         <textcolor>Selected</textcolor>
                         <label>$INFO[ListItem.Label]</label>
                         <visible>$PARAM[textonly]</visible>
@@ -998,6 +999,313 @@
         <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,477)">PageDown</onup>
         <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,486)">PageDown</onup>
         <onup condition="Window.IsVisible(MyPVRGuide.xml) + Integer.IsGreater(Container(10).NumItems,495)">PageDown</onup>
+    </include>
+
+
+	<include name="View_PVRGuide_WithInfo">
+	    <control type="image">
+	        <width>100%</width>
+	        <height>100%</height>
+	        <texture background="true" colordiffuse="FF000000">common/white.png</texture>
+	    </control>
+	    <control type="button" id="9192">
+           <onback condition="String.IsEmpty(Window(Home).Property(DoCloseEPG))">10</onback>
+           <onback condition="String.IsEmpty(Window(Home).Property(DoCloseEPG))">SetProperty(CloseFromDialogSelect,1,Home)</onback>
+           <onback condition="String.IsEmpty(Window(Home).Property(DoCloseEPG))">SendClick(28)</onback>
+           <onleft>10</onleft>
+           <onright>10</onright>
+           <ondown>10</ondown>
+           <onup>10</onup>
+           <onclick>10</onclick>
+           <visible allowhiddenfocus="true">false</visible>
+           <width>1</width>
+           <height>1</height>
+           <left>-2160</left>
+        </control>
+        <control type="group" id="50">
+            <left>-10</left>
+            <control type="group">
+                <visible>Control.IsVisible(10)</visible>
+                <control type="group">
+                    <left>-20</left>
+                    <height>600</height>
+                    <width>590</width>
+                    <bottom>-40</bottom>
+                    <control type="image">
+                        <include>Defs_Shadow_Opaque</include>
+                        <texture colordiffuse="AAffffff">common/grey_bg.png</texture>
+                    </control>
+                </control>
+                <control type="image">
+                    <left>10</left>
+                    <right>0</right>
+                    <height>4</height>
+                    <bottom>514</bottom>
+                    <texture colordiffuse="highlight_bottombar">common/white.png</texture>
+                </control>
+                <control type="epggrid" id="10" description="EPG">
+                    <left>10</left>
+                    <bottom>0</bottom>
+                    <width>1980</width>
+                    <height>592</height>
+                    <viewtype label="19069">list</viewtype>
+                    <onback>9192</onback>
+                    <onback>SetProperty(CloseFromDialogSelect,1,Home)</onback>
+                    <onback>sendclick(28)</onback>
+                    <progresstexture border="5" colordiffuse="bfafb1b5">pvr/progressline-full.png</progresstexture> 
+                    <scrolltime tween="quadratic">300</scrolltime>
+                    <timeblocks>28</timeblocks>
+                    <rulerunit>6</rulerunit>
+                    <rulerlayout height="74" width="262">
+                        <control type="label" id="2">
+                            <posx>30</posx>
+                            <posy>46</posy>
+                            <width>232</width>
+                            <align>left</align>
+                            <aligny>top</aligny>
+                            <font>font_epg_timeline</font>
+                            <label>[B]$INFO[ListItem.Label][/B]</label>
+                            <textcolor>main_fg_100</textcolor>
+                        </control>
+                    </rulerlayout>
+                    <channellayout height="103.6" width="374">
+                        <control type="image">
+                            <left>0</left>
+                            <right>1</right>
+                            <top>1</top>
+                            <texture>common/selected.png</texture>
+                            <aspectratio aligny="top">center</aspectratio>
+                            <animation effect="fade" start="100" end="10" condition="true">Conditional</animation>
+                            <visible>ListItem.IsPlaying</visible>
+                        </control>
+                        <control type="image">
+                            <left>0</left>
+                            <right>0</right>
+                            <height>4</height>
+                            <bottom>-4</bottom>
+                        </control>
+                        <control type="image">
+                            <right>0</right>
+                            <width>4</width>
+                            <top>4</top>
+                        </control>
+                        <control type="label">
+                            <posx>90</posx>
+                            <width>100</width>
+                            <aligny>center</aligny>
+                            <height>103.6</height>
+                            <font>font_tiny_bold_uppercase</font>
+                            <textcolor>main_fg_70</textcolor>
+                            <label>$INFO[ListItem.ChannelName]</label>
+                        </control>
+                        <control type="label">
+                            <centerleft>45</centerleft>
+                            <width>90</width>
+                            <align>center</align>
+                            <aligny>center</aligny>
+                            <height>103.6</height>
+                            <textcolor>main_fg_70</textcolor>
+                            <font>font_tiny_bold_uppercase</font>
+                            <label>$INFO[ListItem.ChannelNumberLabel]</label>
+                        </control>
+                        <control type="image">
+                            <top>14</top>
+                            <right>14</right>
+                            <width>160</width>
+                            <height>80</height>
+                            <texture>$INFO[ListItem.Icon]</texture>
+                            <aspectratio aligny="center" align="right">keep</aspectratio>
+                        </control>
+                    </channellayout>
+                    <focusedchannellayout height="103.6" width="374">
+                        <control type="group">
+                            <left>0</left>
+                            <right>4</right>
+                            <top>4</top>
+                            <control type="image">
+                                <texture colordiffuse="$VAR[ColorHighlight]">common/white.png</texture>
+                            </control>
+                            <control type="image">
+                                <texture colordiffuse="$VAR[ColorHighlight2]">common/gradient-diffuse-horizontal.png</texture>
+                            </control>
+                            <control type="image">
+                                <texture>common/selected.png</texture>
+                                <aspectratio aligny="top">center</aspectratio>
+                                <animation effect="fade" start="100" end="20" condition="true">Conditional</animation>
+                                <visible>ListItem.IsPlaying</visible>
+                            </control>
+                        </control>
+                        <control type="label">
+                            <posx>90</posx>
+                            <width>100</width>
+                            <aligny>center</aligny>
+                            <height>103.6</height>
+                            <selectedcolor>Selected</selectedcolor>
+                            <textcolor>Selected</textcolor>
+                            <font>font_tiny_bold_uppercase</font>
+                            <label>$INFO[ListItem.ChannelName]</label>
+                        </control>
+                        <control type="label">
+                            <centerleft>45</centerleft>
+                            <width>90</width>
+                            <align>center</align>
+                            <aligny>center</aligny>
+                            <selectedcolor>Selected</selectedcolor>
+                            <height>103.6</height>
+                            <textcolor>Selected</textcolor>
+                            <font>font_tiny_bold_uppercase</font>
+                            <label>$INFO[ListItem.ChannelNumberLabel]</label>
+                        </control>
+                        <control type="image">
+                            <top>14</top>
+                            <right>14</right>
+                            <width>160</width>
+                            <height>80</height>
+                            <texture>$INFO[ListItem.Icon]</texture>
+                            <aspectratio aligny="center" align="right">keep</aspectratio>
+                        </control>
+                    </focusedchannellayout>
+                    <itemlayout height="103.6" width="262">
+                        <control type="image" id="2">
+                            <left>0</left>
+                            <width>258</width>
+                            <top>4</top>
+                            <texture colordiffuse="main_fg_12">common/white.png</texture>
+                            <visible>Skin.HasSetting(PVRGuideGenreColors)</visible>
+                        </control>
+                        <control type="image" id="2">
+                            <left>0</left>
+                            <width>258</width>
+                            <top>4</top>
+                            <texture colordiffuse="BBffffff" fallback="pvrgenre/0.png">pvrgenre/$INFO[ListItem.Property(GenreType)].png</texture>
+                            <visible>!Skin.HasSetting(PVRGuideGenreColors)</visible>
+                        </control>
+                        <control type="image">
+                            <top>5</top>
+                            <width>24</width>
+                            <height>24</height>
+                            <texture colordiffuse="ff000000">indicator/new.png</texture>
+                            <visible>ListItem.HasTimer</visible>
+                        </control>
+                        <control type="image">
+                            <top>5</top>
+                            <width>24</width>
+                            <height>24</height>
+                            <texture colordiffuse="ff000000">indicator/checkmark.png</texture>
+                            <visible>ListItem.IsRecording</visible>
+                        </control>
+                        <control type="label" id="1">
+                            <left>20</left>
+                            <width>218</width>
+                            <centertop>35%</centertop>
+                            <textcolor>main_fg_100</textcolor>
+                            <textoffsetx>0</textoffsetx>
+                            <font>font_tiny_bold_uppercase</font>
+                            <label>$INFO[ListItem.Label]</label>
+                            <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
+                        </control>
+                        <control type="label" id="1">
+                            <left>20</left>
+                            <width>218</width>
+                            <centertop>50%</centertop>
+                            <textcolor>main_fg_100</textcolor>
+                            <textoffsetx>0</textoffsetx>
+                            <font>font_small_bold_uppercase</font>
+                            <label>$INFO[ListItem.Label]</label>
+                            <visible>Skin.HasSetting(PVRGuideGenreName)</visible>
+                        </control>
+                        <control type="label" id="1">
+                            <left>20</left>
+			                <width>218</width>
+                            <centerbottom>35%</centerbottom>
+                            <textcolor>main_fg_70</textcolor>
+                            <textoffsetx>0</textoffsetx>
+                            <font>font_statusbar</font>
+                            <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
+                            <label>$INFO[ListItem.Genre,[UPPERCASE],[/UPPERCASE]]</label>
+                        </control>
+                    </itemlayout>
+                    <focusedlayout height="103.6" width="262">
+                        <control type="image" id="2">
+                            <left>0</left>
+                            <width>258</width>
+                            <top>4</top>
+                            <texture colordiffuse="main_fg_12">common/white.png</texture>
+                            <visible>Skin.HasSetting(PVRGuideGenreColors)</visible>
+                        </control>
+                        <control type="image" id="2">
+                            <left>0</left>
+                            <width>258</width>
+                            <top>4</top>
+                            <texture colordiffuse="BBffffff" fallback="pvrgenre/0.png">pvrgenre/$INFO[ListItem.Property(GenreType)].png</texture>
+                            <visible>!Skin.HasSetting(PVRGuideGenreColors)</visible>
+                        </control>
+
+                        <control type="image" id="2">
+                            <left>0</left>
+                            <width>258</width>
+                            <top>4</top>
+                            <texture colordiffuse="$VAR[ColorHighlight]">common/white.png</texture>
+                        </control>
+                        <control type="image" id="2">
+                            <left>0</left>
+                            <width>258</width>
+                            <top>4</top>
+                            <texture colordiffuse="$VAR[ColorHighlight2]">common/gradient-diffuse-horizontal.png</texture>
+                        </control>
+                        <control type="image">
+                            <top>5</top>
+                            <width>24</width>
+                            <height>24</height>
+			                <texture colordiffuse="ff000000">indicator/new.png</texture>
+                            <visible>ListItem.HasTimer</visible>
+                        </control>
+                        <control type="image">
+                            <top>5</top>
+                            <width>24</width>
+                            <height>24</height>
+                            <texture colordiffuse="ff000000">indicator/checkmark.png</texture>
+                            <visible>ListItem.IsRecording</visible>
+                        </control>
+
+                        <control type="label" id="1">
+                            <left>20</left>
+                            <width>218</width>
+                            <centertop>35%</centertop>
+                            <textcolor>Selected</textcolor>
+                            <textoffsetx>0</textoffsetx>
+                            <font>font_tiny_bold_uppercase</font>
+                            <label>$INFO[ListItem.Label]</label>
+                            <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
+                        </control>
+                      <control type="label" id="1">
+                            <left>20</left>
+                            <width>218</width>
+                            <centertop>50%</centertop>
+                            <textcolor>main_fg_100</textcolor>
+                            <textoffsetx>0</textoffsetx>
+                            <font>font_small_bold_uppercase</font>
+                            <label>$INFO[ListItem.Label]</label>
+                            <visible>Skin.HasSetting(PVRGuideGenreName)</visible>
+                        </control>
+                        <control type="label" id="1">
+                            <left>20</left>
+                            <width>218</width>
+                            <centerbottom>35%</centerbottom>
+                            <textcolor>Selected</textcolor>
+                            <textoffsetx>0</textoffsetx>
+                            <font>font_statusbar</font>
+                            <label>$INFO[ListItem.Genre,[UPPERCASE],[/UPPERCASE]]</label>
+			                <visible>!Skin.HasSetting(PVRGuideGenreName)</visible>
+                        </control>
+                    </focusedlayout>
+                </control>
+
+            </control>
+        </control>
+        <control type="group">
+            <include>Object_PVR_Info</include>
+        </control>
     </include>
 
 </includes>

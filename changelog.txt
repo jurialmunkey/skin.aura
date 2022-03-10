@@ -1,3 +1,6 @@
+[B]2.0.0[/b]
+Initial changes to run on Matrix (V19) Kodi
+
 [B]1.0.5[/B]
 Add basic filter to views
 Fix for bluray bdmv

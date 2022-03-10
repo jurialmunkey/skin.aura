@@ -2,6 +2,7 @@
 <!-- Foundation -->
 <window id="2000">
     <defaultcontrol always="true">3</defaultcontrol>
+    <onunload>ClearProperty(CloseFromDialogSelect,Home)</onunload>
 
     <controls>
         <include condition="![Window.IsActive(gamestretchmode) | Window.IsActive(gamevideofilter) | Window.IsActive(gamevideorotation)]">Dialog_Select_Standard</include>

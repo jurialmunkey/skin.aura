@@ -336,7 +336,7 @@
         <control type="button" id ="9009">
             <description>Add to trakt</description>
             <include>Defs_Hidden_Button</include>
-            <onclick>XBMC.RunPlugin(plugin://plugin.video.trakt_list_manager/movies/add?title=$INFO[Window.Property(label)])</onclick>
+            <onclick>RunPlugin(plugin://plugin.video.trakt_list_manager/movies/add?title=$INFO[Window.Property(label)])</onclick>
             <label>Trakt</label>
             <visible>System.HasAddon(plugin.video.trakt_list_manager)</visible>
         </control>
